@@ -6,6 +6,30 @@ declare const require;
 
 const ABOUT = require('../../assets/data/about.json');
 
+export let sliderCurrent = 0;
+export let sliderEvent;
+
+export function sliderNext() {
+  sliderEvent = setTimeout(() => {
+    const element = document.querySelectorAll('.about-slider')[0];
+    const instance = materialize.Carousel.getInstance(element);
+    instance.next();
+    sliderCurrent = (sliderCurrent + 1) % ABOUT.about_desc.length;
+    sliderNext();
+  }, ABOUT.about_desc[sliderCurrent].delay * 1000);
+}
+
+export function aboutInit() {
+  clearTimeout(sliderEvent);
+  sliderCurrent = 0;
+  const elements = document.querySelectorAll('.about-slider');
+  const slider = materialize.Carousel.init(elements, {
+    fullWidth: true,
+    indicators: true
+  });
+  sliderNext();
+}
+
 @Component({
   selector: 'app-about',
   templateUrl: './about.component.html',
@@ -16,18 +40,7 @@ export class AboutComponent implements OnInit {
   aboutDesc = ABOUT.about_desc;
   history = ABOUT.history;
   slider = undefined;
-  sliderCurrent = 0;
   isMobile = () => window.outerWidth <= 800;
-
-  sliderNext = () => {
-    setTimeout(() => {
-      const element = document.querySelectorAll('.about-slider')[0];
-      const instance = materialize.Carousel.getInstance(element);
-      instance.next();
-      this.sliderCurrent = (this.sliderCurrent + 1) % this.aboutDesc.length;
-      this.sliderNext();
-    }, this.aboutDesc[this.sliderCurrent].delay * 1000);
-  }
 
   constructor(private titleService: Title) {
     this.titleService.setTitle('Incident 2019 - About');
@@ -35,13 +48,8 @@ export class AboutComponent implements OnInit {
 
   ngOnInit() {
     document.addEventListener('DOMContentLoaded', function () {
-      const elements = document.querySelectorAll('.about-slider');
-      this.slider = materialize.Carousel.init(elements, {
-        fullWidth: true,
-        indicators: true
-      });
+      aboutInit();
     });
-    this.sliderNext();
   }
 
 }

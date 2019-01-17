@@ -1,11 +1,16 @@
 import { Component, OnInit } from '@angular/core';
 import {isHome, getPath} from '../app.component';
+import { ActivatedRoute } from '@angular/router';
+import { aboutInit, sliderNext, sliderCurrent, sliderEvent } from '../about/about.component'
 import * as $ from 'jquery';
 declare const require;
 
 const SOCIAL = require('../../assets/data/social.json');
 
 function toggleMenu() {
+  if (window.outerWidth > 700) {
+    return;
+  }
   const header = $('.header');
   const i = $('.header i');
   const height = header.height() === 80 ? '500px' : '80px';
@@ -23,19 +28,15 @@ function toggleMenu() {
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
-  constructor() {}
+  constructor(private activatedRoute: ActivatedRoute) {}
 
   isHome = isHome;
   social = SOCIAL;
   getPath = getPath;
 
   ngOnInit() {
-    console.log(this.getPath());
     $('.header i').click(toggleMenu);
-    $('.header .' + this.getPath()).css({
-      'opacity': '0.7',
-    });
-    $('.header .' + this.getPath()).attr('href', 'javascript: void()');
-    $('.header .' + this.getPath()).click(toggleMenu);
+    $('.header a').click(toggleMenu);
+    $('.header .about').click(aboutInit);
   }
 }

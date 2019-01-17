@@ -1,4 +1,6 @@
 <app-header></app-header>
-<router-outlet></router-outlet>
-<app-footer></app-footer>
+<div [@routerTransition]="prepareRoute(outlet)">
+    <router-outlet #outlet="outlet"></router-outlet>
+</div>
+<!-- <app-footer></app-footer> -->
 

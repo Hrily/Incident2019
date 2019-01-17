@@ -30,10 +30,19 @@
     padding: 32px 4px 32px 4px;
     margin: 0 12px 0 12px;
     text-decoration: none;
+    opacity: 1;
 }
 
 .header .nav-links li:hover {
     text-decoration: underline;
+}
+
+.header .nav-links li a.active {
+    opacity: 0.7;
+}
+
+.header .nav-links li a.active:hover {
+    text-decoration: none !important;
 }
 
 .header .social {

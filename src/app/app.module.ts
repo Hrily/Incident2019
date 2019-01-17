@@ -13,36 +13,55 @@ import { IcareComponent } from './icare/icare.component';
 import { SponsorsComponent } from './sponsors/sponsors.component';
 import { FooterComponent } from './footer/footer.component';
 import { ContactusComponent } from './contactus/contactus.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 const appRoutes: Routes = [
   {
     path: '',
     component: HomeComponent,
-    data: { title: 'Incident 2019' }
+    data: {
+      title: 'Incident 2019',
+      animation: 'HomePage'
+    },
   },
   {
     path: 'events',
     component: EventsComponent,
-    data: { title: 'Incident 2019 - Events' }
+    data: {
+      title: 'Incident 2019 - Events',
+      animation: 'EventsPage'
+    }
   },
   {
     path: 'about',
     component: AboutComponent,
-    data: { title: 'Incident 2019 - About' }
+    data: {
+      title: 'Incident 2019 - About',
+      animation: 'AboutPage'
+    }
   },
   {
     path: 'icare',
     component: IcareComponent,
-    data: { title: 'Incident 2019 - iCare' }
+    data: {
+      title: 'Incident 2019 - iCare',
+      animation: 'iCarePage'
+    }
   },
   {
     path: 'sponsors',
     component: SponsorsComponent,
-    data: { title: 'Incident 2019 - Sponsors' }
+    data: {
+      title: 'Incident 2019 - Sponsors',
+      animation: 'SponsorsPage'
+    }
   }, {
     path: 'contact-us',
     component: ContactusComponent,
-    data: { title: 'Incident 2019 - Contact Us' }
+    data: {
+      title: 'Incident 2019 - Contact Us',
+      animation: 'ContactUsPage'
+    }
   },
 ];
 
@@ -65,6 +84,7 @@ const appRoutes: Routes = [
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     RouterModule.forRoot(appRoutes)
   ],
   providers: [],
