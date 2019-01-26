@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import * as $ from 'jquery';
 import * as materialize from 'materialize-css';
 import { Title } from '@angular/platform-browser';
+import { whiteHeader } from '../header/header.component';
 declare const require;
 
 const ABOUT = require('../../assets/data/about.json');
@@ -50,6 +51,7 @@ export class AboutComponent implements OnInit {
     document.addEventListener('DOMContentLoaded', function () {
       aboutInit();
     });
+    whiteHeader();
   }
 
 }

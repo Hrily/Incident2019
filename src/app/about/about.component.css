@@ -1,7 +1,6 @@
 .about-slider {
     position: relative;
-    margin-top: -140px;
-    height: calc(100vh) !important;
+    height: calc(100vh - 96px) !important;
 }
 
 .about-slider .carousel-fixed-item {
@@ -37,7 +36,7 @@
 }
 
 .history-item {
-    border: 1px solid rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.5);
     border-radius: 12px;
     margin-top: 20px !important;
     margin-bottom: 20px !important;
@@ -83,9 +82,7 @@
     }
 
     .about-slider {
-        margin-top: -80px;
-        /* -12px is a hack. I don't know the reason */
-        height: calc(100vh - 12px) !important;
+        height: calc(100vh - 78px) !important;
     }
     
     .history-desc {

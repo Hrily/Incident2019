@@ -1,27 +1,43 @@
+<div class="page-container igreen white-text japanese-violet">
+  
+  <div class="nav-top">
+    <a routerLink="/sponsors"><i class="material-icons white-text">keyboard_arrow_up</i></a>
+  </div>
+  
+</div>
+
+
 <div class="about-slider carousel carousel-slider">
-  <div class="carousel-fixed-item">
-    <div class="page-title poppins iwhite-text bold">ABOUT US</div>
+  <div class="carousel-fixed-item page-container">
+    <div class="page-title white-text bold">ABOUT US</div>
   </div>
   <div *ngFor="let item of aboutDesc">
     <a class="carousel-item" [style.backgroundImage]="'url(' + (isMobile() ? item.mobileImage : item.image) + ')'" [href]="item.href">
-      <div class="mcontainer iwhite-text poppins bold" [innerHTML]="item.desc"></div>
+      <div class="page-container white-text monserrat bold" [innerHTML]="item.desc"></div>
     </a>
   </div>
 </div>
 
-<div class="mcontainer">
-  <br /><br /><br />
-  <div class="history-item" *ngFor="let item of history">
-    <div class="row">
-      <div class="history-image" [style.backgroundImage]="'url(' + item.image + ')'">
-        <img src="{{ item.image }}"/>
-        <div class="history-title poppins iwhite-text">{{ item.year }}</div>
+<div class="page-container igreen white-text japanese-violet">
+
+  <div class="page-content">
+    <br /><br /><br />
+    <div class="history-item" *ngFor="let item of history">
+      <div class="row">
+        <div class="history-image" [style.backgroundImage]="'url(' + item.image + ')'">
+          <img src="{{ item.image }}"/>
+          <div class="history-title iwhite-text">{{ item.year }}</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="history-content">
+          <div class="history-desc" [innerHTML]="item.desc"></div>
+        </div>
       </div>
     </div>
-    <div class="row">
-      <div class="history-content">
-        <div class="history-desc" [innerHTML]="item.desc"></div>
-      </div>
-    </div>
+  </div>
+
+  <div class="nav-down">
+    <a routerLink="/contact-us"><i class="material-icons white-text">keyboard_arrow_down</i></a>
   </div>
 </div>

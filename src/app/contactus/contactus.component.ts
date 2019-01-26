@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 import { blackHeader } from '../header/header.component';
+import * as $ from 'jquery';
+import { aboutInit } from '../about/about.component';
 
 @Component({
   selector: 'app-contactus',
@@ -15,6 +17,7 @@ export class ContactusComponent implements OnInit {
 
   ngOnInit() {
     blackHeader();
+    $('.contact .nav-top a').click(aboutInit);
   }
 
 }
