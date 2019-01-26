@@ -1,7 +1,7 @@
 import { trigger, animate, style, group, animateChild, query, stagger, transition } from '@angular/animations';
 
 export const routerTransition = trigger('routerTransition', [
-    transition('IncidentPage => HomePage,StatisticsPage=>IncidentPage,iCarePage=>StatisticsPage', [
+    transition('IncidentPage => HomePage,StatisticsPage=>IncidentPage,iCarePage=>StatisticsPage,EventsPage=>iCarePage,SponsorsPage=>EventsPage,AboutPage=>SponsorsPage,ContactUsPage=>AboutPage', [
     /* order */
     /* 1 */ query(':enter, :leave',
                 style({ position: 'fixed', width: '100%' }),
@@ -17,7 +17,7 @@ export const routerTransition = trigger('routerTransition', [
                 ], { optional: true })
             ])
     ]),
-    transition('HomePage => IncidentPage,IncidentPage=>StatisticsPage,StatisticsPage=>iCarePage', [
+    transition('HomePage => IncidentPage,IncidentPage=>StatisticsPage,StatisticsPage=>iCarePage,iCarePage=>EventsPage,EventsPage=>SponsorsPage,SponsorsPage=>AboutPage,AboutPage=>ContactUsPage', [
         /* order */
         /* 1 */ query(':enter, :leave',
                     style({ position: 'fixed', width: '100%' }),
