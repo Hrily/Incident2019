@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { isHome } from '../app.component';
 import { Title } from '@angular/platform-browser';
 import { blackHeader } from '../header/header.component';
+import { aboutInit } from '../about/about.component';
+import * as $ from 'jquery';
 declare const require;
 
 const SPONSORS = require('../../assets/data/sponsors.json');
@@ -22,5 +24,6 @@ export class SponsorsComponent implements OnInit {
 
   ngOnInit() {
     blackHeader();
+    $('.sponsor .nav-sown a').click(aboutInit);
   }
 }

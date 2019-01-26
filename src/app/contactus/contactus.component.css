@@ -19,33 +19,33 @@
 
 /* label color */
 .contact-us .input-field label {
-    color: #002D54;
+    color: black;
     font-weight: 500;
     opacity: 0.7;
 }
 /* label focus color */
 .contact-us .input-field input:focus + label, .contact-us .input-field textarea:focus + label {
-    color: #002D54;
+    color: black;
     opacity: 1;
 }
 /* label underline focus color */
 .contact-us .input-field input:focus, .contact-us .input-field textarea:focus {
-    border-bottom: 1px solid #002D54;
-    box-shadow: 0 1px 0 0 #002D54;
+    border-bottom: 1px solid black;
+    box-shadow: 0 1px 0 0 black;
 }
 /* valid color */
 .contact-us .input-field input.valid, .contact-us .input-field textarea.valid {
-    border-bottom: 1px solid #002D54;
-    box-shadow: 0 1px 0 0 #002D54;
+    border-bottom: 1px solid black;
+    box-shadow: 0 1px 0 0 black;
 }
 /* invalid color */
 .contact-us .input-field input.invalid, .contact-us .input-field textarea.invalid {
-    border-bottom: 1px solid #002D54;
-    box-shadow: 0 1px 0 0 #002D54;
+    border-bottom: 1px solid black;
+    box-shadow: 0 1px 0 0 black;
 }
 /* icon prefix focus color */
 .contact-us .input-field .prefix.active {
-    color: #002D54;
+    color: black;
 }
 
 @media only screen and (max-width: 700px) {

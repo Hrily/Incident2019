@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Title } from '@angular/platform-browser';
+import { blackHeader } from '../header/header.component';
 
 @Component({
   selector: 'app-contactus',
@@ -13,6 +14,7 @@ export class ContactusComponent implements OnInit {
   }
 
   ngOnInit() {
+    blackHeader();
   }
 
 }
