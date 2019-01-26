@@ -43,12 +43,24 @@ export class HeaderComponent implements OnInit {
     router.events.subscribe((val) => {
       if (val instanceof NavigationEnd) {
         if (val.url === '/') {
-          $('.header .header-logo').hide('fast');
+          const logo = $('.home .landing .logo');
+          $('.header .header-logo .text').hide('fast');
+          $('.header .header-logo .logo').css({
+            height: logo.height(),
+            top: logo.offset().top,
+            left: '50%',
+            transform: 'translateX(-50%)',
+            padding: 0
+          });
         } else {
-          $('.header .header-logo').show('fast');
+          $('.header .header-logo .text').show('fast');
+          $('.header .header-logo .logo').attr('style', '');
         }
       }
     });
+    setTimeout(() => {
+      $('.header .header-logo .logo').addClass('animated');
+    }, 600);
   }
 
   isHome = isHome;

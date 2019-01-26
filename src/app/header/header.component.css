@@ -57,19 +57,27 @@
     transition: all 900ms ease-out;
 }
 
-.header .header-logo {
-    position: absolute;
-    top: 24px;
-}
-
 .header .header-logo img {
     height: 60px;
-    transition: all 900ms ease-out;
 }
 
 .header .header-logo .logo {
+    position: absolute;
+    left: 0;
+    top: 24px;
     padding-left: calc((9vw - 43px) / 2);
     padding-right: calc((9vw - 43px) / 2);
+}
+
+.header .header-logo .logo.animated {
+    transition: padding 500ms ease-in-out, transform 500ms ease-in-out, height 500ms ease-out, width 500ms ease-out, left 500ms ease-out, top 500ms ease-in;
+}
+
+.header .header-logo .text {
+    position: absolute;
+    top: 24px;
+    left: 9vw;
+    transition: all 900ms ease-out;
 }
 
 .header .header-logo .text {
@@ -103,7 +111,7 @@
     max-height: 80px;
 }
 
-.header .header-logo {
+.header .header-logo .logo, .header .header-logo .text {
     top: 16px;
 }
 
