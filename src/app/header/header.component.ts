@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {isHome, getPath} from '../app.component';
 import { ActivatedRoute, Router, NavigationEnd } from '@angular/router';
-import { aboutInit, sliderNext, sliderCurrent, sliderEvent } from '../about/about.component'
+import { aboutInit, sliderNext, sliderCurrent, sliderEvent } from '../about/about.component';
 import * as $ from 'jquery';
 declare const require;
 
@@ -59,5 +59,13 @@ export class HeaderComponent implements OnInit {
     $('.header i').click(toggleMenu);
     $('.header .nav-links a').click(toggleMenu);
     $('.header .about').click(aboutInit);
+    const aTop = $('.header .header-logo .text').height();
+    $(window).scroll(function () {
+      if ($(this).scrollTop() >= 1.3 * aTop) {
+        $('.header .header-logo .text').addClass('small');
+      } else {
+        $('.header .header-logo .text').removeClass('small');
+      }
+    });
   }
 }
