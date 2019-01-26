@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { isHome } from '../app.component';
 import { Title } from '@angular/platform-browser';
+import { blackHeader } from '../header/header.component';
 declare const require;
 
 const SPONSORS = require('../../assets/data/sponsors.json');
@@ -19,5 +20,7 @@ export class SponsorsComponent implements OnInit {
     }
   }
 
-  ngOnInit() {}
+  ngOnInit() {
+    blackHeader();
+  }
 }

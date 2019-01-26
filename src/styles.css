@@ -112,18 +112,28 @@ body {
 
 .mbtn {
     background: transparent;
-    border: 1px solid #002D54;
+    border: 1px solid black;
     padding: 16px 32px 16px 32px;
     font-size: 1em;
-    font-weight: 700;
-    color: #002D54;
+    color: black;
     border-radius: 32px;
     cursor: pointer;
+    font-family: 'Azuki', sans-serif;
+}
+
+.mbtn.mbtn-white {
+    border: 1px solid white;
+    color: white;
 }
 
 .mbtn:hover {
-    background: #002D54;
+    background: black;
     color: white;
+}
+
+.mbtn.mbtn-white:hover {
+    background: white;
+    color: black;
 }
 
 .back-circle {

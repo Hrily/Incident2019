@@ -15,8 +15,16 @@
 }
 
 .sponsor-item .title {
-    font-size: 1.2em;
+    font-size: 1.6em;
     font-weight: 500;
+}
+
+@media only screen and (max-width: 800px) {
+
+.sponsor-item .title {
+    font-size: 1.2em;
+}
+
 }
 
 @media only screen and (max-width: 800px) {
