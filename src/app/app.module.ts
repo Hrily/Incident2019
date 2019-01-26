@@ -14,6 +14,8 @@ import { SponsorsComponent } from './sponsors/sponsors.component';
 import { FooterComponent } from './footer/footer.component';
 import { ContactusComponent } from './contactus/contactus.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { IncidentComponent } from './incident/incident.component';
+import { StatisticsComponent } from './statistics/statistics.component';
 
 const appRoutes: Routes = [
   {
@@ -23,6 +25,22 @@ const appRoutes: Routes = [
       title: 'Incident 2019',
       animation: 'HomePage'
     },
+  },
+  {
+    path: 'incident',
+    component: IncidentComponent,
+    data: {
+      title: 'Incident 2019 - Incident',
+      animation: 'IncidentPage'
+    }
+  },
+  {
+    path: 'statistics',
+    component: StatisticsComponent,
+    data: {
+      title: 'Incident 2019 - Statistics',
+      animation: 'StatisticsPage'
+    }
   },
   {
     path: 'events',
@@ -80,7 +98,9 @@ const appRoutes: Routes = [
     IcareComponent,
     SponsorsComponent,
     FooterComponent,
-    ContactusComponent
+    ContactusComponent,
+    IncidentComponent,
+    StatisticsComponent,
   ],
   imports: [
     BrowserModule,

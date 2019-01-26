@@ -4,11 +4,10 @@
 }
 
 .icare-desc {
-    font-weight: 700;
-    font-size: 1.6em;
+    font-size: 2em;
 }
 
-.icare-desc-image img {
+.icare img {
     width: 100%;
 }
 
@@ -25,6 +24,10 @@
 }
 
 @media only screen and (max-width: 1400px) {
+
+.icare-desc {
+    font-size: 1.6em;
+}
 
 }
 

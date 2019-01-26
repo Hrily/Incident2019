@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Title } from '@angular/platform-browser';
+import { blackHeader } from '../header/header.component';
 
 @Component({
   selector: 'app-icare',
@@ -13,6 +14,7 @@ export class IcareComponent implements OnInit {
   }
 
   ngOnInit() {
+    blackHeader();
   }
 
 }

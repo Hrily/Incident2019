@@ -1,0 +1,11 @@
+.statistics .page-content img {
+    height: calc(100vh - 2*101px);    
+}
+
+@media only screen and (max-width: 1400px) {
+
+.statistics .page-content img {
+    height: calc(100vh - 2*84px);
+}
+
+}

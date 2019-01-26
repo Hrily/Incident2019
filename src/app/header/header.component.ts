@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {isHome, getPath} from '../app.component';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router, NavigationEnd } from '@angular/router';
 import { aboutInit, sliderNext, sliderCurrent, sliderEvent } from '../about/about.component'
 import * as $ from 'jquery';
 declare const require;
@@ -8,19 +8,29 @@ declare const require;
 const SOCIAL = require('../../assets/data/social.json');
 
 function toggleMenu() {
-  if (window.outerWidth > 700) {
-    return;
-  }
-  const header = $('.header');
+  const navLinks = $('.header .nav-links');
   const i = $('.header i');
-  const height = header.height() === 80 ? '500px' : '80px';
-  const iHTML = i.html() === 'menu' ? 'close' : 'menu';
+  const isClosed = i.html() === 'menu';
+  const translate = isClosed ? '0' : '100';
+  const iHTML = isClosed ? 'close' : 'menu';
   i.html(iHTML);
+  i.attr('style', isClosed ? 'color: white;' : '');
   setTimeout(() => {
-    header.css('max-height', height);
+    navLinks.css('transform', 'translateX(' + translate + '%)');
   }, 0);
 }
 
+export function blackHeader() {
+  setTimeout(() => {
+    $('.header').addClass('invert');
+  }, 0);
+}
+
+export function whiteHeader() {
+  setTimeout(() => {
+    $('.header').removeClass('invert');
+  }, 0);
+}
 
 @Component({
   selector: 'app-header',
@@ -28,7 +38,18 @@ function toggleMenu() {
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
-  constructor(private activatedRoute: ActivatedRoute) {}
+
+  constructor(private router: Router) {
+    router.events.subscribe((val) => {
+      if (val instanceof NavigationEnd) {
+        if (val.url === '/') {
+          $('.header .header-logo').hide('fast');
+        } else {
+          $('.header .header-logo').show('fast');
+        }
+      }
+    });
+  }
 
   isHome = isHome;
   social = SOCIAL;
@@ -36,7 +57,7 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit() {
     $('.header i').click(toggleMenu);
-    $('.header a').click(toggleMenu);
+    $('.header .nav-links a').click(toggleMenu);
     $('.header .about').click(aboutInit);
   }
 }

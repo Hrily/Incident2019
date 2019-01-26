@@ -1,36 +1,82 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,700');
 @import url('https://fonts.googleapis.com/css?family=Material+Icons');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@font-face {
+    font-family: 'Azuki';
+    src: url('assets/fonts/azuki-regular.ttf')  format('truetype');
+}
 
 body {
     font-size: 1em;
     background-color: #F8F8FF;
     width: 100vw;
     overflow-x: hidden;
-    padding-top: 140px;
+    background: url(assets/images/bg-grayscale.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
 }
 
-.iwhite {
-    background-color: #F8F8FF;
+.azuki {
+    font-family: 'Azuki', sans-serif;
 }
 
-.iwhite-text {
-    color: #F8F8FF;
+.monserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.azure-white {
+    background-color: rgba(220,243,238, 0.78);
+}
+
+.blood-liver {
+    background-color: rgba(85,76,84, 0.78);
 }
 
 .iblue {
-    background-color: #002D54;
+    background-color: rgba(137,218,228, 0.78);
 }
 
-.iblue-text {
-    color: #002D54;
+.blue-yonder {
+    background-color: rgba(93,117,153, 0.78);
 }
 
-.iblack {
-    background-color: #201D32;
+.burgundy {
+    background-color: rgba(64,47,72, 0.78);
 }
 
-.iblack-text {
-    color: #201D32;
+.charleston-green {
+    background-color: rgba(36,51,47, 0.78);
+}
+
+.ired {
+    background-color: rgba(191,62,75, 0.78);
+}
+
+.igreen {
+    background-color: rgba(142,228,157, 0.78);
+}
+
+.japanese-violet {
+    background-color: rgba(62,51,86, 0.78);
+}
+
+.pastel-grey {
+    background-color: rgba(210,211,199, 0.78);
+}
+
+.desire {
+    background-color: rgba(219,73,72, 0.78);
+}
+
+.straw {
+    background-color: rgba(218,205,127, 0.78);
+}
+
+.vermilion {
+    background-color: rgba(204,132,86, 0.78);
 }
 
 .poppins {
@@ -43,9 +89,25 @@ body {
     width: calc(100% - 352px);
 }
 
+.page-container {
+    padding-left: 9vw;
+    padding-right: 9vw;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.page-container .page-content {
+    min-height: calc(100vh - 2*101px);
+}
+
 .row, .col {
     margin: 0 !important;
     padding: 0 !important;
+}
+
+.rounded-image {
+    border-radius: 36px;
+    border: 1px solid #666666;
 }
 
 .mbtn {
@@ -76,10 +138,20 @@ body {
 }
 
 .page-title {
-    margin: 4% 0 16px 176px;
+    padding: 120px 0 16px 0 !important;
+    margin: 0 !important;
     font-size: 8em;
-    font-weight: 700;
     line-height: 1em;
+    font-family: 'Azuki', sans-serif;
+}
+
+.nav-top, .nav-down {
+    width: 100%;
+    text-align: center;
+}
+
+.nav-top i, .nav-down i {
+    font-size: 96px;
 }
 
 /* Hack - Angular doesn't support styling for dynamically added html */
@@ -105,14 +177,25 @@ body {
 
 body {
     font-size: 14px;
-    /* margin-top: 80px !important; */
-    padding-top: 95px;
 }
 
 .mcontainer {
     margin-left: 152px;
     margin-right: 152px;
     width: calc(100% - 304px);
+}
+
+.page-title {
+    font-size: 5em;
+    padding-top: 48px !important;
+}
+
+.nav-top i, .nav-down i {
+    font-size: 78px !important;
+}
+
+.page-container .page-content {
+    min-height: calc(100vh - 2*84px);
 }
 
 .back-circle {
@@ -122,17 +205,12 @@ body {
     width: 700px;
 }
 
-.page-title {
-    margin: 4% 152px 0 152px;
-    font-size: 5em;
-}
-
 }
 
 @media only screen and (max-width: 800px) {
 
 body {
-    padding-top:75px;
+    /* padding-top:75px; */
 }
 
 .mcontainer {
