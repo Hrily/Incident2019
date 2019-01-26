@@ -1,65 +1,79 @@
 <div *ngIf="isDevMode()">
 
-  <div class="back-circle iblue"></div>
+  <div class="incident page-container blue-yonder white-text">
 
-  <div class="page-title poppins iblack-text">EVENTS</div>
-  <a href="javascript: () => { history.back(); }" class="back-link poppins iblack-text">
-    &lt; Back to Events
-  </a>
-
-  <!-- <div class="events-listing row">
-    <div class="col s12 m4" *ngFor="let item of list">
-      <a *ngIf="listIsCategory()" href="events#{{ item.hash }}" class="poppins iblack-text iwhite">
-        <div class="icon" [innerHTML]="item.icon"></div>
-        <div class="title">{{ item.name }}</div>
-      </a>
-      <a *ngIf="!listIsCategory()" 
-        [attr.data-target]="item.hash" class="modal-trigger poppins iblack-text iwhite">
-        <div class="icon" [innerHTML]="item.icon"></div>
-        <div class="title">{{ item.name }}</div>
-      </a>
+    <div class="nav-top">
+      <a routerLink="/icare"><i class="material-icons white-text">keyboard_arrow_up</i></a>
     </div>
-  </div> -->
+    
+    <div class="page-content">
 
-  <div class="category-list events-listing row active">
-    <div class="col s12 m4" *ngFor="let item of categories">
-      <a href="events#{{ item.hash }}" class="poppins iblack-text iwhite">
-        <div class="icon" [innerHTML]="item.icon"></div>
-        <div class="title">{{ item.name }}</div>
+      <div class="page-title">EVENTS</div>
+      <a href="javascript: () => { history.back(); }" class="back-link monserrat white-text">
+        &lt; Back to Events
       </a>
-    </div>
-  </div>
 
-  <div *ngFor="let key of eventKeys">
-    <div class="{{ key }}-list events-listing row">
-      <div class="col s12 m4" *ngFor="let item of events[key]">
-        <a [attr.data-target]="item.hash" class="modal-trigger poppins iblack-text iwhite">
-          <div class="icon" [innerHTML]="item.icon"></div>
-          <div class="title">{{ item.name }}</div>
-        </a>
-      </div>
-    </div>
-  </div>
+      <!-- <div class="events-listing row">
+        <div class="col s12 m4" *ngFor="let item of list">
+          <a *ngIf="listIsCategory()" href="events#{{ item.hash }}" class="poppins iblack-text iwhite">
+            <div class="icon" [innerHTML]="item.icon"></div>
+            <div class="title">{{ item.name }}</div>
+          </a>
+          <a *ngIf="!listIsCategory()" 
+            [attr.data-target]="item.hash" class="modal-trigger poppins iblack-text iwhite">
+            <div class="icon" [innerHTML]="item.icon"></div>
+            <div class="title">{{ item.name }}</div>
+          </a>
+        </div>
+      </div> -->
 
-  <div *ngFor="let key of eventKeys">
-    <div *ngFor="let item of events[key]">
-      <div id="{{item.hash}}" class="modal bottom-sheet">
-        <div class="modal-content">
-          <h4>{{ item.name }}</h4>
-          <p>{{ item.desc }}</p>
+      <div class="category-list events-listing row active">
+        <div class="col s12 m4" *ngFor="let item of categories">
+          <a href="events#{{ item.hash }}" class="poppins iblack-text iwhite">
+            <div class="icon white-text" [innerHTML]="item.icon"></div>
+            <div class="title white-text">{{ item.name }}</div>
+          </a>
         </div>
       </div>
-    </div>
-  </div>
 
-  <br /><br /><br />
+      <div *ngFor="let key of eventKeys">
+        <div class="{{ key }}-list events-listing row">
+          <div class="col s12 m4" *ngFor="let item of events[key]">
+            <a [attr.data-target]="item.hash" class="modal-trigger monserrat">
+              <div class="icon white-text" [innerHTML]="item.icon"></div>
+              <div class="title white-text">{{ item.name }}</div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div *ngFor="let key of eventKeys">
+        <div *ngFor="let item of events[key]">
+          <div id="{{item.hash}}" class="modal bottom-sheet">
+            <div class="modal-content black-text">
+              <h4>{{ item.name }}</h4>
+              <p>{{ item.desc }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <br /><br /><br />
+
+    </div>
+
+    <div class="nav-down">
+      <a routerLink="/sponsors"><i class="material-icons white-text">keyboard_arrow_down</i></a>
+    </div>
+
+  </div>
 
 </div>
 
-<div *ngIf="!isDevMode()" class="events-stay-tuned mcontainer poppins iblack-text">
+<div *ngIf="!isDevMode()" class="events-stay-tuned page-container poppins white-text">
   <div>
-    <h2>Coming Soon. Stay tuned...</h2>
+    <h2 class="page-title">Coming Soon. Stay tuned...</h2>
     <br /><br />
-    <a href="/" class="mbtn poppins iblack-text bold">RETURN TO HOME</a>
+    <a routerLink="/" class="mbtn mbtn-white">RETURN TO HOME</a>
   </div>
 </div>

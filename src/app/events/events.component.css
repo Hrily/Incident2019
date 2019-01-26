@@ -1,6 +1,5 @@
 .back-link {
     opacity: 0;
-    margin: 0 0 0 176px;
     font-size: 1.5em;
     font-weight: 700;
     text-decoration: underline;
@@ -8,8 +7,8 @@
 }
 
 .events-listing {
-    margin: 4% 176px 0 176px !important;
-    width: calc(100% - 352px);
+    width: 100%;
+    padding: 9vw;
     display: none;
     transition: opacity 300ms ease-out;
 }
@@ -25,7 +24,7 @@
 .events-listing a {
     display: flex;
     height: 300px;
-    border: 1px solid rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.3);
     margin-top: 20px !important;
     border-radius: 16px;
     flex-direction: column;
@@ -68,13 +67,7 @@
 
 @media only screen and (max-width: 1400px) {
 
-.events-listing {
-    margin: 6% 152px 0 152px !important;
-    width: calc(100% - 304px);
-}
-
 .back-link {
-    margin: 16px 0 0 152px;
     font-size: 1.2em;
 }
 
