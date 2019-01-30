@@ -42,16 +42,20 @@
         "desc": "(Semi-Professional Western Rock Band Competition) Have you ever dreamt of selling out Madison Square Garden? Ever wondered how it would feel to witness a full-house crowd chant your name? Team Incident provides just the experience and invites you to rule the stage at Pulse, the Western battle of bands. We promise you a crowd unlike anything you have ever seen and will ever see! What are you waiting for? Register today!"
       },
       {
-        "name": "Music 2",
+        "name": "Dhwanik",
         "icon": "",
-        "hash": "music_2",
-        "desc": "Festival of Kites 1"
+        "hash": "Dhwanik",
+        "desc": "(Eastern Acoustic Band Competition)This Incident allow your soul to marvel at the wonders of the Eastern music. Let the whimsical notes of the flute sweep you off your feet. Let the cheeky twang of sitar snap at the strings of your heart. Let the lively beat of the tabla incite fire in your veins. Let Dhwanik, Incident's Eastern acoustic sensation, leave you craving for more.",
+        "date": "1st March",
+        "prizes": "Worth 20K"
       },
       {
-        "name": "Music 2",
+        "name": "Bandish",
         "icon": "",
-        "hash": "music_2",
-        "desc": "Festival of Kites 1"
+        "hash": "Bandish",
+        "desc": "(Semi-Professional Hindustani and Carnatic Rock Band Competition) Thermal and Quarter. Raghu Dixit Project. Thaikkudam Bridge. Let it be remembered in the pages of history that nobody does rock better than our desi boyz! Adorn your heart with the tricolour at Bandish, the Eastern rock phenomenon. Because who says only the Westerners should have all the fun?",
+        "date": "3rd March",
+        "prizes": "Worth 40K"
       }
     ],
     "dance": [
@@ -80,6 +84,107 @@
         "desc": "Step up the volume, step up the beats, step up the electrifying mood, step up those dance moves. Incident gives you a chance to take your talent one step higher with Step Up, the solo dance contest. So are you geared up to step up? Gyrate with your moves and prove it then "
       }
 
+    ],
+    "quiz_events": [
+      {
+        "name": "General Quiz",
+        "icon": "",
+        "hash": "General_Quiz",
+        "desc": "A crowd roaring with applause, wondering how you know so much. The quizmaster, wondering if his next question will break your amazing streak of right questions. You, on the other hand confident, that you will sail past this last question and be the champion. As the environment get tense, and the he says, “Team 4, your last question is…”. You know the answer, you know the answer! But you’ve gotta be there to answer. So come and prove your Mettle. Show that your team is the best, be it any topic under the sun! This is the General quiz. Prizes upto 6.5k to be won!",
+        "date": "1st - 3rd March",
+        "prizes": "Worth 6.5K"
+      },
+      {
+        "name": "India Quiz",
+        "icon": "",
+        "hash": "India_Quiz",
+        "desc": "If you are confident with your trivia about India, this is your chance.If competition comes naturally to you, if your brain is dying for some activity and if you see thrill in do-or-die situations, we invite you to take part in the ultimate brain storming session. Watch while teams battle it out on the stage as answers fly back and forth with equal aplomb.",
+        "date": "1st - 3rd March",
+        "prizes": "Worth 6.5K"      },
+      {
+        "name": "Lone Wolf",
+        "icon": "",
+        "hash": "Lone_Wolf",
+        "desc": "Do you know everything from the fun facts about infinity war to the intricacies of global economics? Are you generally shunned among your peers from being a know it all? (OR does information unintentionally come out blurting whenever you open your mouth?) Well here you can actually win prizes for that! So come and embrace the chance to show the ignoramuses that information is the real wealth!",
+        "date": "1st - 3rd March",
+        "prizes": "Worth 6K"
+      },
+      {
+        "name": "Inci Themed Quiz",
+        "icon": "",
+        "hash": "Inci_Themed_Quiz",
+        "desc": "",
+        "date": "",
+        "prizes": "Worth 6.5K"
+      }
+    ],
+    "biz_events": [
+      {
+        "name": "Mock Stock",
+        "icon": "",
+        "hash": "mock_stock",
+        "desc": "Want to experience the excitement of making money on the stock market? Have never known what a share is and have only wondered how everybody buys shares and makes riches? Join the Mock Stock event of Incident ’19. You can play against the smartest of investors and make millions. So this Inci, trade your stocks right away and be a millionaire!",
+        "date": "28th February - 3rd March",
+        "prizes": "Worth 6.5K"
+      },
+      {
+        "name": "Biz Quiz",
+        "icon": "",
+        "hash": "Biz_Quiz",
+        "desc": "Do people often claim that you are such a know-all? Well then, prove them right. Inci BizQuiz tries to bring out your  knowledge treasure trove. Compete with the sharpest and fastest minds with a passion for the business world. Do you have the mettle to battle it out at the quiz-essential zone of Incident '19?",
+        "date": "2nd - 3rd March",
+        "prizes": ""
+      },
+      {
+        "name": "B-Plan",
+        "icon": "",
+        "hash": "B-Plan",
+        "desc": "",
+        "date": "28th February - 3rd March",
+        "prizes": "Worth 6.5K"
+      }
+    ],
+    "gaming_events": [
+      {
+        "name": "Need For Speed",
+        "icon": "",
+        "hash": "need_for_speed",
+        "desc": "If you can leave two black stripes from the exit of one corner to the braking zone of the next, you have enough horsepower. Speed has never killed anyone, suddenly becoming stationary is what gets you. So keep pressing the pedal, as NFS will make your adrenaline rush this Incident ‘19.",
+        "date": " 1st - 3rd March",
+        "prizes": ""
+      },
+      {
+        "name": "PUBG",
+        "icon": "",
+        "hash": "pubg",
+        "desc": "Are you a PUBG wala? Then gather around and look out for the enemies ahead as you show off your shooting skills at Incident ‘19. Doesn't matter if you get an insane amount of kills, the last man standing will get the chicken dinner.",
+        "date": "1st - 3rd March",
+        "prizes": ""
+      },
+      {
+        "name": "FIFA",
+        "icon": "",
+        "hash": "fifa",
+        "desc": "Dribble, scissor, a quick pull and push, as you send the defenders sprawling across the grass, causing the goalkeeper to break out in panicky sweat, with the frenzied fans bordering on the state of hysterical joy. Welcome to the world of FIFA, you gotta your best foot forward here to be the champion.",
+        "date": "1st - 3rd March",
+        "prizes": "Worth 6.5K"
+      },
+      {
+        "name": "Counter Strike Global Offensive",
+        "icon": "",
+        "hash": "counter_strike_global_offensive",
+        "desc": "Guns blazing, corpses lying around, ammo running low and it's 3 AM in the morning. Sounds too familiar? Incident '19 presents Counter-Strike, one of the most popular games in colleges!",
+        "date": "1st - 3rd March",
+        "prizes": ""
+      },
+      {
+        "name": "Dota2",
+        "icon": "",
+        "hash": "Dota2",
+        "desc": "Incident '19 presents the action-packed multiplayer game, Defence of the Ancients. Get your buddies along with you to NITK and cherish the game that brought you all together!",
+        "date": "1st - 3rd March",
+        "prizes": ""
+      }
     ]
   },
   "categories": [
@@ -118,6 +223,24 @@
       "icon": "<i class=material-icons iblack-text>adjust</i>",
       "hash": "pro_shows",
       "img": "assets/images/events/shows.jpg"
+    },
+    {
+      "name": "QUIZ EVENTS",
+      "icon": "<i class=material-icons iblack-text>adjust</i>",
+      "hash": "quiz_events",
+      "img": ""
+    },
+    {
+      "name": "BIZ EVENTS",
+      "icon": "<i class=material-icons iblack-text>adjust</i>",
+      "hash": "biz_events",
+      "img": ""
+    },
+    {
+      "name": "GAMING EVENTS",
+      "icon": "<i class=material-icons iblack-text>adjust</i>",
+      "hash": "gaming_events",
+      "img": ""
     }
   ]
 }
