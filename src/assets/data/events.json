@@ -30,53 +30,94 @@
     ],
     "music": [
       {
-        "name": "Music 1",
-        "icon": "<i class=material-icons iblack-text>adjust</i>",
-        "hash": "music_1",
-        "desc": "Festival of Kites"
+        "name": "Unplugged",
+        "icon": "Date : 1st March, Prizes worth 20k",
+        "hash": "Unplugged",
+        "desc": " (Western Acoustic & A cappella Band Competition) A starry night. Gentle winds. A crackling bonfire. Waves on the beach. The strum of a guitar. String new notes and make new music. Mix melodies with your mind. Enthral your senses and expand your horizons. Experience contentment and enlightenment at Unplugged. Be it Western acoustic spectacle or an Acapella wonder, unplug your heart and let the music take over! Date : 1st March Prizes worth 20k "
+      },
+      {
+        "name": "Pulse",
+        "icon": "Date : 2nd March, Prizes worth 40k",
+        "hash": "Pulse",
+        "desc": "(Semi-Professional Western Rock Band Competition) Have you ever dreamt of selling out Madison Square Garden? Ever wondered how it would feel to witness a full-house crowd chant your name? Team Incident provides just the experience and invites you to rule the stage at Pulse, the Western battle of bands. We promise you a crowd unlike anything you have ever seen and will ever see! What are you waiting for? Register today!"
       },
       {
         "name": "Music 2",
-        "icon": "<i class=material-icons iblack-text>adjust</i>",
+        "icon": "",
+        "hash": "music_2",
+        "desc": "Festival of Kites 1"
+      },
+      {
+        "name": "Music 2",
+        "icon": "",
         "hash": "music_2",
         "desc": "Festival of Kites 1"
       }
     ],
     "dance": [
       {
-        "name": "Dance 1",
-        "icon": "<i class=material-icons iblack-text>adjust</i>",
-        "hash": "dance_1",
-        "desc": "Festival of Kites"
+        "name": "Tandav",
+        "icon": "Date : 2nd March, Prizes worth 45k",
+        "hash": "Tandav",
+        "desc": "(Semi-professional Eastern and Contemporary Group Dance Competition) : Diversity defines India. So get ready to define this with your dancing talent as we present to you the Indian classical  dance competition, Tandav. Come, unite the East, West, North and the South on one stage with that stupendous choreography and blend these Indian dance forms up into a wonderful story for the world to witness."
       },
       {
-        "name": "Dance 2",
-        "icon": "<i class=material-icons iblack-text>adjust</i>",
-        "hash": "dance_2",
-        "desc": "Festival of Kites 1"
+        "name": "Promenade",
+        "icon": "Date :  1st March, Prizes worth 45k ",
+        "hash": "Promenade",
+        "desc": "(Semi-professional Western Group Dance Competition) A leisurely stroll would seem so relieving, but what if you get to see your favourite dance moves creating it’s magic outside the dance floor? Presenting to you, the group Street dance competition, Promenade. So does your group have it to turn eyes around and make it an amazing dance Promenade? Join in and find out yourself."
+      },
+      {
+        "name": "Step Up Duet",
+        "icon": "Date : 1st March, Prizes worth 10k ",
+        "hash": "Step Up Duet",
+        "desc": "What’s better than watching a live story, enacted by two people, shaping up with that eye catching choreography? Let the two speak with their moves as Incident presents to you the duet version of Step Up where you step up the level with double the talent.So let the double magic come across!  "
+      },
+      {
+        "name": "Step Up Solo",
+        "icon": "Date :  1st March, Prizes worth 7k ",
+        "hash": "Step Up solo",
+        "desc": "Step up the volume, step up the beats, step up the electrifying mood, step up those dance moves. Incident gives you a chance to take your talent one step higher with Step Up, the solo dance contest. So are you geared up to step up? Gyrate with your moves and prove it then "
       }
+
     ]
   },
   "categories": [
     {
-      "name": "Beach Events",
-      "icon": "<i class=material-icons iblack-text>beach_access</i>",
-      "hash": "beach"
-    },
-    {
-      "name": "Pro Shows",
-      "icon": "<i class=material-icons iblack-text>adjust</i>",
-      "hash": "pro_shows"
-    },
-    {
-      "name": "Music",
-      "icon": "<i class=material-icons iblack-text>music_note</i>",
-      "hash": "music"
-    },
-    {
-      "name": "Dance",
+      "name": "DANCE EVENTS",
       "icon": "<i class=material-icons iblack-text>group</i>",
-      "hash": "dance"
+      "hash": "dance",
+      "img": "assets/images/events/dance.jpg"
+    },
+    {
+      "name": "MUSIC EVENTS",
+      "icon": "<i class=material-icons iblack-text>music_note</i>",
+      "hash": "music",
+      "img": "assets/images/events/music.jpg"
+    },
+    {
+      "name": "HAUTE COUTURE",
+      "icon": "<i class=material-icons iblack-text>music_note</i>",
+      "hash": "haute",
+      "img": "assets/images/events/haute.jpg"
+    },
+    {
+      "name": "SPORTS EVENTS",
+      "icon": "<i class=material-icons iblack-text>music_note</i>",
+      "hash": "sports",
+      "img": "assets/images/events/sports.jpg"
+    },
+    {
+      "name": "BEACH EVENTS",
+      "icon": "<i class=material-icons iblack-text>beach_access</i>",
+      "hash": "beach",
+      "img": "assets/images/events/beach.jpg"
+    },
+    {
+      "name": "PRO SHOWS",
+      "icon": "<i class=material-icons iblack-text>adjust</i>",
+      "hash": "pro_shows",
+      "img": "assets/images/events/shows.jpg"
     }
   ]
 }
