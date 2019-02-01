@@ -13,6 +13,7 @@
     right: 0;
     width: 27vw;
     height: 100%;
+    overflow: scroll;
     font-size: 2.6em;
     background: rgba(0, 0, 0, 0.64);
     margin: 0;
@@ -56,23 +57,43 @@
     transition: all 900ms ease-out;
 }
 
-.header .header-logo {
-    position: absolute;
-    top: 24px;
-}
-
 .header .header-logo img {
     height: 60px;
-    transition: all 900ms ease-out;
 }
 
 .header .header-logo .logo {
+    position: absolute;
+    left: 0;
+    top: 24px;
     padding-left: calc((9vw - 43px) / 2);
     padding-right: calc((9vw - 43px) / 2);
 }
 
+.header .header-logo .logo.animated {
+    transition: padding 500ms ease-in-out, transform 500ms ease-in-out, height 500ms ease-out, width 500ms ease-out, left 500ms ease-out, top 500ms ease-in;
+}
+
+.header .header-logo .text {
+    position: absolute;
+    top: 24px;
+    left: 9vw;
+    transition: all 900ms ease-out;
+}
+
+.header .header-logo .text {
+    transition: all 400ms ease-out;
+    box-sizing: border-box;
+}
+
 .header.invert .header-logo .text {
     filter: invert(100%);
+}
+
+.header .header-logo .text.small {
+    transform: translate(calc(-9vw), 60px);
+    width: 9vw;
+    height: auto;
+    padding: 14px;
 }
 
 .header.invert i {
@@ -90,7 +111,7 @@
     max-height: 80px;
 }
 
-.header .header-logo {
+.header .header-logo .logo, .header .header-logo .text {
     top: 16px;
 }
 
@@ -116,6 +137,11 @@
     right: 24px;
     padding: 24px;
     font-size: 2em;
+}
+
+.header .header-logo .text.small {
+    transform: translate(calc(-9vw), 48px);
+    padding: 8px;
 }
 
 }

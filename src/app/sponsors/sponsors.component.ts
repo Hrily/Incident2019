@@ -24,6 +24,6 @@ export class SponsorsComponent implements OnInit {
 
   ngOnInit() {
     blackHeader();
-    $('nav-down a').click(aboutInit);
+    $('.nav-down a').click(aboutInit);
   }
 }
