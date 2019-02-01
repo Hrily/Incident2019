@@ -1,103 +1,112 @@
 .back-link {
-    opacity: 0;
-    font-size: 1.5em;
-    font-weight: 700;
-    text-decoration: underline;
-    transition: opacity 300ms ease-out;
+  opacity: 0;
+  font-size: 1.5em;
+  font-weight: 700;
+  text-decoration: underline;
+  transition: opacity 300ms ease-out;
 }
 
 .events-listing {
-    width: 100%;
-    padding: 9vw;
-    display: none;
-    transition: opacity 300ms ease-out;
+  width: 100%;
+  padding: 9vw;
+  display: none;
+  transition: opacity 300ms ease-out;
 }
 
 .events-listing.active {
-    display: block;
+  display: block;
 }
 
 .events-listing .col {
-    padding: 10px !important;
+  padding: 10px !important;
 }
 
 .events-listing a {
-    display: flex;
-    height: 340px;
-    width: 605px;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    margin-top: 20px !important;
-    border-radius: 50px;
-    flex-direction: column;
-    cursor: pointer;
-    background-size: 100% 100%;
- 
+  display: flex;
+  height: 340px;
+  width: 605px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  margin-top: 20px !important;
+  border-radius: 50px;
+  flex-direction: column;
+  cursor: pointer;
+  background-size: 100% 100%;
 }
 
 .events-listing a .icon {
-   
-    display: table-cell;
-    height: 100%;
-    font-size: 1em;
-    padding: 2em;
+  display: table-cell;
+  height: 100%;
+  font-size: 1em;
+  padding: 2em;
 }
 
-.events-listing a .icon *, .events-listing a .icon img {
-    position: absolute;
-    top: 50%;
-    left: 16px;
-    transform: translateY(-50%);
+.events-listing a .icon *,
+.events-listing a .icon img {
+  position: absolute;
+  top: 50%;
+  left: 16px;
+  transform: translateY(-50%);
 }
 
 .events-listing a .icon i {
-    font-size: 6em;
+  font-size: 6em;
 }
 
 .events-listing a .title {
-    font-size: 5em;
+  font-size: 5em;
+  font-weight: 700;
+  padding: 105px 303px 33px 28px;
+}
+
+.events-listing a .title1 {
+  font-size: 5em;
+  font-weight: 700;
+  padding: 10px 30px 33px 28px;
+}
+
+.events-listing a .date {
+    font-size: 2em;
     font-weight: 700;
-    padding: 105px 303px 33px 28px;
-    }
+    padding: 10px 30px 33px 28px;
+  }
+  
 
 .events-listing a:hover {
-    background-color: rgb(0, 45, 84, 0.3)
+  background-color: rgb(0, 45, 84, 0.3);
 }
 
 .events-stay-tuned div {
-    height: 80vh;
-    font-weight: 700;
-    display: table-cell;
-    vertical-align: middle;
+  height: 80vh;
+  font-weight: 700;
+  display: table-cell;
+  vertical-align: middle;
 }
 
 @media only screen and (max-width: 1400px) {
-
-.back-link {
+  .back-link {
     font-size: 1.2em;
-}
-
+  }
 }
 
 @media only screen and (max-width: 800px) {
-
-.events-listing {
+  .events-listing {
     margin: 16px !important;
     width: calc(100% - 32px);
-}
+  }
 
-.events-listing .col {
+  .events-listing .col {
     padding: 0 !important;
-}
+  }
 
-.back-link {
+  .back-link {
     margin: 16px;
-}
+  }
 
-.events-stay-tuned div {
+  .events-stay-tuned div {
     height: 600px;
-}
+  }
 
-.events-listing a {
+  .events-listing a {
     display: flex;
     height: 200px;
     width: 300px;
@@ -107,13 +116,11 @@
     flex-direction: column;
     cursor: pointer;
     background-size: 100% 100%;
- 
-}
+  }
 
-.events-listing a .title {
+  .events-listing a .title {
     font-size: 2.5em;
     font-weight: 700;
     padding: 90px 303px 33px 28px;
-    }
-
+  }
 }

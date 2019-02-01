@@ -39,8 +39,10 @@
         <div class="{{ key }}-list events-listing row">
           <div class="col s12 m6" *ngFor="let item of events[key]">
             <a [attr.data-target]="item.hash" class="modal-trigger monserrat">
-              <div class="icon white-text" [innerHTML]="item.icon"></div>
-              <div class="title white-text">{{ item.name }}</div>
+             <!-- <div class="icon white-text" [innerHTML]="item.icon"></div>-->
+              <div class="date white-text">{{ item.date }}</div>
+              <div class="date white-text"> {{ item.prizes }}</div>
+              <div class="title1 white-text">{{ item.name }}</div>
             </a>
           </div>
         </div>
