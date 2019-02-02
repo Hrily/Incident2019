@@ -1,7 +1,7 @@
 .home {
     position: relative;
     color: white;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .home .landing {
@@ -63,10 +63,33 @@
     margin: 0;
     padding: 0;
     font-size: 5em;
+    line-height: 0.8;
 }
 
 .home .landing .logo {
     height: 40vh;
+}
+
+}
+
+@media only screen and (max-width: 1400px) {
+
+.home {
+    position: static;
+    box-sizing: border-box;
+}
+
+.home .landing {
+    margin: 0;
+    position: static;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    box-sizing: border-box;
+    transform: translate(0, 0);
+}
+
+.home .landing .title {
+    padding-top: 4vh;
 }
 
 }

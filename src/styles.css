@@ -10,6 +10,7 @@ body {
     font-size: 1em;
     background-color: #F8F8FF;
     width: 100vw;
+    min-height: 100vh;
     overflow-x: hidden;
     background: url(assets/images/bg-grayscale.jpg);
     background-repeat: no-repeat;
@@ -221,6 +222,7 @@ body {
 
 body {
     /* padding-top:75px; */
+    background-size: auto 100vh;
 }
 
 .mcontainer {
@@ -239,6 +241,10 @@ body {
 .page-title {
     margin: 25vw 16px 16px 12px;
     font-size: 4em;
+}
+
+.rounded-image {
+    border-radius: 24px;
 }
 
 }

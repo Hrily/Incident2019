@@ -8,6 +8,8 @@ import { whiteHeader } from '../header/header.component';
 })
 export class StatisticsComponent implements OnInit {
 
+  isMobile = () => window.outerWidth <= 700;
+
   constructor() { }
 
   ngOnInit() {

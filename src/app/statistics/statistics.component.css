@@ -9,3 +9,14 @@
 }
 
 }
+
+@media only screen and (max-width: 1400px) {
+
+.statistics .page-content img {
+    width: 100%;
+    height: auto;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+}

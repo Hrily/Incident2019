@@ -45,6 +45,7 @@ export class HeaderComponent implements OnInit {
         if (val.url === '/') {
           const logo = $('.home .landing .logo');
           $('.header .header-logo .text').hide('fast');
+          $('.header').css({ position: 'absolute' });
           $('.header .header-logo .logo').css({
             height: logo.height(),
             top: logo.offset().top,
@@ -53,9 +54,14 @@ export class HeaderComponent implements OnInit {
             padding: 0
           });
         } else {
+          $('.header').attr('style', '');
           $('.header .header-logo .text').show('fast');
           $('.header .header-logo .logo').attr('style', '');
         }
+        window.scrollTo({
+          top: 0,
+          left: 0,
+        });
       }
     });
     setTimeout(() => {
