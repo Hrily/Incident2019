@@ -1,6 +1,6 @@
 <div *ngIf="isDevMode()">
 
-  <div class="incident page-container blue-yonder white-text">
+  <div class="incident page-container iorange white-text">
 
     <div class="nav-top">
       <a routerLink="/icare"><i class="material-icons white-text">keyboard_arrow_up</i></a>
@@ -9,45 +9,39 @@
     <div class="page-content">
 
       <div class="page-title">EVENTS</div>
-      <a href="javascript: () => { history.back(); }" class="back-link monserrat white-text">
+      <a class="mbtn mbtn-white back-link monserrat" unselectable="on">
         &lt; Back to Events
       </a>
 
-      <!-- <div class="events-listing row">
-        <div class="col s12 m4" *ngFor="let item of list">
-          <a *ngIf="listIsCategory()" href="events#{{ item.hash }}" class="poppins iblack-text iwhite">
-            <div class="icon" [innerHTML]="item.icon"></div>
-            <div class="title">{{ item.name }}</div>
-          </a>
-          <a *ngIf="!listIsCategory()" 
-            [attr.data-target]="item.hash" class="modal-trigger poppins iblack-text iwhite">
-            <div class="icon" [innerHTML]="item.icon"></div>
-            <div class="title">{{ item.name }}</div>
-          </a>
-        </div>
-      </div> -->
-
-      <div class="category-list events-listing row active">
+      <div class="category-list events-listing row active azuki">
         <div class="col s12 m4" *ngFor="let item of categories">
-          <a href="events#{{ item.hash }}" class="poppins iblack-text iwhite">
-            <div class="icon white-text" [innerHTML]="item.icon"></div>
-            <div class="title white-text">{{ item.name }}</div>
+          <a class="events-listing-item" href="events#{{ item.hash }}">
+            <div class="image" [style.backgroundImage]="'url(assets/images/events/' + item.image + ')'"></div>
+            <div class="title">{{ item.name }}</div>
           </a>
         </div>
       </div>
 
       <div *ngFor="let key of eventKeys">
         <div class="{{ key }}-list events-listing row">
-          <div class="col s12 m4" *ngFor="let item of events[key]">
-            <a [attr.data-target]="item.hash" class="modal-trigger monserrat">
-              <div class="icon white-text" [innerHTML]="item.icon"></div>
-              <div class="title white-text">{{ item.name }}</div>
-            </a>
+          <div *ngIf="getCategoryFromHash(key).page_desc" class="events-page-desc monserrat" [innerHTML]="getCategoryFromHash(key).page_desc">
+          </div>
+          <div class="row" *ngFor="let item of events[key]">
+            <div class="col s12 m4">
+              <img src="assets/images/events/{{ item.image }}"/>
+            </div>
+            <div class="col s12 m8 monserrat">
+              <div class="title azuki">{{ item.name }}</div>
+              {{ item.desc }}
+              <br />
+              <br />
+              <a class="mbtn mbtn-white" *ngIf="item.register" href="item.register">Register</a>
+            </div>
           </div>
         </div>
       </div>
 
-      <div *ngFor="let key of eventKeys">
+      <!-- <div *ngFor="let key of eventKeys">
         <div *ngFor="let item of events[key]">
           <div id="{{item.hash}}" class="modal bottom-sheet">
             <div class="modal-content black-text">
@@ -56,7 +50,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
 
       <br /><br /><br />
 

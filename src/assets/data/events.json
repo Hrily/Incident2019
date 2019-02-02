@@ -1,82 +1,146 @@
 {
   "events": {
-    "beach": [
-      {
-        "name": "Kite Festival",
-        "icon": "<i class=material-icons iblack-text>adjust</i>",
-        "hash": "kite_fest_1",
-        "desc": "Festival of Kites"
-      },
-      {
-        "name": "Kite Festival 1",
-        "icon": "<i class=material-icons iblack-text>adjust</i>",
-        "hash": "kite_fest_2",
-        "desc": "Festival of Kites 1"
-      }
-    ],
-    "pro_shows": [
-      {
-        "name": "Pro Show 1",
-        "icon": "<i class=material-icons iblack-text>adjust</i>",
-        "hash": "pro_show_1",
-        "desc": "Festival of Kites"
-      },
-      {
-        "name": "Pro Show 2",
-        "icon": "<i class=material-icons iblack-text>adjust</i>",
-        "hash": "pro_show_2",
-        "desc": "Festival of Kites 1"
-      }
-    ],
-    "music": [
-      {
-        "name": "Music 1",
-        "icon": "<i class=material-icons iblack-text>adjust</i>",
-        "hash": "music_1",
-        "desc": "Festival of Kites"
-      },
-      {
-        "name": "Music 2",
-        "icon": "<i class=material-icons iblack-text>adjust</i>",
-        "hash": "music_2",
-        "desc": "Festival of Kites 1"
-      }
-    ],
     "dance": [
       {
-        "name": "Dance 1",
-        "icon": "<i class=material-icons iblack-text>adjust</i>",
-        "hash": "dance_1",
-        "desc": "Festival of Kites"
+        "name": "Event 1",
+        "image": "dance.jpg",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "register": "/register/"
       },
       {
-        "name": "Dance 2",
-        "icon": "<i class=material-icons iblack-text>adjust</i>",
-        "hash": "dance_2",
-        "desc": "Festival of Kites 1"
+        "name": "Event 2",
+        "image": "beach.jpg",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "register": "/register/"
+      }
+    ],
+
+    "music": [
+      {
+        "name": "Event 1",
+        "image": "dance.jpg",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "register": "/register/"
+      },
+      {
+        "name": "Event 2",
+        "image": "beach.jpg",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "register": "/register/"
+      }
+    ],
+
+    "haute_couture": [
+      {
+        "name": "Event 1",
+        "image": "dance.jpg",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "register": "/register/"
+      },
+      {
+        "name": "Event 2",
+        "image": "beach.jpg",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "register": "/register/"
+      }
+    ],
+
+    "sports": [
+      {
+        "name": "Event 1",
+        "image": "dance.jpg",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "register": "/register/"
+      },
+      {
+        "name": "Event 2",
+        "image": "beach.jpg",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "register": "/register/"
+      }
+    ],
+
+    "beach": [
+      {
+        "name": "Event 1",
+        "image": "dance.jpg",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "register": "/register/"
+      },
+      {
+        "name": "Event 2",
+        "image": "beach.jpg",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "register": "/register/"
+      }
+    ],
+
+    "pro_shows": [
+      {
+        "name": "Event 1",
+        "image": "dance.jpg",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "register": "/register/"
+      },
+      {
+        "name": "Event 2",
+        "image": "beach.jpg",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "register": "/register/"
+      }
+    ],
+
+    "inci_talks": [
+      {
+        "name": "Event 1",
+        "image": "dance.jpg",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "register": "/register/"
+      },
+      {
+        "name": "Event 2",
+        "image": "beach.jpg",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "register": "/register/"
       }
     ]
   },
   "categories": [
     {
+      "name": "Dance Events",
+      "image": "dance.jpg",
+      "hash": "dance"
+    },
+    {
+      "name": "Music Events",
+      "image": "music.jpg",
+      "hash": "music"
+    },
+    {
+      "name": "Haute Couture",
+      "image": "haute-couture.jpg",
+      "hash": "haute_couture"
+    },
+    {
+      "name": "Sports Events",
+      "image": "sports.jpg",
+      "hash": "sports"
+    },
+    {
       "name": "Beach Events",
-      "icon": "<i class=material-icons iblack-text>beach_access</i>",
+      "image": "beach.jpg",
       "hash": "beach"
     },
     {
       "name": "Pro Shows",
-      "icon": "<i class=material-icons iblack-text>adjust</i>",
+      "image": "pro-shows.jpg",
       "hash": "pro_shows"
     },
     {
-      "name": "Music",
-      "icon": "<i class=material-icons iblack-text>music_note</i>",
-      "hash": "music"
-    },
-    {
-      "name": "Dance",
-      "icon": "<i class=material-icons iblack-text>group</i>",
-      "hash": "dance"
+      "name": "Inci Talks",
+      "image": "talks.jpg",
+      "hash": "inci_talks",
+      "page_desc": "We believe passionately in the power of ideas to change attitudes, lives of the student community. The goal of this event is to bring together the greatest achievers and eminent personalities such as yourself to plant the seed of an idea in the minds of this generation to create a positive change in the society. Jayaprakash Narayan (Loksatta Party Founder), Balaji Viswanathan (Highest followed person on Quora),Ricky Ken(Grammy award winning music composer),Dr Ullas Karanth(Renowned Environmentalist and Tiger expert),Ramaswami Balasubramaniam (Chairman of Grassroots Research And Advocacy Movement (GRAAM)) have adorned the stage of Inci-Talks in the previous editions.<h3 class=\"azuki\"> Previous Speakers</h3>"
     }
   ]
 }

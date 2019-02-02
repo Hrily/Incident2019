@@ -13,12 +13,16 @@ const CATEGORIES = EVENT.categories;
 
 let instance;
 
-function getCategoryNameFromHash(hash) {
+function getCategoryFromHash(hash) {
   for (const item of CATEGORIES) {
     if (item.hash === hash) {
-      return item.name;
+      return item;
     }
   }
+}
+
+function getCategoryNameFromHash(hash) {
+  return getCategoryFromHash(hash).name;
 }
 
 function handleHashChange() {
@@ -64,6 +68,7 @@ export class EventsComponent implements OnInit {
   modalTitle = 'title';
   modalText = 'text';
   isDevMode = isDevMode;
+  getCategoryFromHash = getCategoryFromHash;
 
   listIsCategory () {
     return this.list === CATEGORIES;
