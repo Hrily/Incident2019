@@ -9,6 +9,7 @@
     <div class="page-content">
 
       <div class="page-title">EVENTS</div>
+      <br />
       <a class="mbtn mbtn-white back-link monserrat" unselectable="on">
         &lt; Back to Events
       </a>
@@ -35,7 +36,7 @@
               {{ item.desc }}
               <br />
               <br />
-              <a class="mbtn mbtn-white" *ngIf="item.register" href="item.register">Register</a>
+              <a class="mbtn mbtn-white" *ngIf="item.register" href="{{ item.register }}">Register</a>
             </div>
           </div>
         </div>

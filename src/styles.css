@@ -11,11 +11,6 @@ body {
     background-color: #F8F8FF;
     width: 100vw;
     overflow-x: hidden;
-    background: url(assets/images/bg-grayscale.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
     margin: 0;
     padding: 0;
 }
@@ -223,14 +218,6 @@ body {
 }
 
 @media only screen and (max-width: 800px) {
-
-body {
-    background-attachment: fixed;
-    -webkit-background-size: auto 130vh;
-    -moz-background-size: auto 130vh;
-    -o-background-size: auto 130vh;
-    background-size: auto 130vh;
-}
 
 .mcontainer {
     margin-left: 16px;
