@@ -15,6 +15,10 @@ export function sliderNext() {
   sliderEvent = setTimeout(() => {
     const element = document.querySelectorAll('.about-slider')[0];
     const instance = materialize.Carousel.getInstance(element);
+    if (sliderCurrent !== instance.center) {
+      aboutInit();
+      return;
+    }
     instance.next();
     sliderCurrent = (sliderCurrent + 1) % ABOUT.about_desc.length;
     sliderNext();
@@ -23,12 +27,17 @@ export function sliderNext() {
 
 export function aboutInit() {
   clearTimeout(sliderEvent);
-  sliderCurrent = 0;
   const elements = document.querySelectorAll('.about-slider');
-  const slider = materialize.Carousel.init(elements, {
-    fullWidth: true,
-    indicators: true
-  });
+  const instance = materialize.Carousel.getInstance(elements[0]);
+  if (instance) {
+    sliderCurrent = instance.center;
+  } else {
+    sliderCurrent = 0;
+    const slider = materialize.Carousel.init(elements, {
+      fullWidth: true,
+      indicators: true
+    });
+  }
   sliderNext();
 }
 

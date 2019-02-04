@@ -123,4 +123,9 @@
     text-shadow: none;
 }
 
+.about-slider .carousel-item .page-container {
+    font-size: 1.4em;
+    line-height: 1.4;
+}
+
 }
