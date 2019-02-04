@@ -1,6 +1,6 @@
 {
   "events": {
-    "beach": [
+    "dance": [
       {
         "name": "Beach Informalz",
         "icon": "<i class=material-icons iblack-text>adjust</i>",
@@ -9,21 +9,23 @@
         "date":" 1st - 3rd March"
       }
     ],
-    "pro_shows": [
+
+    "music": [
       {
-        "name": "Pro Show 1",
-        "icon": "<i class=material-icons iblack-text>adjust</i>",
-        "hash": "pro_show_1",
-        "desc": "Festival of Kites"
+        "name": "Event 1",
+        "image": "dance.jpg",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "register": "/register/"
       },
       {
-        "name": "Pro Show 2",
-        "icon": "<i class=material-icons iblack-text>adjust</i>",
-        "hash": "pro_show_2",
-        "desc": "Festival of Kites 1"
+        "name": "Event 2",
+        "image": "beach.jpg",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "register": "/register/"
       }
     ],
-    "music": [
+
+    "haute_couture": [
       {
         "name": "Unplugged",
         "icon": "",
@@ -57,7 +59,8 @@
         "prizes": "Prizes Worth 40K"
       }
     ],
-    "dance": [
+
+    "sports": [
       {
         "name": "Tandav",
         "icon": "",

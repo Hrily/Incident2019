@@ -16,6 +16,7 @@ import { ContactusComponent } from './contactus/contactus.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { IncidentComponent } from './incident/incident.component';
 import { StatisticsComponent } from './statistics/statistics.component';
+import { BackgroundComponent } from './background/background.component';
 
 const appRoutes: Routes = [
   {
@@ -101,6 +102,7 @@ const appRoutes: Routes = [
     ContactusComponent,
     IncidentComponent,
     StatisticsComponent,
+    BackgroundComponent,
   ],
   imports: [
     BrowserModule,

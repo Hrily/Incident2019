@@ -11,10 +11,6 @@ body {
     background-color: #F8F8FF;
     width: 100vw;
     overflow-x: hidden;
-    background: url(assets/images/bg-grayscale.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
     margin: 0;
     padding: 0;
 }
@@ -28,55 +24,59 @@ body {
 }
 
 .azure-white {
-    background-color: rgba(220,243,238, 0.78);
+    background-color: rgba(220, 243, 238, 0.78);
 }
 
 .blood-liver {
-    background-color: rgba(85,76,84, 0.78);
+    background-color: rgba(85, 76, 84, 0.78);
 }
 
 .iblue {
-    background-color: rgba(137,218,228, 0.78);
+    background-color: rgba(137, 218, 228, 0.78);
 }
 
 .blue-yonder {
-    background-color: rgba(93,117,153, 0.78);
+    background-color: rgba(93, 117, 153, 0.78);
 }
 
 .burgundy {
-    background-color: rgba(64,47,72, 0.78);
+    background-color: rgba(64, 47, 72, 0.78);
 }
 
 .charleston-green {
-    background-color: rgba(36,51,47, 0.78);
+    background-color: rgba(36, 51, 47, 0.78);
 }
 
 .ired {
-    background-color: rgba(191,62,75, 0.78);
+    background-color: rgba(191, 62, 75, 0.78);
 }
 
 .igreen {
-    background-color: rgba(142,228,157, 0.78);
+    background-color: rgba(142, 228, 157, 0.78);
 }
 
 .japanese-violet {
-    background-color: rgba(62,51,86, 0.78);
+    background-color: rgba(62, 51, 86, 0.78);
 }
 
 .pastel-grey {
-    background-color: rgba(210,211,199, 0.78);
+    background-color: rgba(210, 211, 199, 0.78);
 }
 
 .desire {
-    background-color: rgba(219,73,72, 0.78);
+    background-color: rgba(219, 73, 72, 0.78);
 }
 
 .straw {
-    background-color: rgba(218,205,127, 0.78);
+    background-color: rgba(218, 205, 127, 0.78);
 }
 
 .vermilion {
-    background-color: rgba(204,132,86, 0.78);
+    background-color: rgba(204, 132, 86, 0.78);
+}
+
+.iorange {
+    background-color: rgba(255, 154, 3, 0.78);
 }
 
 .poppins {
@@ -219,10 +219,6 @@ body {
 
 @media only screen and (max-width: 800px) {
 
-body {
-    /* padding-top:75px; */
-}
-
 .mcontainer {
     margin-left: 16px;
     margin-right: 16px;
@@ -239,6 +235,10 @@ body {
 .page-title {
     margin: 25vw 16px 16px 12px;
     font-size: 4em;
+}
+
+.rounded-image {
+    border-radius: 24px;
 }
 
 }
