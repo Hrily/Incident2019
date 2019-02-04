@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { blackHeader } from '../header/header.component';
+import { isMobile } from '../app.component';
 
 @Component({
   selector: 'app-incident',
@@ -7,6 +8,8 @@ import { blackHeader } from '../header/header.component';
   styleUrls: ['./incident.component.css']
 })
 export class IncidentComponent implements OnInit {
+
+  isMobile = isMobile;
 
   constructor() { }
 

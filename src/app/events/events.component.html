@@ -1,4 +1,4 @@
-<div *ngIf="isDevMode()">
+<div>
 
   <div class="incident page-container iorange white-text">
 
@@ -57,18 +57,12 @@
 
     </div>
 
+    <app-footer *ngIf="isMobile()"></app-footer>
+
     <div class="nav-down">
       <a routerLink="/sponsors"><i class="material-icons white-text">keyboard_arrow_down</i></a>
     </div>
 
   </div>
 
-</div>
-
-<div *ngIf="!isDevMode()" class="events-stay-tuned page-container poppins white-text">
-  <div>
-    <h2 class="page-title">Coming Soon. Stay tuned...</h2>
-    <br /><br />
-    <a routerLink="/" class="mbtn mbtn-white">RETURN TO HOME</a>
-  </div>
 </div>

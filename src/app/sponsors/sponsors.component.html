@@ -1,4 +1,4 @@
-<div class="sponsor page-container black-text">
+<div class="sponsor page-container black-text pastel-grey">
 
   <div class="nav-top">
     <a routerLink="/events"><i class="material-icons black-text">keyboard_arrow_up</i></a>
@@ -32,6 +32,8 @@
       </div>
     </div>
   </div>
+
+  <app-footer *ngIf="isMobile()"></app-footer>
 
   <div class="nav-down">
     <a routerLink="/about"><i class="material-icons black-text">keyboard_arrow_down</i></a>

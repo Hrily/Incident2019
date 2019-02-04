@@ -1,18 +1,18 @@
 {
   "fb": {
     "link": "https://www.facebook.com/incidenttheofficialpage/",
-    "image": "assets/images/social/fb.svg"
+    "image": "assets/images/social/fb.png"
   },
   "tw": {
     "link": "https://twitter.com/incident_nitk",
-    "image": "assets/images/social/tw.svg"
+    "image": "assets/images/social/tw.png"
   },
   "yt": {
     "link": "https://www.youtube.com/channel/UC-_WeDFW_i7-GnGNJiun9_Q",
-    "image": "assets/images/social/yt.svg"
+    "image": "assets/images/social/yt.png"
   },
   "ig": {
     "link": "https://www.instagram.com/incident_nitk/",
-    "image": "assets/images/social/ig.svg"
+    "image": "assets/images/social/ig.png"
   }
 }

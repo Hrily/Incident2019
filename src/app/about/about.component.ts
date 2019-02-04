@@ -3,6 +3,7 @@ import * as $ from 'jquery';
 import * as materialize from 'materialize-css';
 import { Title } from '@angular/platform-browser';
 import { whiteHeader } from '../header/header.component';
+import { isMobile } from '../app.component';
 declare const require;
 
 const ABOUT = require('../../assets/data/about.json');
@@ -41,7 +42,7 @@ export class AboutComponent implements OnInit {
   aboutDesc = ABOUT.about_desc;
   history = ABOUT.history;
   slider = undefined;
-  isMobile = () => window.outerWidth <= 800;
+  isMobile = isMobile;
 
   constructor(private titleService: Title) {
     this.titleService.setTitle('Incident 2019 - About');

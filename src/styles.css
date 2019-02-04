@@ -176,6 +176,11 @@ body {
     font-size: 6em;
 }
 
+
+/* ****** */
+/* FOOTER */
+/* ****** */
+
 /* Mac Pro 13in */
 @media only screen and (min-width: 1400px) and (min-resolution: 96dpi) {
     body, html {
@@ -235,6 +240,10 @@ body {
 .page-title {
     margin: 25vw 16px 16px 12px;
     font-size: 4em;
+}
+
+.page-container .page-content {
+    min-height: calc(100vh - 2*84px - 54px);
 }
 
 .rounded-image {

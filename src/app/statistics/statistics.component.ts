@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { whiteHeader } from '../header/header.component';
+import { isMobile } from '../app.component';
 
 @Component({
   selector: 'app-statistics',
@@ -8,7 +9,7 @@ import { whiteHeader } from '../header/header.component';
 })
 export class StatisticsComponent implements OnInit {
 
-  isMobile = () => window.outerWidth <= 700;
+  isMobile = isMobile;
 
   constructor() { }
 

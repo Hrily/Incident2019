@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { isHome } from '../app.component';
+import { isHome, isMobile } from '../app.component';
 import { Title } from '@angular/platform-browser';
 import { blackHeader } from '../header/header.component';
 import { aboutInit } from '../about/about.component';
@@ -15,6 +15,7 @@ const SPONSORS = require('../../assets/data/sponsors.json');
 export class SponsorsComponent implements OnInit {
   sponsors = SPONSORS;
   isHome = isHome;
+  isMobile = isMobile;
 
   constructor(private titleService: Title) {
     if (!isHome()) {
