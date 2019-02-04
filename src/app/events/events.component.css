@@ -123,4 +123,15 @@
     font-weight: 700;
     padding: 90px 303px 33px 28px;
   }
+  .events-listing a .title1 {
+    font-size: 1.5em;
+    font-weight: 700;
+    padding: 10px 30px 33px 28px;
+  }
+  .events-listing a .date {
+    font-size: 1em;
+    font-weight: 700;
+    padding: 10px 30px 33px 28px;
+  }
+  
 }
