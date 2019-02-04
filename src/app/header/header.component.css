@@ -100,6 +100,12 @@
     color: black;
 }
 
+.header .register-label {
+    color: white;
+    opacity: 0.8;
+    border-top: 1px solid white;
+}
+
 /* Mac Pro 13in */
 @media only screen and (min-width: 1400px) and (min-resolution: 96dpi) {
 
