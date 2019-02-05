@@ -3,22 +3,22 @@
 
     
     {
-      "image": "assets/images/testimonials/local-train.jpg",
+      "image": "/assets/images/testimonials/local-train.jpg",
       "text": "NITK Surathkal is one hell of a venue to play at.<br/><br/>",
       "author": " The Local Train"
     },
     {
-      "image": "assets/images/testimonials/itaca-band.jpg",
+      "image": "/assets/images/testimonials/itaca-band.jpg",
       "text": "We cannot believe what we saw. Thank you Incident festival for making us feel at home. We will see you again",
       "author": "Itaca Band"
     },
     {
-      "image": "assets/images/testimonials/masala-coffee.jpg",
+      "image": "/assets/images/testimonials/masala-coffee.jpg",
       "text": "You guys were by far the maddest bunch of fans we've had the pleasure of playing for. We're going to be back soon NITK",
       "author": "Masala Coffee"
     },
     {
-      "image": "assets/images/testimonials/sorabh-pant.jpg",
+      "image": "/assets/images/testimonials/sorabh-pant.jpg",
       "text": "Insanity. A standing ovation from a massive crowd of 3500 students for the Ghanta Awards at @incident_nitk. Woo!",
       "author": "Sorabh Pant"
     }
