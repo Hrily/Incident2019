@@ -13,7 +13,7 @@
     right: 0;
     width: 27vw;
     height: 100%;
-    overflow: scroll;
+    overflow-y: scroll;
     font-size: 2.6em;
     background: rgba(0, 0, 0, 0.64);
     margin: 0;
@@ -48,7 +48,7 @@
 .header i {
     position: fixed;
     top: 0;
-    right: 32px;
+    right: 0px;
     padding: 32px;
     color: white;
     z-index: 1000;
@@ -100,6 +100,12 @@
     color: black;
 }
 
+.header .register-label {
+    color: white;
+    opacity: 0.8;
+    border-top: 1px solid white;
+}
+
 /* Mac Pro 13in */
 @media only screen and (min-width: 1400px) and (min-resolution: 96dpi) {
 
@@ -134,7 +140,7 @@
 }
 
 .header i {
-    right: 24px;
+    right: 0px;
     padding: 24px;
     font-size: 2em;
 }
@@ -149,9 +155,22 @@
 @media only screen and (max-width: 700px) {
 
 .header {
-    overflow: hidden;
     -webkit-transition: max-height 700ms ease-out; /* Safari */
             transition: max-height 700ms ease-out;
+}
+
+.header .nav-links {
+    width: 75vw;
+}
+
+.header .header-logo .text, .header .header-logo .text.small {
+    top: 133px;
+    left: 0;
+    padding: 4px;
+    height: 9vw;
+    width: auto;
+    transform-origin: top left;
+    transform: rotate(270deg) translateX(-100%);
 }
 
 }

@@ -1,32 +1,33 @@
 <div class="icare page-container azure-white black-text">
 
   <div class="nav-top">
-    <a routerLink="/statistics"><i class="material-icons black-text">keyboard_arrow_up</i></a>
+    <a routerLink="/events"><i class="material-icons black-text">keyboard_arrow_up</i></a>
   </div>
 
   <div class="page-content">
     <div class="page-title">i-CARE</div>
 
-    <img class="rounded-image" src="assets/images/icare/icare_intro_1.jpg"/>
+    <img class="rounded-image" src="/assets/images/icare/icare_intro_1.jpg"/>
 
     <div class="icare">
       <div class="row valign-wrapper">
         <div class="col s12 m8 l8 valign icare-desc monserrat iblack-text">
-          A lot of children belonging to the fishing community in Mangalore drop out of school to help their parents in their
-          daily chores.<br/>
+          A lot of children belonging to the fishing community in Mangalore dropout of school to help their parents in their
+          daily chores.<br />
           Beach school tries to reduce this student drop out by instilling in them, an interest towards practical science,
-          mathematics & astronomy.<br/>
+          mathematics & astronomy.<br />
         </div>
         <div class="col s12 m4 l4 valign icare-desc-image">
-          <img class="rounded-image" src="assets/images/icare/icare_intro.jpg"/>
+          <img class="rounded-image" src="/assets/images/icare/icare_intro.jpg"/>
         </div>
       </div>
       <div class="row valign-wrapper">
         <div class="col s12 m4 l4 valign icare-desc-image">
-          <img class="rounded-image" src="assets/images/icare/school.jpg"/>
+          <img class="rounded-image" src="/assets/images/icare/school.jpg"/>
         </div>
         <div class="col s12 m8 l8 valign icare-desc monserrat iblack-text">
-          Volunteers for i-Care teach extra curricular activities like origami, dance to differently-abled children in Lion's School,
+          Volunteers of i-Care teach extra curricular activities like origami, dance to differently-abled children in Lion's
+          School,
           Surathkal.<br />
           We plan to have many more such uplifting i-Care activities in the future.
         </div>
@@ -36,22 +37,26 @@
     <br />
     <h3 class="page-title">Plastic Recycling</h3>
     
-    <img class="rounded-image icare-backdrop" src="assets/images/icare/plastic-recycling.jpg" />
+    <img class="rounded-image icare-backdrop" src="/assets/images/icare/plastic-recycling.jpg" />
     
     <div class="row">
-      <div class="col s12 icare-desc monserrat iblack-text">
+      <div class="col s12 m8 icare-desc monserrat iblack-text">
         Team Incident in association with the Centre for system design, NITK Surathkal have come up with a plastic recycling
         initiative where student volunteers of I-Care gather waste plastic alongside beaches and recycle them in the campus
         using injection moulding to produce useful products like keychains, clips etc.
-        <br />
-        <br />
       </div>
+      <div class="col s12 m4">
+        <iframe src="https://www.youtube.com/embed/MW8ee4-V_Hk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </div>
+      <br />
+      <br />
     </div>
 
     <br/>
     <h3 class="page-title">Beach Schooling</h3>
     
-    <img class="rounded-image" src="assets/images/icare/beach_schooling.jpg"/>
+    <img class="rounded-image" src="/assets/images/icare/beach_schooling.jpg"/>
 
     <div class="icare">
       <div class="row">
@@ -64,7 +69,7 @@
       </div>
       <div class="row valign-wrapper">
         <div class="col s12 m4 l4 valign icare-desc-image">
-          <img class="rounded-image" src="assets/images/icare/icare_distribution.jpg" />
+          <img class="rounded-image" src="/assets/images/icare/icare_distribution.jpg" />
         </div>
         <div class="col s12 m8 l8 valign icare-desc monserrat iblack-text">
           35 additional solar lamps to tenth standard students of NITK Kannada Medium School to facilitate their preparations for
@@ -81,7 +86,9 @@
       <br />
   </div>
 
+  <app-footer *ngIf="isMobile()"></app-footer>
+
   <div class="nav-down">
-    <a routerLink="/events"><i class="material-icons black-text">keyboard_arrow_down</i></a>
+    <a routerLink="/sponsors"><i class="material-icons black-text">keyboard_arrow_down</i></a>
   </div>
 </div>

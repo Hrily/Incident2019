@@ -61,7 +61,6 @@
 
 .history-title {
     font-size: 3em;
-    font-weight: 700;
     padding: 16px;
     width: 100%;
     height: 600px;
@@ -121,8 +120,12 @@
 
 .history-title {
     height: initial !important;
-    color: #201D32 !important;
     text-shadow: none;
+}
+
+.about-slider .carousel-item .page-container {
+    font-size: 1.4em;
+    line-height: 1.4;
 }
 
 }

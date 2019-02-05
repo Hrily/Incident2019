@@ -1,49 +1,13 @@
-<div class="footer iblue">
-  <div class="row">
-    <div class="mcontainer">
-      <div class="col s12 m6 l6">
-        <div class="left-content poppins">
-          <ul class="nav-links">
-            <b>
-              <br />
-              <li><a href="/" class="home iwhite-text">HOME</a></li>
-              <li><a href="events" class="events iwhite-text">EVENTS</a></li>
-              <li><a href="sponsors" class="sponsors iwhite-text">SPONSORS</a></li>
-              <li><a href="icare" class="icare iwhite-text">i-CARE</a></li>
-              <li><a href="about" class="about iwhite-text">ABOUT</a></li>
-              <li><a href="contact-us" class="contact-us iwhite-text">CONTACT US</a></li>
-            </b>
-          </ul>
-        </div>
-      </div>
-      <div class="col s12 m6 l6">
-        <b>
-          <br />
-          <div class="incident iwhite-text">INCIDENT</div>
-          <div class="right-content iwhite-text">
-            NITK SURATHKAL - MARCH 2019<br />
-            NH 66, Srinivas Nagar,<br />
-            Surathkal,<br />
-            Mangaluru,<br />
-            Karnataka 575025
-          </div>
-        </b>
-      </div>
-      <div class="col s12">
-        <div class="left mob_only">
-          <ul class="social">
-            <b>
-              <br />
-              <li><a href="{{ social.fb.link }}" target="_blank"><img src="{{ social.fb.image }}"/></a></li>
-              <li><a href="{{ social.tw.link }}" target="_blank"><img src="{{ social.tw.image }}"/></a></li>
-              <li><a href="{{ social.yt.link }}" target="_blank"><img src="{{ social.yt.image }}"/></a></li>
-              <li><a href="{{ social.ig.link }}" target="_blank"><img src="{{ social.ig.image }}"/></a></li>
-            </b>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+<ul *ngIf="!isMobile()" class="footer-social">
+<li><a href="{{ social.fb.link }}" target="_blank"><img src="{{ social.fb.image }}"/></a></li>
+<li><a href="{{ social.yt.link }}" target="_blank"><img src="{{ social.yt.image }}"/></a></li>
+<li><a href="{{ social.tw.link }}" target="_blank"><img src="{{ social.tw.image }}"/></a></li>
+<li><a href="{{ social.ig.link }}" target="_blank"><img src="{{ social.ig.image }}"/></a></li>
+</ul>
 
-
+<ul *ngIf="isMobile()" class="mobile-footer-social">
+    <li><a href="{{ social.fb.link }}" target="_blank"><img src="{{ social.fb.image }}" /></a></li>
+    <li><a href="{{ social.yt.link }}" target="_blank"><img src="{{ social.yt.image }}" /></a></li>
+    <li><a href="{{ social.tw.link }}" target="_blank"><img src="{{ social.tw.image }}" /></a></li>
+    <li><a href="{{ social.ig.link }}" target="_blank"><img src="{{ social.ig.image }}" /></a></li>
+</ul>

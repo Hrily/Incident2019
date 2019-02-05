@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { whiteHeader } from '../header/header.component';
+import { isMobile } from '../app.component';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-statistics',
@@ -8,7 +10,11 @@ import { whiteHeader } from '../header/header.component';
 })
 export class StatisticsComponent implements OnInit {
 
-  constructor() { }
+  isMobile = isMobile;
+
+  constructor(private titleService: Title) {
+    this.titleService.setTitle('Incident 2019 - Statistics');
+  }
 
   ngOnInit() {
     whiteHeader();

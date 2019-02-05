@@ -2,185 +2,184 @@
   "main": [
     {
       "name": "Reliance Industries Limited",
-      "image": "assets/images/sponsors/reliance.png",
+      "image": "/assets/images/sponsors/reliance.png",
       "title": "Co Sponsor"
     },
     {
       "name": "Hindustan Petroleum",
-      "image": "assets/images/sponsors/hindustan-petroleum.jpg",
+      "image": "/assets/images/sponsors/hindustan-petroleum.jpg",
       "title": "Co Sponsor"
     },
     {
       "name": "Maruti Suzuki",
-      "image": "assets/images/sponsors/colors-of-youth.jpg",
+      "image": "/assets/images/sponsors/colors-of-youth.jpg",
       "title": "Co Sponsor"
     },
     {
-      "name": "Coke studio",
-      "image": "assets/images/sponsors/coke-studio.png",
+      "name": "Coke Studio",
+      "image": "/assets/images/sponsors/coke-studio.png",
       "title": "Co Sponsor"
     },
-
     {
       "name": "Airtel",
-      "image": "assets/images/sponsors/airtel.png",
+      "image": "/assets/images/sponsors/airtel.png",
       "title": "Co Sponsor"
     },
     {
       "name": "British Council",
-      "image": "assets/images/sponsors/british-council.png",
+      "image": "/assets/images/sponsors/british-council.png",
       "title": "Co Sponsor"
     },
     {
       "name": "KTM",
-      "image": "assets/images/sponsors/ktm.png",
+      "image": "/assets/images/sponsors/ktm.png",
       "title": "Co Sponsor"
     },
     {
-      "name": "Nest Away",
-      "image": "assets/images/sponsors/nestaway.png",
+      "name": "NestAway",
+      "image": "/assets/images/sponsors/nestaway.png",
       "title": "Co Sponsor"
     },
     {
       "name": "Adani",
-      "image": "assets/images/sponsors/adani.png",
+      "image": "/assets/images/sponsors/adani.png",
       "title": "Co Sponsor"
     },
     {
       "name": "Saavn",
-      "image": "assets/images/sponsors/saavn.png",
+      "image": "/assets/images/sponsors/saavn.png",
       "title": "Co Sponsor"
     },
     {
       "name": "Life Insurance Corporation of India",
-      "image": "assets/images/sponsors/lic.png",
+      "image": "/assets/images/sponsors/lic.png",
       "title": "Co Sponsor"
     },
     {
-      "name": "Play Station",
-      "image": "assets/images/sponsors/playstation.jpg",
+      "name": "PlayStation",
+      "image": "/assets/images/sponsors/playstation.jpg",
       "title": "Co Sponsor"
     },
     {
       "name": "Sephora",
-      "image": "assets/images/sponsors/sephora.jpg",
+      "image": "/assets/images/sponsors/sephora.jpg",
       "title": "Co Sponsor"
     },
     {
       "name": "ONGC-MRPL",
-      "image": "assets/images/sponsors/mrpl.jpg",
+      "image": "/assets/images/sponsors/mrpl.jpg",
       "title": "Co Sponsor"
     },
     {
       "name": "Mysore Minerals Limited",
-      "image": "assets/images/sponsors/mysore-minerals.jpg",
+      "image": "/assets/images/sponsors/mysore-minerals.jpg",
       "title": "Co Sponsor"
     },
     {
       "name": "NITK Alumni Association",
-      "image": "assets/images/sponsors/nitk-alumni-association.png",
+      "image": "/assets/images/sponsors/nitk-alumni-association.png",
       "title": "Co Sponsor"
     }
   ],
-
   "all": [
     {
       "name": "Bharat Petroleum",
-      "image": "assets/images/sponsors/bharat-petroleum.png",
+      "image": "/assets/images/sponsors/bharat-petroleum.png",
       "title": "Co Sponsor"
     },
     {
-      "name": "Book My Show",
-      "image": "assets/images/sponsors/bookmyshow.jpg",
+      "name": "BookMyShow",
+      "image": "/assets/images/sponsors/bookmyshow.jpg",
       "title": "Co Sponsor"
     },
     {
       "name": "Canara Bank",
-      "image": "assets/images/sponsors/canara-bank-logo.png",
+      "image": "/assets/images/sponsors/canara-bank-logo.png",
       "title": "Co Sponsor"
     },
     {
       "name": "Comedy Central",
-      "image": "assets/images/sponsors/comedy central.jpg",
+      "image": "/assets/images/sponsors/comedy central.jpg",
       "title": "Co Sponsor"
     },
     {
       "name": "Cosco Sports and Fitness",
-      "image": "assets/images/sponsors/cosco.jpg",
+      "image": "/assets/images/sponsors/cosco.jpg",
       "title": "Co Sponsor"
     },
     {
       "name": "DRNK lab",
-      "image": "assets/images/sponsors/drnk lab.png",
+      "image": "/assets/images/sponsors/drnk lab.png",
       "title": "Co Sponsor"
     },
     {
       "name": "The Forum Mall",
-      "image": "assets/images/sponsors/forum.png",
+      "image": "/assets/images/sponsors/forum.png",
       "title": "Co Sponsor"
     },
     {
-      "name": "The Idea Icecream",
-      "image": "assets/images/sponsors/ideal-ice-cream.jpg",
+      "name": "Ideal Ice Cream",
+      "image": "/assets/images/sponsors/ideal-ice-cream.jpg",
       "title": "Co Sponsor"
     },
     {
       "name": "IMFS - A KP Singh Foundation",
-      "image": "assets/images/sponsors/imfs.jpg",
+      "image": "/assets/images/sponsors/imfs.jpg",
       "title": "Co Sponsor"
     },
     {
       "name": "Namma TV",
-      "image": "assets/images/sponsors/namma-tv.jpg",
+      "image": "/assets/images/sponsors/namma-tv.jpg",
       "title": "Co Sponsor"
     },
     {
       "name": "Nestle",
-      "image": "assets/images/sponsors/nestle.png",
+      "image": "/assets/images/sponsors/nestle.png",
       "title": "Co Sponsor"
     },
     {
       "name": "Oh Campus",
-      "image": "assets/images/sponsors/ohcampus.jpg",
+      "image": "/assets/images/sponsors/ohcampus.jpg",
       "title": "Co Sponsor"
     },
     {
       "name": "Resonance Studio and Academy",
-      "image": "assets/images/sponsors/resonance.jpg",
+      "image": "/assets/images/sponsors/resonance.jpg",
       "title": "Co Sponsor"
     },
     {
       "name": "State Bank of India",
-      "image": "assets/images/sponsors/sbi.png",
+      "image": "/assets/images/sponsors/sbi.png",
       "title": "Co Sponsor"
     },
     {
       "name": "The Chopras",
-      "image": "assets/images/sponsors/the-chopras.jpg",
+      "image": "/assets/images/sponsors/the-chopras.jpg",
       "title": "Co Sponsor"
     },
     {
-      "name": "Town Script",
-      "image": "assets/images/sponsors/townscript.png",
+      "name": "Townscript",
+      "image": "/assets/images/sponsors/townscript.png",
       "title": "Co Sponsor"
     },
     {
       "name": "Xoxoday",
-      "image": "assets/images/sponsors/xoxoday.png",
+      "image": "/assets/images/sponsors/xoxoday.png",
       "title": "Co Sponsor"
     },
     {
       "name": "Zebronics",
-      "image": "assets/images/sponsors/zebronics.jpg",
+      "image": "/assets/images/sponsors/zebronics.jpg",
       "title": "Co Sponsor"
     },
     {
       "name": "Thomsun Music House",
-      "image": "assets/images/sponsors/thomsun.jpg",
+      "image": "/assets/images/sponsors/thomsun.jpg",
       "title": "Co Sponsor"
-    },   {
+    },
+    {
       "name": "Vh1",
-      "image": "assets/images/sponsors/vh1.png",
+      "image": "/assets/images/sponsors/vh1.png",
       "title": "Co Sponsor"
     }
   ]

@@ -3,6 +3,7 @@ import {isHome, getPath} from '../app.component';
 import { ActivatedRoute, Router, NavigationEnd } from '@angular/router';
 import { aboutInit, sliderNext, sliderCurrent, sliderEvent } from '../about/about.component';
 import * as $ from 'jquery';
+import { blackFooter, whiteFooter } from '../footer/footer.component';
 declare const require;
 
 const SOCIAL = require('../../assets/data/social.json');
@@ -23,12 +24,14 @@ function toggleMenu() {
 export function blackHeader() {
   setTimeout(() => {
     $('.header').addClass('invert');
+    blackFooter();
   }, 0);
 }
 
 export function whiteHeader() {
   setTimeout(() => {
     $('.header').removeClass('invert');
+    whiteFooter();
   }, 0);
 }
 
@@ -45,6 +48,7 @@ export class HeaderComponent implements OnInit {
         if (val.url === '/') {
           const logo = $('.home .landing .logo');
           $('.header .header-logo .text').hide('fast');
+          $('.header').css({ position: 'absolute' });
           $('.header .header-logo .logo').css({
             height: logo.height(),
             top: logo.offset().top,
@@ -53,9 +57,14 @@ export class HeaderComponent implements OnInit {
             padding: 0
           });
         } else {
+          $('.header').attr('style', '');
           $('.header .header-logo .text').show('fast');
           $('.header .header-logo .logo').attr('style', '');
         }
+        window.scrollTo({
+          top: 0,
+          left: 0,
+        });
       }
     });
     setTimeout(() => {

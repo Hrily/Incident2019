@@ -3,9 +3,9 @@ import { trigger, animate, style, group, animateChild, query, stagger, transitio
 export const routerTransition = trigger('routerTransition', [
     transition(`IncidentPage => HomePage,
                 StatisticsPage => IncidentPage,
-                iCarePage => StatisticsPage,
-                EventsPage => iCarePage,
-                SponsorsPage => EventsPage,
+                EventsPage => StatisticsPage,
+                iCarePage => EventsPage,
+                SponsorsPage => iCarePage,
                 AboutPage => SponsorsPage,
                 ContactUsPage => AboutPage,
                 ContactUsPage => HomePage`, [
@@ -26,9 +26,9 @@ export const routerTransition = trigger('routerTransition', [
     ]),
     transition(`HomePage => IncidentPage,
                 IncidentPage => StatisticsPage,
-                StatisticsPage => iCarePage,
-                iCarePage => EventsPage,
-                EventsPage => SponsorsPage,
+                StatisticsPage => EventsPage,
+                EventsPage => iCarePage,
+                iCarePage => SponsorsPage,
                 SponsorsPage => AboutPage,
                 AboutPage => ContactUsPage`, [
         /* order */

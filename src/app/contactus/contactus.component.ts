@@ -3,6 +3,7 @@ import { Title } from '@angular/platform-browser';
 import { blackHeader } from '../header/header.component';
 import * as $ from 'jquery';
 import { aboutInit } from '../about/about.component';
+import { isMobile } from '../app.component';
 
 @Component({
   selector: 'app-contactus',
@@ -10,6 +11,8 @@ import { aboutInit } from '../about/about.component';
   styleUrls: ['./contactus.component.css']
 })
 export class ContactusComponent implements OnInit {
+
+  isMobile = isMobile;
 
   constructor(private titleService: Title) {
     this.titleService.setTitle('Incident 2019 - Contact Us');

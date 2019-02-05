@@ -4,6 +4,7 @@ import { isDevMode } from '@angular/core';
 import * as $ from 'jquery';
 import * as materialize from 'materialize-css';
 import { whiteHeader } from '../header/header.component';
+import { isMobile } from '../app.component';
 declare const require;
 
 const EVENT = require('../../assets/data/events.json');
@@ -13,12 +14,16 @@ const CATEGORIES = EVENT.categories;
 
 let instance;
 
-function getCategoryNameFromHash(hash) {
+function getCategoryFromHash(hash) {
   for (const item of CATEGORIES) {
     if (item.hash === hash) {
-      return item.name;
+      return item;
     }
   }
+}
+
+function getCategoryNameFromHash(hash) {
+  return getCategoryFromHash(hash).name;
 }
 
 function handleHashChange() {
@@ -64,6 +69,8 @@ export class EventsComponent implements OnInit {
   modalTitle = 'title';
   modalText = 'text';
   isDevMode = isDevMode;
+  getCategoryFromHash = getCategoryFromHash;
+  isMobile = isMobile;
 
   listIsCategory () {
     return this.list === CATEGORIES;

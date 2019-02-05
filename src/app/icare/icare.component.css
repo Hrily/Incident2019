@@ -23,6 +23,11 @@
     width: 100%;
 }
 
+.icare iframe {
+    width: 100%;
+    min-height: calc( 0.5625 * (100vw - 2*9vw) * (4/12) );
+}
+
 @media only screen and (max-width: 1400px) {
 
 .icare-desc {
@@ -47,6 +52,11 @@
 
 .icare .valign-wrapper {
     display: block;
+}
+
+.icare iframe {
+    padding-top: 16px;
+    min-height: calc( 0.5625 * (100vw - 2*9vw) * (12/12) )
 }
 
 }
