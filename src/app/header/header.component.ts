@@ -3,6 +3,7 @@ import {isHome, getPath} from '../app.component';
 import { ActivatedRoute, Router, NavigationEnd } from '@angular/router';
 import { aboutInit, sliderNext, sliderCurrent, sliderEvent } from '../about/about.component';
 import * as $ from 'jquery';
+import { blackFooter, whiteFooter } from '../footer/footer.component';
 declare const require;
 
 const SOCIAL = require('../../assets/data/social.json');
@@ -23,12 +24,14 @@ function toggleMenu() {
 export function blackHeader() {
   setTimeout(() => {
     $('.header').addClass('invert');
+    blackFooter();
   }, 0);
 }
 
 export function whiteHeader() {
   setTimeout(() => {
     $('.header').removeClass('invert');
+    whiteFooter();
   }, 0);
 }
 

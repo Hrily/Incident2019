@@ -1,19 +1,19 @@
 import { Component, OnInit } from '@angular/core';
 import { blackHeader } from '../header/header.component';
-import { isMobile } from '../app.component';
 import { Title } from '@angular/platform-browser';
+import { isMobile } from '../app.component';
 
 @Component({
-  selector: 'app-incident',
-  templateUrl: './incident.component.html',
-  styleUrls: ['./incident.component.css']
+  selector: 'app-fourohfour',
+  templateUrl: './fourohfour.component.html',
+  styleUrls: ['./fourohfour.component.css']
 })
-export class IncidentComponent implements OnInit {
+export class FourohfourComponent implements OnInit {
 
   isMobile = isMobile;
 
   constructor(private titleService: Title) {
-    this.titleService.setTitle('Incident 2019 - Incident');
+    this.titleService.setTitle('Incident 2019 - Error 404');
   }
 
   ngOnInit() {

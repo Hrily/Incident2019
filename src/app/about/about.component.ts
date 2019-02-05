@@ -3,6 +3,7 @@ import * as $ from 'jquery';
 import * as materialize from 'materialize-css';
 import { Title } from '@angular/platform-browser';
 import { whiteHeader } from '../header/header.component';
+import { isMobile } from '../app.component';
 declare const require;
 
 const ABOUT = require('../../assets/data/about.json');
@@ -14,6 +15,10 @@ export function sliderNext() {
   sliderEvent = setTimeout(() => {
     const element = document.querySelectorAll('.about-slider')[0];
     const instance = materialize.Carousel.getInstance(element);
+    if (sliderCurrent !== instance.center) {
+      aboutInit();
+      return;
+    }
     instance.next();
     sliderCurrent = (sliderCurrent + 1) % ABOUT.about_desc.length;
     sliderNext();
@@ -22,12 +27,17 @@ export function sliderNext() {
 
 export function aboutInit() {
   clearTimeout(sliderEvent);
-  sliderCurrent = 0;
   const elements = document.querySelectorAll('.about-slider');
-  const slider = materialize.Carousel.init(elements, {
-    fullWidth: true,
-    indicators: true
-  });
+  const instance = materialize.Carousel.getInstance(elements[0]);
+  if (instance) {
+    sliderCurrent = instance.center;
+  } else {
+    sliderCurrent = 0;
+    const slider = materialize.Carousel.init(elements, {
+      fullWidth: true,
+      indicators: true
+    });
+  }
   sliderNext();
 }
 
@@ -41,7 +51,7 @@ export class AboutComponent implements OnInit {
   aboutDesc = ABOUT.about_desc;
   history = ABOUT.history;
   slider = undefined;
-  isMobile = () => window.outerWidth <= 800;
+  isMobile = isMobile;
 
   constructor(private titleService: Title) {
     this.titleService.setTitle('Incident 2019 - About');

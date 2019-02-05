@@ -5,20 +5,22 @@
   </div>
 
   <div *ngIf="!isMobile()" class="page-content center">
-    <img src="assets/images/statistics/statistics.png">
+    <img src="/assets/images/statistics/statistics.png">
   </div>
   
   <div *ngIf="isMobile()" class="page-content center">
     <div class="page-title left-align">OUTREACH</div>
-    <img src="assets/images/statistics/statistics1.png">
-    <img src="assets/images/statistics/statistics2.png">
-    <img src="assets/images/statistics/statistics3.png">
-    <img src="assets/images/statistics/statistics4.png">
-    <img src="assets/images/statistics/statistics5.png">
-    <img src="assets/images/statistics/statistics6.png">
+    <img src="/assets/images/statistics/statistics1.png">
+    <img src="/assets/images/statistics/statistics2.png">
+    <img src="/assets/images/statistics/statistics3.png">
+    <img src="/assets/images/statistics/statistics4.png">
+    <img src="/assets/images/statistics/statistics5.png">
+    <img src="/assets/images/statistics/statistics6.png">
   </div>
 
+  <app-footer *ngIf="isMobile()"></app-footer>
+
   <div class="nav-down">
-    <a routerLink="/icare"><i class="material-icons white-text">keyboard_arrow_down</i></a>
+    <a routerLink="/events"><i class="material-icons white-text">keyboard_arrow_down</i></a>
   </div>
 </div>

@@ -3,5 +3,5 @@
 <div [@routerTransition]="prepareRoute(outlet)">
     <router-outlet #outlet="outlet"></router-outlet>
 </div>
-<!-- <app-footer></app-footer> -->
+<app-footer *ngIf="!isMobile()"></app-footer>
 

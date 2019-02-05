@@ -12,6 +12,10 @@ export function getPath() {
   return path === '' ? 'home' : path;
 }
 
+export function isMobile() {
+  return window.outerWidth <= 800;
+}
+
 
 @Component({
   selector: 'app-root',
@@ -22,6 +26,9 @@ export function getPath() {
   ]
 })
 export class AppComponent {
+
+  isMobile = isMobile;
+
   prepareRoute(outlet: RouterOutlet) {
     return outlet && outlet.activatedRouteData && outlet.activatedRouteData['animation'];
   }
