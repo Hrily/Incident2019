@@ -7,7 +7,7 @@
         "hash": "informalz",
         "desc": "Not finding any events to your taste? Bored out of your mind? No worries! All you gotta do is take a stroll to 'The Beach'. The Informalz is awaiting you! From mind-blowing games  to silly competitions between your buddies, the Beach Informalz offers a dose of fun and frolic that you cannot refuse!",
         "date":" 1st - 3rd March",
-        "Register-link":"/register/events/"
+        "register":"/register/events/"
       }
     ],
     "music": [
@@ -18,7 +18,7 @@
         "desc": " (Western Acoustic & A cappella Band Competition) A starry night. Gentle winds. A crackling bonfire. Waves on the beach. The strum of a guitar. String new notes and make new music. Mix melodies with your mind. Enthral your senses and expand your horizons. Experience contentment and enlightenment at Unplugged. Be it Western acoustic spectacle or an Acapella wonder, unplug your heart and let the music take over! Date : 1st March Prizes Prizes Worth 20k ",
         "date":"1st March",
         "prizes":"Prizes Worth 20K",
-        "Register-link":"/register/events/"
+        "register":"/register/events/"
         
       },
       {
@@ -28,7 +28,7 @@
         "desc": "(Semi-Professional Western Rock Band Competition) Have you ever dreamt of selling out Madison Square Garden? Ever wondered how it would feel to witness a full-house crowd chant your name? Team Incident provides just the experience and invites you to rule the stage at Pulse, the Western battle of bands. We promise you a crowd unlike anything you have ever seen and will ever see! What are you waiting for? Register today!",
         "date":"2nd March",
         "prizes":"Prizes Worth 40K",
-        "Register-link":"/register/events/"
+        "register":"/register/events/"
       },
       {
         "name": "Dhwanik",
@@ -37,7 +37,7 @@
         "desc": "(Eastern Acoustic Band Competition)This Incident allow your soul to marvel at the wonders of the Eastern music. Let the whimsical notes of the flute sweep you off your feet. Let the cheeky twang of sitar snap at the strings of your heart. Let the lively beat of the tabla incite fire in your veins. Let Dhwanik, Incident's Eastern acoustic sensation, leave you craving for more.",
         "date": "1st March",
         "prizes": "Prizes Worth 20K",
-        "Register-link":"/register/events/"
+        "register":"/register/events/"
       },
       {
         "name": "Bandish",
@@ -46,7 +46,7 @@
         "desc": "(Semi-Professional Hindustani and Carnatic Rock Band Competition) Thermal and Quarter. Raghu Dixit Project. Thaikkudam Bridge. Let it be remembered in the pages of history that nobody does rock better than our desi boyz! Adorn your heart with the tricolour at Bandish, the Eastern rock phenomenon. Because who says only the Westerners should have all the fun?",
         "date": "3rd March",
         "prizes": "Prizes Worth 40K",
-        "Register-link":"/register/events/"
+        "register":"/register/events/"
       }
     ],
     "dance": [
@@ -57,7 +57,7 @@
         "desc": "(Semi-professional Eastern and Contemporary Group Dance Competition) : Diversity defines India. So get ready to define this with your dancing talent as we present to you the Indian classical  dance competition, Tandav. Come, unite the East, West, North and the South on one stage with that stupendous choreography and blend these Indian dance forms up into a wonderful story for the world to witness.",
         "date": "2nd March",
         "prizes":"Prizes Worth 45k",
-        "Register-link":"/register/events/"
+        "register":"/register/events/"
       },
       {
         "name": "Promenade",
@@ -66,7 +66,7 @@
         "desc": "(Semi-professional Western Group Dance Competition) A leisurely stroll would seem so relieving, but what if you get to see your favourite dance moves creating it’s magic outside the dance floor? Presenting to you, the group Street dance competition, Promenade. So does your group have it to turn eyes around and make it an amazing dance Promenade? Join in and find out yourself.",
         "date":"1st March",
         "prizes":"Prizes Worth 45k",
-        "Register-link":"/register/events/"
+        "register":"/register/events/"
       },
       {
         "name": "Step Up Duet",
@@ -75,7 +75,7 @@
         "desc": "What’s better than watching a live story, enacted by two people, shaping up with that eye catching choreography? Let the two speak with their moves as Incident presents to you the duet version of Step Up where you step up the level with double the talent.So let the double magic come across!  ",
         "date":"1st March",
         "prizes":"Prizes Worth 10K",
-        "Register-link":"/register/events/"
+        "register":"/register/events/"
       },
       {
         "name": "Step Up Solo",
@@ -84,7 +84,7 @@
         "desc": "Step up the volume, step up the beats, step up the electrifying mood, step up those dance moves. Incident gives you a chance to take your talent one step higher with Step Up, the solo dance contest. So are you geared up to step up? Gyrate with your moves and prove it then ",
         "date":"1st March",
         "prizes":"Prizes Worth 7K",
-        "Register-link":"/register/events/"
+        "register":"/register/events/"
       }
 
     ],
@@ -96,7 +96,7 @@
         "desc": "A crowd roaring with applause, wondering how you know so much. The quizmaster, wondering if his next question will break your amazing streak of right questions. You, on the other hand confident, that you will sail past this last question and be the champion. As the environment get tense, and the he says, “Team 4, your last question is…”. You know the answer, you know the answer! But you’ve gotta be there to answer. So come and prove your Mettle. Show that your team is the best, be it any topic under the sun! This is the General quiz. Prizes upto 6.5k to be won!",
         "date": "1st - 3rd March",
         "prizes": "Prizes Worth 6.5K",
-        "Register-link":"/register/events/"
+        "register":"/register/events/"
       },
       {
         "name": "Asia Quiz - Inci Themed Quiz",
@@ -105,7 +105,7 @@
         "desc": "If you are confident with your trivia about Asia, this is your chance.If competition comes naturally to you, if your brain is dying for some activity and if you see thrill in do-or-die situations, we invite you to take part in the ultimate brain storming session. Watch while teams battle it out on the stage as answers fly back and forth with equal aplomb.",
         "date": "1st - 3rd March",
         "prizes": "Prizes Worth 6.5K",
-        "Register-link":"/register/events/"
+        "register":"/register/events/"
       },
       {
         "name": "Lone Wolf",
@@ -114,7 +114,7 @@
         "desc": "Do you know everything from the fun facts about infinity war to the intricacies of global economics? Are you generally shunned among your peers from being a know it all? (OR does information unintentionally come out blurting whenever you open your mouth?) Well here you can actually win prizes for that! So come and embrace the chance to show the ignoramuses that information is the real wealth!",
         "date": "1st - 3rd March",
         "prizes": "Prizes Worth 6K",
-        "Register-link":"/register/events/"
+        "register":"/register/events/"
       },
       {
         "name": "Inci Themed Quiz",
@@ -123,7 +123,7 @@
         "desc": "",
         "date": "",
         "prizes": "Prizes Worth 6.5K",
-        "Register-link":"/register/events/"
+        "register":"/register/events/"
       }
     ],
     "biz_events": [
@@ -134,7 +134,7 @@
         "desc": "Want to experience the excitement of making money on the stock market? Have never known what a share is and have only wondered how everybody buys shares and makes riches? Join the Mock Stock event of Incident ’19. You can play against the smartest of investors and make millions. So this Inci, trade your stocks right away and be a millionaire!",
         "date": "28th February - 3rd March",
         "prizes": "Prizes Worth 6.5K",
-        "Register-link":"/register/events/"
+        "register":"/register/events/"
       },
       {
         "name": "Biz Quiz",
@@ -143,7 +143,7 @@
         "desc": "Do people often claim that you are such a know-all? Well then, prove them right. Inci BizQuiz tries to bring out your  knowledge treasure trove. Compete with the sharpest and fastest minds with a passion for the business world. Do you have the mettle to battle it out at the quiz-essential zone of Incident '19?",
         "date": "2nd - 3rd March",
         "prizes": "",
-        "Register-link":"/register/events/"
+        "register":"/register/events/"
       },
       {
         "name": "B-Plan",
@@ -152,7 +152,7 @@
         "desc": "",
         "date": "28th February - 3rd March",
         "prizes": "Prizes Worth 6.5K",
-        "Register-link":"/register/events/"
+        "register":"/register/events/"
       }
     ],
     "gaming_events": [
@@ -205,7 +205,7 @@
         "desc": "A showcase of glamour and glitz where only the elite make it to the center stage. The viewers need to brace themselves to be mesmerized by the models with their diva skills, as they walk the ramp with elegance and beauty unparalleled. You have one round to bring out your creativity, so make the most of it!",
         "date": " 1st March",
         "prizes": "Prizes Worth 85k",
-        "Register-link":"/register/events/"
+        "register":"/register/events/"
       }
     ],
     "sports": [
@@ -216,7 +216,7 @@
         "desc": "Be part of a thrilling event where the heart won't just pound but dribble. This year, pit your team against the best to compete for victory, pride and glory in one of Incident’s most heated events. Also, there is a skills contest involving long range shooting and emphatic dunks open for all participants. Afterall, what’s a carnival without a contest?",
         "date": "  28th February-3rd March",
         "prizes": "Prizes Worth 75k",
-        "Register-link":"/register/events/"
+        "register":"/register/events/"
       },
       {
         "name": "SpinShock",
@@ -225,7 +225,7 @@
         "desc": "Enrich the festive atmosphere of our carnival with a blend of spin,precision and grace.Come grab this unique opportunity to etch your name in the sands of winning INCIDENT’s first-ever intercollegiate throwball competition.",
         "date": " 1st March",
         "prizes": "Prizes Worth 8k",
-        "Register-link":"/register/events/"
+        "register":"/register/events/"
       }
     ],
     "misc": [
@@ -236,7 +236,7 @@
         "desc": "The biggest annual cultural festival of NIT Karnataka, Surathkal INCIDENT '19, is back again and FRAMES in association with Photography Club NITK, invites all those passionate photographers to participate in its online photography contest.It's a great opportunity to have your photographs exhibited during Expose, the photo exhibition which is a part of Incident' 19. Through this you can also compete with the other college photographers and show the people how creative you are to this world.",
         "date": " ",
         "prizes": "Prizes Worth 20k",
-        "Register-link":"/register/events/"
+        "register":"/register/events/"
       },
       {
         "name": "Kalakriti",
@@ -277,7 +277,7 @@
         "desc": "Get ready to turn your partners into canvas and showcase your expertise by painting them into realistic illustrations based on a spot theme!",
         "date": "1st March",
         "prizes": "Prizes Worth 3k",
-        "Register-link":"/register/events/"
+        "register":"/register/events/"
 
         
       },
@@ -288,7 +288,7 @@
         "desc": "Do you think you have the knack of fashion designing? Then take this challenge of styling your partner by remodeling newspaper into iconic party wear and watch the newspaper clad  mannequins walk the ram.",
         "date": "2nd March",
         "prizes": "Prizes Worth 3k",
-        "Register-link":"/register/events/"
+        "register":"/register/events/"
 
       },
       {
