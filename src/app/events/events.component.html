@@ -33,7 +33,7 @@
             </div>
             <div class="col s12 m8 monserrat">
               <div class="title azuki">{{ item.name }}</div>
-              {{ item.desc }}
+              <div class="ltr" [innerHTML]="item.desc"></div>
               <br />
               <br />
               <a class="mbtn mbtn-white" *ngIf="item.register" href="{{ item.register }}">Register</a>

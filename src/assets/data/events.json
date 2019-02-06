@@ -1,108 +1,241 @@
 {
   "events": {
-    "dance": [
-      {
-        "name": "Event 1",
-        "image": "dance.jpg",
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "register": "/register/"
-      },
-      {
-        "name": "Event 2",
-        "image": "beach.jpg",
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "register": "/register/"
-      }
-    ],
-
-    "music": [
-      {
-        "name": "Event 1",
-        "image": "dance.jpg",
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "register": "/register/"
-      },
-      {
-        "name": "Event 2",
-        "image": "beach.jpg",
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "register": "/register/"
-      }
-    ],
-
-    "haute_couture": [
-      {
-        "name": "Event 1",
-        "image": "dance.jpg",
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "register": "/register/"
-      },
-      {
-        "name": "Event 2",
-        "image": "beach.jpg",
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "register": "/register/"
-      }
-    ],
-
-    "sports": [
-      {
-        "name": "Event 1",
-        "image": "dance.jpg",
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "register": "/register/"
-      },
-      {
-        "name": "Event 2",
-        "image": "beach.jpg",
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "register": "/register/"
-      }
-    ],
-
     "beach": [
       {
-        "name": "Event 1",
-        "image": "dance.jpg",
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "register": "/register/"
-      },
-      {
-        "name": "Event 2",
-        "image": "beach.jpg",
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "register": "/register/"
+        "name": "Beach Informalz",
+        "image": "",
+        "hash": "informalz",
+        "desc": "Not finding any events to your taste? Bored out of your mind? No worries! All you gotta do is take a stroll to 'The Beach'. The Informalz is awaiting you! From mind-blowing games  to silly competitions between your buddies, the Beach Informalz offers a dose of fun and frolic that you cannot refuse! <br><b>Date: </b>  1st - 3rd March",
+        "register": "/register/events/"
       }
     ],
-
+    "music": [
+      {
+        "name": "Unplugged",
+        "image": "",
+        "hash": "Unplugged",
+        "desc": " (Western Acoustic & A cappella Band Competition) A starry night. Gentle winds. A crackling bonfire. Waves on the beach. The strum of a guitar. String new notes and make new music. Mix melodies with your mind. Enthral your senses and expand your horizons. Experience contentment and enlightenment at Unplugged. Be it Western acoustic spectacle or an Acapella wonder, unplug your heart and let the music take over! <br><b>Date: </b> 1st March. <br><b>Prizes: </b> Worth 20K",
+        "register": "/register/events/"
+      },
+      {
+        "name": "Pulse",
+        "image": "",
+        "hash": "Pulse",
+        "desc": "(Semi-Professional Western Rock Band Competition) Have you ever dreamt of selling out Madison Square Garden? Ever wondered how it would feel to witness a full-house crowd chant your name? Team Incident provides just the experience and invites you to rule the stage at Pulse, the Western battle of bands. We promise you a crowd unlike anything you have ever seen and will ever see! What are you waiting for? Register today! <br><b>Date: </b> 2nd March. <br><b>Prizes: </b> Worth 40K",
+        "register": "/register/events/"
+      },
+      {
+        "name": "Dhwanik",
+        "image": "",
+        "hash": "Dhwanik",
+        "desc": "(Eastern Acoustic Band Competition)This Incident allow your soul to marvel at the wonders of the Eastern music. Let the whimsical notes of the flute sweep you off your feet. Let the cheeky twang of sitar snap at the strings of your heart. Let the lively beat of the tabla incite fire in your veins. Let Dhwanik, Incident's Eastern acoustic sensation, leave you craving for more. <br><b>Date: </b> 1st March. <br><b>Prizes: </b> Worth 20K",
+        "register": "/register/events/"
+      },
+      {
+        "name": "Bandish",
+        "image": "",
+        "hash": "Bandish",
+        "desc": "(Semi-Professional Hindustani and Carnatic Rock Band Competition) Thermal and Quarter. Raghu Dixit Project. Thaikkudam Bridge. Let it be remembered in the pages of history that nobody does rock better than our desi boyz! Adorn your heart with the tricolour at Bandish, the Eastern rock phenomenon. Because who says only the Westerners should have all the fun? <br><b>Date: </b> 3rd March. <br><b>Prizes: </b> Worth 40K",
+        "register": "/register/events/"
+      }
+    ],
+    "dance": [
+      {
+        "name": "Tandav",
+        "image": "",
+        "hash": "Tandav",
+        "desc": "(Semi-professional Eastern and Contemporary Group Dance Competition) : Diversity defines India. So get ready to define this with your dancing talent as we present to you the Indian classical  dance competition, Tandav. Come, unite the East, West, North and the South on one stage with that stupendous choreography and blend these Indian dance forms up into a wonderful story for the world to witness. <br><b>Date: </b> 2nd March. <br><b>Prizes: </b> Worth 45k",
+        "register": "/register/events/"
+      },
+      {
+        "name": "Promenade",
+        "image": "",
+        "hash": "Promenade",
+        "desc": "(Semi-professional Western Group Dance Competition) A leisurely stroll would seem so relieving, but what if you get to see your favourite dance moves creating it’s magic outside the dance floor? Presenting to you, the group Street dance competition, Promenade. So does your group have it to turn eyes around and make it an amazing dance Promenade? Join in and find out yourself. <br><b>Date: </b> 1st March. <br><b>Prizes: </b> Worth 45k",
+        "register": "/register/events/"
+      },
+      {
+        "name": "Step Up Duet",
+        "image": "",
+        "hash": "Step Up Duet",
+        "desc": "What’s better than watching a live story, enacted by two people, shaping up with that eye catching choreography? Let the two speak with their moves as Incident presents to you the duet version of Step Up where you step up the level with double the talent.So let the double magic come across! <br><b>Date: </b> 1st March. <br><b>Prizes: </b> Worth 10K",
+        "register": "/register/events/"
+      },
+      {
+        "name": "Step Up Solo",
+        "image": "",
+        "hash": "Step Up solo",
+        "desc": "Step up the volume, step up the beats, step up the electrifying mood, step up those dance moves. Incident gives you a chance to take your talent one step higher with Step Up, the solo dance contest. So are you geared up to step up? Gyrate with your moves and prove it then. <br><b>Date: </b> 1st March. <br><b>Prizes: </b> Worth 7K",
+        "register": "/register/events/"
+      }
+    ],
+    "quiz_events": [
+      {
+        "name": "General Quiz",
+        "image": "",
+        "hash": "General_Quiz",
+        "desc": "A crowd roaring with applause, wondering how you know so much. The quizmaster, wondering if his next question will break your amazing streak of right questions. You, on the other hand confident, that you will sail past this last question and be the champion. As the environment get tense, and the he says, “Team 4, your last question is…”. You know the answer, you know the answer! But you’ve gotta be there to answer. So come and prove your Mettle. Show that your team is the best, be it any topic under the sun! This is the General quiz. <br><b>Date: </b> 1st - 3rd March. <br><b>Prizes: </b> Worth 6.5K",
+        "register": "/register/events/"
+      },
+      {
+        "name": "Asia Quiz - Inci Themed Quiz",
+        "image": "",
+        "hash": "India_Quiz",
+        "desc": "If you are confident with your trivia about Asia, this is your chance.If competition comes naturally to you, if your brain is dying for some activity and if you see thrill in do-or-die situations, we invite you to take part in the ultimate brain storming session. Watch while teams battle it out on the stage as answers fly back and forth with equal aplomb. <br><b>Date: </b> 1st - 3rd March. <br><b>Prizes: </b> Worth 6.5K",
+        "register": "/register/events/"
+      },
+      {
+        "name": "Lone Wolf",
+        "image": "",
+        "hash": "Lone_Wolf",
+        "desc": "Do you know everything from the fun facts about infinity war to the intricacies of global economics? Are you generally shunned among your peers from being a know it all? (OR does information unintentionally come out blurting whenever you open your mouth?) Well here you can actually win prizes for that! So come and embrace the chance to show the ignoramuses that information is the real wealth! <br><b>Date: </b> 1st - 3rd March. <br><b>Prizes: </b> Worth 6K",
+        "register": "/register/events/"
+      },
+      {
+        "name": "Inci Themed Quiz",
+        "image": "",
+        "hash": "Inci_Themed_Quiz",
+        "desc": " <br><b>Date: </b> . <br><b>Prizes: </b> Worth 6.5K",
+        "register": "/register/events/"
+      }
+    ],
+    "biz_events": [
+      {
+        "name": "Mock Stock",
+        "image": "",
+        "hash": "mock_stock",
+        "desc": "Want to experience the excitement of making money on the stock market? Have never known what a share is and have only wondered how everybody buys shares and makes riches? Join the Mock Stock event of Incident ’19. You can play against the smartest of investors and make millions. So this Inci, trade your stocks right away and be a millionaire! <br><b>Date: </b> 28th February - 3rd March. <br><b>Prizes: </b> Worth 6.5K",
+        "register": "/register/events/"
+      },
+      {
+        "name": "Biz Quiz",
+        "image": "",
+        "hash": "Biz_Quiz",
+        "desc": "Do people often claim that you are such a know-all? Well then, prove them right. Inci BizQuiz tries to bring out your  knowledge treasure trove. Compete with the sharpest and fastest minds with a passion for the business world. Do you have the mettle to battle it out at the quiz-essential zone of Incident '19? <br><b>Date: </b> 2nd - 3rd March",
+        "register": "/register/events/"
+      },
+      {
+        "name": "B-Plan",
+        "image": "",
+        "hash": "B-Plan",
+        "desc": " <br><b>Date: </b> 28th February - 3rd March. <br><b>Prizes: </b> Worth 6.5K",
+        "register": "/register/events/"
+      }
+    ],
+    "gaming_events": [
+      {
+        "name": "Need For Speed",
+        "image": "",
+        "hash": "need_for_speed",
+        "desc": "If you can leave two black stripes from the exit of one corner to the braking zone of the next, you have enough horsepower. Speed has never killed anyone, suddenly becoming stationary is what gets you. So keep pressing the pedal, as NFS will make your adrenaline rush this Incident ‘19. <br><b>Date: </b>  1st - 3rd March"
+      },
+      {
+        "name": "PUBG",
+        "image": "",
+        "hash": "pubg",
+        "desc": "Are you a PUBG wala? Then gather around and look out for the enemies ahead as you show off your shooting skills at Incident ‘19. Doesn't matter if you get an insane amount of kills, the last man standing will get the chicken dinner. <br><b>Date: </b> 1st - 3rd March"
+      },
+      {
+        "name": "FIFA",
+        "image": "",
+        "hash": "fifa",
+        "desc": "Dribble, scissor, a quick pull and push, as you send the defenders sprawling across the grass, causing the goalkeeper to break out in panicky sweat, with the frenzied fans bordering on the state of hysterical joy. Welcome to the world of FIFA, you gotta your best foot forward here to be the champion. <br><b>Date: </b> 1st - 3rd March. <br><b>Prizes: </b> Worth 6.5K"
+      },
+      {
+        "name": "Counter Strike Global Offensive",
+        "image": "",
+        "hash": "counter_strike_global_offensive",
+        "desc": "Guns blazing, corpses lying around, ammo running low and it's 3 AM in the morning. Sounds too familiar? Incident '19 presents Counter-Strike, one of the most popular games in colleges! <br><b>Date: </b> 1st - 3rd March"
+      },
+      {
+        "name": "Dota2",
+        "image": "",
+        "hash": "Dota2",
+        "desc": "Incident '19 presents the action-packed multiplayer game, Defence of the Ancients. Get your buddies along with you to NITK and cherish the game that brought you all together! <br><b>Date: </b> 1st - 3rd March"
+      }
+    ],
+    "haute_couture": [
+      {
+        "name": "Haute Couture",
+        "image": "",
+        "hash": "haute",
+        "desc": "A showcase of glamour and glitz where only the elite make it to the center stage. The viewers need to brace themselves to be mesmerized by the models with their diva skills, as they walk the ramp with elegance and beauty unparalleled. You have one round to bring out your creativity, so make the most of it! <br><b>Date: </b>  1st March. <br><b>Prizes: </b> Worth 85k",
+        "register": "/register/events/"
+      }
+    ],
+    "sports": [
+      {
+        "name": "Slam Dunk",
+        "image": "",
+        "hash": "slam",
+        "desc": "Be part of a thrilling event where the heart won't just pound but dribble. This year, pit your team against the best to compete for victory, pride and glory in one of Incident’s most heated events. Also, there is a skills contest involving long range shooting and emphatic dunks open for all participants. Afterall, what’s a carnival without a contest? <br><b>Date: </b>   28th February-3rd March. <br><b>Prizes: </b> Worth 75k",
+        "register": "/register/events/"
+      },
+      {
+        "name": "SpinShock",
+        "image": "",
+        "hash": "shock",
+        "desc": "Enrich the festive atmosphere of our carnival with a blend of spin,precision and grace.Come grab this unique opportunity to etch your name in the sands of winning INCIDENT’s first-ever intercollegiate throwball competition. <br><b>Date: </b>  1st March. <br><b>Prizes: </b> Worth 8k",
+        "register": "/register/events/"
+      }
+    ],
+    "misc": [
+      {
+        "name": "Frames",
+        "image": "",
+        "hash": "frames",
+        "desc": "The biggest annual cultural festival of NIT Karnataka, Surathkal INCIDENT '19, is back again and FRAMES in association with Photography Club NITK, invites all those passionate photographers to participate in its online photography contest.It's a great opportunity to have your photographs exhibited during Expose, the photo exhibition which is a part of Incident' 19. Through this you can also compete with the other college photographers and show the people how creative you are to this world. <br><b>Date: </b> . <br><b>Prizes: </b> Worth 20k",
+        "register": "/register/events/"
+      },
+      {
+        "name": "Kalakriti",
+        "image": "",
+        "hash": "kala",
+        "desc": "Lose yourself to jaw-dropping, eye-popping and magical pieces of art and craft. Art forms ranging from sketches to paintings, origami, kirigami and other craftwork, Kalakriti is home to all. The artist in you is sure to be motivated and inspired by the spectacular creativity packaged into this exhibition! <br><b>Date: </b>  1st - 3rd March"
+      },
+      {
+        "name": "Expose",
+        "image": "",
+        "hash": "expose",
+        "desc": "A picture is Prizes Worth a thousand words, said a great, wise man. Be wired to experience breathtaking images, thought-provoking scenarios and some magnificent editing wonders. Treat your eyes to some iconic photography at Incident 2019’s very own Expose, the world through the lens. <br><b>Date: </b> 1st-3rd March"
+      },
+      {
+        "name": "Hogathon",
+        "image": "",
+        "hash": "hogathon",
+        "desc": "As the name suggests, it is a challenge which is its own reward. The rules to this mouth-watering event are simple, eat fast, eat a lot. Feast on a variety of foodstuffs, each better than the previous one. Only the gastronomically gifted can make it to the end, may the food be with you. <br><b>Date: </b> 3rd March"
+      },
+      {
+        "name": "Kite Festival",
+        "image": "",
+        "hash": "kite",
+        "desc": "Kite flying is a sport that brings out the little child in each one of us and lights up a smile on our face. As the kites fly higher and higher so does our spirit and cheerfulness. This Incident, join us as these colourful creative kites take to the air and paint the sky with joy! Come, fly a kite and travel back to your childhood! <br><b>Date: </b> 3rd March"
+      },
+      {
+        "name": "Body Painting",
+        "image": "",
+        "hash": "body",
+        "desc": "Get ready to turn your partners into canvas and showcase your expertise by painting them into realistic illustrations based on a spot theme! <br><b>Date: </b> 1st March. <br><b>Prizes: </b> Worth 3k",
+        "register": "/register/events/"
+      },
+      {
+        "name": "Newspaper Costume Design",
+        "image": "",
+        "hash": "newspaper",
+        "desc": "Do you think you have the knack of fashion designing? Then take this challenge of styling your partner by remodeling newspaper into iconic party wear and watch the newspaper clad  mannequins walk the ram. <br><b>Date: </b> 2nd March. <br><b>Prizes: </b> Worth 3k",
+        "register": "/register/events/"
+      },
+      {
+        "name": "Speaking triathlon",
+        "image": "",
+        "hash": "speak",
+        "desc": "A Toastmaster Event <br><b>Date: </b> . <br><b>Prizes: </b> Worth 20k"
+      }
+    ],
     "pro_shows": [
-      {
-        "name": "Event 1",
-        "image": "dance.jpg",
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "register": "/register/"
-      },
-      {
-        "name": "Event 2",
-        "image": "beach.jpg",
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "register": "/register/"
-      }
-    ],
 
+    ],
     "inci_talks": [
-      {
-        "name": "Event 1",
-        "image": "dance.jpg",
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "register": "/register/"
-      },
-      {
-        "name": "Event 2",
-        "image": "beach.jpg",
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "register": "/register/"
-      }
     ]
   },
   "categories": [
@@ -132,9 +265,30 @@
       "hash": "beach"
     },
     {
+      "name": "Quiz Events",
+      "image": "",
+      "hash": "quiz_events"
+    },
+    {
+      "name": "Biz Events",
+      "image": "",
+      "hash": "biz_events"
+    },
+    {
+      "name": "Gaming Events",
+      "image": "",
+      "hash": "gaming_events"
+    },
+    {
+      "name": "Miscellaneous Events",
+      "image": "",
+      "hash": "misc"
+    },
+    {
       "name": "Pro Shows",
       "image": "pro-shows.jpg",
-      "hash": "pro_shows"
+      "hash": "pro_shows",
+      "page_desc": "<h3 class=\"azuki\">Coming Soon...</h3>"
     },
     {
       "name": "Inci Talks",

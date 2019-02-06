@@ -91,6 +91,10 @@
     font-size: 1.8em;
 }
 
+.events-listing .ltr {
+    direction: ltr;
+}
+
 @media only screen and (max-width: 1400px) {
 
 .back-link {
