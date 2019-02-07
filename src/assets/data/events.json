@@ -14,29 +14,38 @@
         "name": "Unplugged",
         "image": "",
         "hash": "Unplugged",
-        "desc": " (Western Acoustic & A cappella Band Competition) A starry night. Gentle winds. A crackling bonfire. Waves on the beach. The strum of a guitar. String new notes and make new music. Mix melodies with your mind. Enthral your senses and expand your horizons. Experience contentment and enlightenment at Unplugged. Be it Western acoustic spectacle or an Acapella wonder, unplug your heart and let the music take over! <br><b>Date: </b> 1st March. <br><b>Prizes: </b> Worth 20K",
-        "register": "/register/events/"
+        "desc": " (Western Acoustic & A-cappella Band Competition)<br>A starry night. Gentle winds. A crackling bonfire. Waves on the beach. The strum of a guitar. String new notes and make new music. Mix melodies with your mind. Enthral your senses and expand your horizons. Experience contentment and enlightenment at Unplugged. Be it Western acoustic spectacle or an Acapella wonder, unplug your heart and let the music take over! <br><b>Date: </b> 1st March. <br><b>Prizes: </b> Worth 20K",
+        "register": "/register/events/",
+        "contact" : "Spoorthi:  9071250165",
+        "rules": "https://drive.google.com/open?id=1lbiIfTxuCQaXAKJzV3XuTodgUgzVH6Owe0zYLKfY4kQ"
       },
       {
         "name": "Pulse",
         "image": "",
         "hash": "Pulse",
-        "desc": "(Semi-Professional Western Rock Band Competition) Have you ever dreamt of selling out Madison Square Garden? Ever wondered how it would feel to witness a full-house crowd chant your name? Team Incident provides just the experience and invites you to rule the stage at Pulse, the Western battle of bands. We promise you a crowd unlike anything you have ever seen and will ever see! What are you waiting for? Register today! <br><b>Date: </b> 2nd March. <br><b>Prizes: </b> Worth 40K",
-        "register": "/register/events/"
+        "desc": "(Semi-Professional Western Rock Band Competition) <br>Have you ever dreamt of selling out Madison Square Garden? Ever wondered how it would feel to witness a full-house crowd chant your name? Team Incident provides just the experience and invites you to rule the stage at Pulse, the Western battle of bands. We promise you a crowd unlike anything you have ever seen and will ever see! What are you waiting for? Register today! <br><b>Date: </b> 2nd March. <br><b>Prizes: </b> Worth 40K",
+        "register": "/register/events/",
+        "contact": "Sofia: 8095908965",
+        "rules": "https://drive.google.com/open?id=11-C8CSt7c2QMhph5K_J0nXpyhMvG9e-gCY5f2BRxSRE"
       },
       {
         "name": "Dhwanik",
         "image": "",
         "hash": "Dhwanik",
-        "desc": "(Eastern Acoustic Band Competition)This Incident allow your soul to marvel at the wonders of the Eastern music. Let the whimsical notes of the flute sweep you off your feet. Let the cheeky twang of sitar snap at the strings of your heart. Let the lively beat of the tabla incite fire in your veins. Let Dhwanik, Incident's Eastern acoustic sensation, leave you craving for more. <br><b>Date: </b> 1st March. <br><b>Prizes: </b> Worth 20K",
-        "register": "/register/events/"
+        "desc": "(Eastern Acoustic Band Competition)<br>This Incident allow your soul to marvel at the wonders of the Eastern music. Let the whimsical notes of the flute sweep you off your feet. Let the cheeky twang of a sitar snap at the strings of your heart. Let the lively beat of the tabla incite fire in your veins. Let Dhwanik, Incident's Eastern acoustic sensation, leave you craving for more. <br><b>Date: </b> 1st March. <br><b>Prizes: </b> Worth 20K",
+        "register": "/register/events/",
+        "contact": "Anthea: 9611947705",
+        "rules": "https://drive.google.com/open?id=1UHa94JT6luJfs8ClWXdU9tqftWlxIqJ2ZXGYBbQagew"
       },
       {
         "name": "Bandish",
         "image": "",
         "hash": "Bandish",
-        "desc": "(Semi-Professional Hindustani and Carnatic Rock Band Competition) Thermal and Quarter. Raghu Dixit Project. Thaikkudam Bridge. Let it be remembered in the pages of history that nobody does rock better than our desi boyz! Adorn your heart with the tricolour at Bandish, the Eastern rock phenomenon. Because who says only the Westerners should have all the fun? <br><b>Date: </b> 3rd March. <br><b>Prizes: </b> Worth 40K",
-        "register": "/register/events/"
+        "desc": "(Semi-Professional Hindustani and Carnatic Rock Band Competition)<br> Thermal and Quarter. Raghu Dixit Project. Thaikkudam Bridge. Let it be remembered in the pages of history that nobody does rock better than our desi boyz! Adorn your heart with the tricolour at Bandish, the Eastern rock phenomenon. Because who says only the Westerners should have all the fun? <br><b>Date: </b> 3rd March. <br><b>Prizes: </b> Worth 40K",
+        "register": "/register/events/",
+        "contact": "Navnika: 9880581172",
+        "rules": "https://drive.google.com/open?id=1_AxOkfL941k1g0q_uPU_foKN8Sc2Y_howJ-Ya8seufw"
+        
       }
     ],
     "dance": [
@@ -44,29 +53,37 @@
         "name": "Tandav",
         "image": "",
         "hash": "Tandav",
-        "desc": "(Semi-professional Eastern and Contemporary Group Dance Competition) : Diversity defines India. So get ready to define this with your dancing talent as we present to you the Indian classical  dance competition, Tandav. Come, unite the East, West, North and the South on one stage with that stupendous choreography and blend these Indian dance forms up into a wonderful story for the world to witness. <br><b>Date: </b> 2nd March. <br><b>Prizes: </b> Worth 45k",
-        "register": "/register/events/"
+        "desc": "(Semi-professional Eastern and Contemporary Group Dance Competition) : Diversity defines India. So get ready to define it with your dancing talent as we present to you the Indian classical  dance competition, Tandav. Come, unite the East, West, North and the South on one stage with stupendous choreography and blend these Indian dance forms up into a wonderful story for the world to witness. <br><b>Date: </b> 2nd March. <br><b>Prizes: </b> Worth 45k",
+        "register": "/register/events/",
+        "rules": "https://docs.google.com/document/d/1XKLoBYa7_kwDDdA-_HJow_LeNnzb6VHBTynQZCxgQWI/edit?usp=sharing",
+        "contact": "Chandan Mishra: 7892547029, Swathi Bhat: 8884597651"
       },
       {
         "name": "Promenade",
         "image": "",
         "hash": "Promenade",
         "desc": "(Semi-professional Western Group Dance Competition) A leisurely stroll would seem so relieving, but what if you get to see your favourite dance moves creating it’s magic outside the dance floor? Presenting to you, the group Street dance competition, Promenade. So does your group have it to turn eyes around and make it an amazing dance Promenade? Join in and find out yourself. <br><b>Date: </b> 1st March. <br><b>Prizes: </b> Worth 45k",
-        "register": "/register/events/"
+        "register": "/register/events/",
+        "rules": "https://docs.google.com/document/d/1XKLoBYa7_kwDDdA-_HJow_LeNnzb6VHBTynQZCxgQWI/edit?usp=sharing",
+        "contact": "Vaibhav Rai: 8073368756"
       },
       {
         "name": "Step Up Duet",
         "image": "",
         "hash": "Step Up Duet",
         "desc": "What’s better than watching a live story, enacted by two people, shaping up with that eye catching choreography? Let the two speak with their moves as Incident presents to you the duet version of Step Up where you step up the level with double the talent.So let the double magic come across! <br><b>Date: </b> 1st March. <br><b>Prizes: </b> Worth 10K",
-        "register": "/register/events/"
+        "register": "/register/events/",
+        "rules": "https://docs.google.com/document/d/1XKLoBYa7_kwDDdA-_HJow_LeNnzb6VHBTynQZCxgQWI/edit?usp=sharing",
+        "contact": "Shashank S: 7795980173"
       },
       {
         "name": "Step Up Solo",
         "image": "",
         "hash": "Step Up solo",
         "desc": "Step up the volume, step up the beats, step up the electrifying mood, step up those dance moves. Incident gives you a chance to take your talent one step higher with Step Up, the solo dance contest. So are you geared up to step up? Gyrate with your moves and prove it then. <br><b>Date: </b> 1st March. <br><b>Prizes: </b> Worth 7K",
-        "register": "/register/events/"
+        "register": "/register/events/",
+        "rules": "https://docs.google.com/document/d/1XKLoBYa7_kwDDdA-_HJow_LeNnzb6VHBTynQZCxgQWI/edit?usp=sharing",
+        "contact": "Gautham Sambath: 9946928155"
       }
     ],
     "quiz_events": [
@@ -74,29 +91,33 @@
         "name": "General Quiz",
         "image": "",
         "hash": "General_Quiz",
-        "desc": "A crowd roaring with applause, wondering how you know so much. The quizmaster, wondering if his next question will break your amazing streak of right questions. You, on the other hand confident, that you will sail past this last question and be the champion. As the environment get tense, and the he says, “Team 4, your last question is…”. You know the answer, you know the answer! But you’ve gotta be there to answer. So come and prove your Mettle. Show that your team is the best, be it any topic under the sun! This is the General quiz. <br><b>Date: </b> 1st - 3rd March. <br><b>Prizes: </b> Worth 6.5K",
-        "register": "/register/events/"
+        "desc": "A crowd roaring with applause, wondering how you know so much. The quizmaster, wondering if his next question will break your amazing streak of right questions. You, on the other hand confident, that you will sail past this last question and be the champion. As the environment get tense, and the he says, “Team 4, your last question is…”. You know the answer, you know the answer! But you’ve gotta be there to answer. So come and prove your Mettle. Show that your team is the best, be it any topic under the sun! This is the General quiz. <br><b>Teams of three.</b><br><b>Date: </b> 1st - 3rd March. <br><b>Prizes: </b> Worth 6.5K",
+        "register": "/register/events/",
+        "contact": "Dhruv: +919880547421"
       },
       {
         "name": "Asia Quiz - Inci Themed Quiz",
         "image": "",
         "hash": "India_Quiz",
-        "desc": "If you are confident with your trivia about Asia, this is your chance.If competition comes naturally to you, if your brain is dying for some activity and if you see thrill in do-or-die situations, we invite you to take part in the ultimate brain storming session. Watch while teams battle it out on the stage as answers fly back and forth with equal aplomb. <br><b>Date: </b> 1st - 3rd March. <br><b>Prizes: </b> Worth 6.5K",
-        "register": "/register/events/"
+        "desc": "If you are confident with your trivia about Asia, this is your chance.If competition comes naturally to you, if your brain is dying for some activity and if you see thrill in do-or-die situations, we invite you to take part in the ultimate brain storming session. Watch while teams battle it out on the stage as answers fly back and forth with equal aplomb. <br><b>Teams of three.</b><br><b>Date: </b> 1st - 3rd March. <br><b>Prizes: </b> Worth 6.5K",
+        "register": "/register/events/",
+        "contact": "Dhruv: +919880547421"
+      },
+      {
+        "name": "MELAS Wolf",
+        "image": "",
+        "hash": "Melas_Quiz",
+        "desc": " <br><b>Date: </b> 1st - 3rd March. <br><b>Prizes: </b> Worth 6.5K",
+        "register": "/register/events/",
+        "contact": "Dhruv: +919880547421"
       },
       {
         "name": "Lone Wolf",
         "image": "",
         "hash": "Lone_Wolf",
-        "desc": "Do you know everything from the fun facts about infinity war to the intricacies of global economics? Are you generally shunned among your peers from being a know it all? (OR does information unintentionally come out blurting whenever you open your mouth?) Well here you can actually win prizes for that! So come and embrace the chance to show the ignoramuses that information is the real wealth! <br><b>Date: </b> 1st - 3rd March. <br><b>Prizes: </b> Worth 6K",
-        "register": "/register/events/"
-      },
-      {
-        "name": "Inci Themed Quiz",
-        "image": "",
-        "hash": "Inci_Themed_Quiz",
-        "desc": " <br><b>Date: </b> . <br><b>Prizes: </b> Worth 6.5K",
-        "register": "/register/events/"
+        "desc": "Do you know everything from the fun facts about Infinity War to the intricacies of global economics? Are you generally shunned among your peers from being a know it all? (OR does information unintentionally come out blurting whenever you open your mouth?) Well here you can actually win prizes for that! So come and embrace the chance to show the ignoramuses that information is the real wealth! <br><b>Date: </b> 1st - 3rd March. <br><b>Prizes: </b> Worth 6K",
+        "register": "/register/events/",
+        "contact": "Dhruv: +919880547421"
       }
     ],
     "biz_events": [
@@ -111,14 +132,14 @@
         "name": "Biz Quiz",
         "image": "",
         "hash": "Biz_Quiz",
-        "desc": "Do people often claim that you are such a know-all? Well then, prove them right. Inci BizQuiz tries to bring out your  knowledge treasure trove. Compete with the sharpest and fastest minds with a passion for the business world. Do you have the mettle to battle it out at the quiz-essential zone of Incident '19? <br><b>Date: </b> 2nd - 3rd March",
+        "desc": "Do people often claim that you are such a know-all? Well then, prove them right. Inci Biz Quiz tries to bring out your  knowledge treasure trove. Compete with the sharpest and fastest minds with a passion for the business world. Do you have the mettle to battle it out at the quiz-essential zone of Incident '19? <br><b>Date: </b> 2nd - 3rd March",
         "register": "/register/events/"
       },
       {
         "name": "B-Plan",
         "image": "",
         "hash": "B-Plan",
-        "desc": " <br><b>Date: </b> 28th February - 3rd March. <br><b>Prizes: </b> Worth 6.5K",
+        "desc": "Do you have an urge to develop business models to meet people's need? The first step to run a great business is to have an idea that has a great business plan in place. Inci B-Plan gives you a platform to exhibit your entrepreneurial skills. Gear up to compete with the best minds. <br><b>Date: </b> 28th February - 3rd March. <br><b>Prizes: </b> Worth 6.5K",
         "register": "/register/events/"
       }
     ],
@@ -127,30 +148,35 @@
         "name": "Need For Speed",
         "image": "",
         "hash": "need_for_speed",
+        "contact": "Harshith Kumar: +91 7760575030",
         "desc": "If you can leave two black stripes from the exit of one corner to the braking zone of the next, you have enough horsepower. Speed has never killed anyone, suddenly becoming stationary is what gets you. So keep pressing the pedal, as NFS will make your adrenaline rush this Incident ‘19. <br><b>Date: </b>  1st - 3rd March"
       },
       {
         "name": "PUBG",
         "image": "",
         "hash": "pubg",
+        "contact": "Harshith Kumar: +91 7760575030",
         "desc": "Are you a PUBG wala? Then gather around and look out for the enemies ahead as you show off your shooting skills at Incident ‘19. Doesn't matter if you get an insane amount of kills, the last man standing will get the chicken dinner. <br><b>Date: </b> 1st - 3rd March"
       },
       {
         "name": "FIFA",
         "image": "",
         "hash": "fifa",
+        "contact": "Harshith Kumar: +91 7760575030",
         "desc": "Dribble, scissor, a quick pull and push, as you send the defenders sprawling across the grass, causing the goalkeeper to break out in panicky sweat, with the frenzied fans bordering on the state of hysterical joy. Welcome to the world of FIFA, you gotta your best foot forward here to be the champion. <br><b>Date: </b> 1st - 3rd March. <br><b>Prizes: </b> Worth 6.5K"
       },
       {
         "name": "Counter Strike Global Offensive",
         "image": "",
         "hash": "counter_strike_global_offensive",
+        "contact": "Harshith Kumar: +91 7760575030",
         "desc": "Guns blazing, corpses lying around, ammo running low and it's 3 AM in the morning. Sounds too familiar? Incident '19 presents Counter-Strike, one of the most popular games in colleges! <br><b>Date: </b> 1st - 3rd March"
       },
       {
         "name": "Dota2",
         "image": "",
         "hash": "Dota2",
+        "contact": "Harshith Kumar: +91 7760575030",
         "desc": "Incident '19 presents the action-packed multiplayer game, Defence of the Ancients. Get your buddies along with you to NITK and cherish the game that brought you all together! <br><b>Date: </b> 1st - 3rd March"
       }
     ],
@@ -160,7 +186,9 @@
         "image": "",
         "hash": "haute",
         "desc": "A showcase of glamour and glitz where only the elite make it to the center stage. The viewers need to brace themselves to be mesmerized by the models with their diva skills, as they walk the ramp with elegance and beauty unparalleled. You have one round to bring out your creativity, so make the most of it! <br><b>Date: </b>  1st March. <br><b>Prizes: </b> Worth 85k",
-        "register": "/register/events/"
+        "register": "/register/events/",
+        "rules": "https://drive.google.com/open?id=1xA5rz3ran_c8DKswWigxCPPiOXIEIgbY",
+        "contact": "Sadeeh Hassan: 08660234640"
       }
     ],
     "sports": [
@@ -169,14 +197,17 @@
         "image": "",
         "hash": "slam",
         "desc": "Be part of a thrilling event where the heart won't just pound but dribble. This year, pit your team against the best to compete for victory, pride and glory in one of Incident’s most heated events. Also, there is a skills contest involving long range shooting and emphatic dunks open for all participants. Afterall, what’s a carnival without a contest? <br><b>Date: </b>   28th February-3rd March. <br><b>Prizes: </b> Worth 75k",
-        "register": "/register/events/"
+        "register": "/register/events/",
+        "rules": "https://docs.google.com/document/d/1VXO4E-bgqQbRxDxOWHwn5bpuVcsYClPn7uK7506yqio/edit?usp=drivesdk",
+        "contact": "Suraj Hegde: +91 9916329285"
       },
       {
         "name": "SpinShock",
         "image": "",
         "hash": "shock",
         "desc": "Enrich the festive atmosphere of our carnival with a blend of spin,precision and grace.Come grab this unique opportunity to etch your name in the sands of winning INCIDENT’s first-ever intercollegiate throwball competition. <br><b>Date: </b>  1st March. <br><b>Prizes: </b> Worth 8k",
-        "register": "/register/events/"
+        "register": "/register/events/",
+        "contact": "Deeksha: +91 9483478462"
       }
     ],
     "misc": [
@@ -185,7 +216,9 @@
         "image": "",
         "hash": "frames",
         "desc": "The biggest annual cultural festival of NIT Karnataka, Surathkal INCIDENT '19, is back again and FRAMES in association with Photography Club NITK, invites all those passionate photographers to participate in its online photography contest.It's a great opportunity to have your photographs exhibited during Expose, the photo exhibition which is a part of Incident' 19. Through this you can also compete with the other college photographers and show the people how creative you are to this world. <br><b>Date: </b> . <br><b>Prizes: </b> Worth 20k",
-        "register": "/register/events/"
+        "register": "/register/events/",
+        "rules": "https://drive.google.com/file/d/1WxMI673dHIcSzQHeqYI_fAJVJmsoIqHN/view",
+        "contact": "Sandeep: +917204855840"
       },
       {
         "name": "Kalakriti",
@@ -203,6 +236,7 @@
         "name": "Hogathon",
         "image": "",
         "hash": "hogathon",
+        "contact": "Shashibhushan: +91 9538806063",
         "desc": "As the name suggests, it is a challenge which is its own reward. The rules to this mouth-watering event are simple, eat fast, eat a lot. Feast on a variety of foodstuffs, each better than the previous one. Only the gastronomically gifted can make it to the end, may the food be with you. <br><b>Date: </b> 3rd March"
       },
       {
@@ -216,20 +250,23 @@
         "image": "",
         "hash": "body",
         "desc": "Get ready to turn your partners into canvas and showcase your expertise by painting them into realistic illustrations based on a spot theme! <br><b>Date: </b> 1st March. <br><b>Prizes: </b> Worth 3k",
-        "register": "/register/events/"
+        "register": "/register/events/",
+         "contact": "Trisha: +91 8050007655"
       },
       {
         "name": "Newspaper Costume Design",
         "image": "",
         "hash": "newspaper",
         "desc": "Do you think you have the knack of fashion designing? Then take this challenge of styling your partner by remodeling newspaper into iconic party wear and watch the newspaper clad  mannequins walk the ram. <br><b>Date: </b> 2nd March. <br><b>Prizes: </b> Worth 3k",
-        "register": "/register/events/"
+        "register": "/register/events/",
+        "contact": "Trisha: +91 8050007655"
       },
       {
         "name": "Speaking triathlon",
         "image": "",
         "hash": "speak",
-        "desc": "A Toastmaster Event <br><b>Date: </b> . <br><b>Prizes: </b> Worth 20k"
+        "contact": "Agnes: +91 96113 44476",
+        "desc": "A good orator is not only one who can stand in front of the crowd and say a few words, but one who can understand the impact his every utterance has. Come join the Speech Triathlon this Incident to put yourself through the three tests of time, Commentary, Declamation and Policy, to decide once and for all who will be the master of the stage in the Western Coast.  <br><b>Date: </b> . <br><b>Prizes: </b> Worth 4k"
       }
     ],
     "pro_shows": [
@@ -294,7 +331,7 @@
       "name": "Inci Talks",
       "image": "talks.jpg",
       "hash": "inci_talks",
-      "page_desc": "We believe passionately in the power of ideas to change attitudes, lives of the student community. The goal of this event is to bring together the greatest achievers and eminent personalities such as yourself to plant the seed of an idea in the minds of this generation to create a positive change in the society. Jayaprakash Narayan (Loksatta Party Founder), Balaji Viswanathan (Highest followed person on Quora),Ricky Ken(Grammy award winning music composer),Dr Ullas Karanth(Renowned Environmentalist and Tiger expert),Ramaswami Balasubramaniam (Chairman of Grassroots Research And Advocacy Movement (GRAAM)) have adorned the stage of Inci-Talks in the previous editions.<h3 class=\"azuki\"> Previous Speakers</h3>"
+      "page_desc": "We believe passionately in the power of ideas to change attitudes, lives of the student community. The goal of this event is to bring together the greatest achievers and eminent personalities such as yourself to plant the seed of an idea in the minds of this generation to create a positive change in the society. <h3 class=\"azuki\"> Previous Speakers</h3>Jayaprakash Narayan (Loksatta Party Founder), Balaji Viswanathan (Highest followed person on Quora),Ricky Ken(Grammy award winning music composer),Dr Ullas Karanth(Renowned Environmentalist and Tiger expert),Ramaswami Balasubramaniam (Chairman of Grassroots Research And Advocacy Movement (GRAAM)) have adorned the stage of Inci-Talks in the previous editions."
     }
   ]
 }
