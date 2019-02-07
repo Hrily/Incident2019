@@ -30,6 +30,7 @@ export const routerTransition = trigger('routerTransition', [
                 EventsPage => iCarePage,
                 iCarePage => SponsorsPage,
                 SponsorsPage => AboutPage,
+                SponsorsPage => ContactUsPage,
                 AboutPage => ContactUsPage`, [
         /* order */
         /* 1 */ query(':enter, :leave',
