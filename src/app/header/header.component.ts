@@ -49,13 +49,21 @@ export class HeaderComponent implements OnInit {
           const logo = $('.home .landing .logo');
           $('.header .header-logo .text').hide('fast');
           $('.header').css({ position: 'absolute' });
-          $('.header .header-logo .logo').css({
-            height: logo.height(),
-            top: logo.offset().top,
-            left: '50%',
-            transform: 'translateX(-50%)',
-            padding: 0
-          });
+          // This is a hack. Initially the logo has a nagative
+          // top, we wait for it to become positive. Just like I'm
+          // waiting for my life to become positive.
+          let logoIntervel = setInterval( () => {
+            if (logo.offset().top < 0)
+              return;
+            $('.header .header-logo .logo').css({
+              height: logo.height(),
+              top: logo.offset().top,
+              left: '50%',
+              transform: 'translateX(-50%)',
+              padding: 0
+            });
+            clearInterval(logoIntervel);
+          }, 4);
         } else {
           $('.header').attr('style', '');
           $('.header .header-logo .text').show('fast');
