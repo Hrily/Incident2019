@@ -3,7 +3,7 @@
     "beach": [
       {
         "name": "Beach Informalz",
-        "image": "",
+        "image": "beach-informalz.jpg",
         "hash": "informalz",
         "desc": "Not finding any events to your taste? Bored out of your mind? No worries! All you gotta do is take a stroll to 'The Beach'. The Informalz is awaiting you! From mind-blowing games  to silly competitions between your buddies, the Beach Informalz offers a dose of fun and frolic that you cannot refuse! <br><b>Date: </b>  1st - 3rd March",
         "register": "/register/events/"
@@ -89,7 +89,6 @@
     "quiz_events": [
       {
         "name": "General Quiz",
-        "image": "",
         "hash": "General_Quiz",
         "desc": "A crowd roaring with applause, wondering how you know so much. The quizmaster, wondering if his next question will break your amazing streak of right questions. You, on the other hand confident, that you will sail past this last question and be the champion. As the environment get tense, and the he says, “Team 4, your last question is…”. You know the answer, you know the answer! But you’ve gotta be there to answer. So come and prove your Mettle. Show that your team is the best, be it any topic under the sun! This is the General quiz. <br><b>Teams of three.</b><br><b>Date: </b> 1st - 3rd March. <br><b>Prizes: </b> Worth 6.5K",
         "register": "/register/events/",
@@ -97,7 +96,6 @@
       },
       {
         "name": "Asia Quiz - Inci Themed Quiz",
-        "image": "",
         "hash": "India_Quiz",
         "desc": "If you are confident with your trivia about Asia, this is your chance.If competition comes naturally to you, if your brain is dying for some activity and if you see thrill in do-or-die situations, we invite you to take part in the ultimate brain storming session. Watch while teams battle it out on the stage as answers fly back and forth with equal aplomb. <br><b>Teams of three.</b><br><b>Date: </b> 1st - 3rd March. <br><b>Prizes: </b> Worth 6.5K",
         "register": "/register/events/",
@@ -105,7 +103,6 @@
       },
       {
         "name": "MELAS Quiz",
-        "image": "",
         "hash": "Melas_Quiz",
         "desc": " <br><b>Date: </b> 1st - 3rd March. <br><b>Prizes: </b> Worth 6.5K",
         "register": "/register/events/",
@@ -113,7 +110,6 @@
       },
       {
         "name": "Lone Wolf",
-        "image": "",
         "hash": "Lone_Wolf",
         "desc": "Do you know everything from the fun facts about Infinity War to the intricacies of global economics? Are you generally shunned among your peers from being a know it all? (OR does information unintentionally come out blurting whenever you open your mouth?) Well here you can actually win prizes for that! So come and embrace the chance to show the ignoramuses that information is the real wealth! <br><b>Date: </b> 1st - 3rd March. <br><b>Prizes: </b> Worth 6K",
         "register": "/register/events/",
@@ -123,21 +119,18 @@
     "biz_events": [
       {
         "name": "Mock Stock",
-        "image": "",
         "hash": "mock_stock",
         "desc": "Want to experience the excitement of making money on the stock market? Have never known what a share is and have only wondered how everybody buys shares and makes riches? Join the Mock Stock event of Incident ’19. You can play against the smartest of investors and make millions. So this Inci, trade your stocks right away and be a millionaire! <br><b>Date: </b> 28th February - 3rd March. <br><b>Prizes: </b> Worth 6.5K",
         "register": "/register/events/"
       },
       {
         "name": "Biz Quiz",
-        "image": "",
         "hash": "Biz_Quiz",
         "desc": "Do people often claim that you are such a know-all? Well then, prove them right. Inci Biz Quiz tries to bring out your  knowledge treasure trove. Compete with the sharpest and fastest minds with a passion for the business world. Do you have the mettle to battle it out at the quiz-essential zone of Incident '19? <br><b>Date: </b> 2nd - 3rd March",
         "register": "/register/events/"
       },
       {
         "name": "B-Plan",
-        "image": "",
         "hash": "B-Plan",
         "desc": "Do you have an urge to develop business models to meet people's need? The first step to run a great business is to have an idea that has a great business plan in place. Inci B-Plan gives you a platform to exhibit your entrepreneurial skills. Gear up to compete with the best minds. <br><b>Date: </b> 28th February - 3rd March. <br><b>Prizes: </b> Worth 6.5K",
         "register": "/register/events/"
@@ -146,35 +139,35 @@
     "gaming_events": [
       {
         "name": "Need For Speed",
-        "image": "",
+        "image": "nfs.jpg",
         "hash": "need_for_speed",
         "contact": "Harshith Kumar: +91 7760575030",
         "desc": "If you can leave two black stripes from the exit of one corner to the braking zone of the next, you have enough horsepower. Speed has never killed anyone, suddenly becoming stationary is what gets you. So keep pressing the pedal, as NFS will make your adrenaline rush this Incident ‘19. <br><b>Date: </b>  1st - 3rd March"
       },
       {
         "name": "PUBG",
-        "image": "",
+        "image": "pubg.jpg",
         "hash": "pubg",
         "contact": "Harshith Kumar: +91 7760575030",
         "desc": "Are you a PUBG wala? Then gather around and look out for the enemies ahead as you show off your shooting skills at Incident ‘19. Doesn't matter if you get an insane amount of kills, the last man standing will get the chicken dinner. <br><b>Date: </b> 1st - 3rd March"
       },
       {
         "name": "FIFA",
-        "image": "",
+        "image": "fifa.jpg",
         "hash": "fifa",
         "contact": "Harshith Kumar: +91 7760575030",
         "desc": "Dribble, scissor, a quick pull and push, as you send the defenders sprawling across the grass, causing the goalkeeper to break out in panicky sweat, with the frenzied fans bordering on the state of hysterical joy. Welcome to the world of FIFA, you gotta your best foot forward here to be the champion. <br><b>Date: </b> 1st - 3rd March. <br><b>Prizes: </b> Worth 6.5K"
       },
       {
         "name": "Counter Strike Global Offensive",
-        "image": "",
+        "image": "csgo.jpg",
         "hash": "counter_strike_global_offensive",
         "contact": "Harshith Kumar: +91 7760575030",
         "desc": "Guns blazing, corpses lying around, ammo running low and it's 3 AM in the morning. Sounds too familiar? Incident '19 presents Counter-Strike, one of the most popular games in colleges! <br><b>Date: </b> 1st - 3rd March"
       },
       {
         "name": "Dota2",
-        "image": "",
+        "image": "dota.jpg",
         "hash": "Dota2",
         "contact": "Harshith Kumar: +91 7760575030",
         "desc": "Incident '19 presents the action-packed multiplayer game, Defence of the Ancients. Get your buddies along with you to NITK and cherish the game that brought you all together! <br><b>Date: </b> 1st - 3rd March"
@@ -213,7 +206,7 @@
     "misc": [
       {
         "name": "Frames",
-        "image": "",
+        "image": "frames.jpg",
         "hash": "frames",
         "desc": "The biggest annual cultural festival of NIT Karnataka, Surathkal INCIDENT '19, is back again and FRAMES in association with Photography Club NITK, invites all those passionate photographers to participate in its online photography contest.It's a great opportunity to have your photographs exhibited during Expose, the photo exhibition which is a part of Incident' 19. Through this you can also compete with the other college photographers and show the people how creative you are to this world. <br><b>Date: </b> . <br><b>Prizes: </b> Worth 20k",
         "register": "/register/events/",
@@ -222,13 +215,13 @@
       },
       {
         "name": "Kalakriti",
-        "image": "",
+        "image": "kalakriti.jpg",
         "hash": "kala",
         "desc": "Lose yourself to jaw-dropping, eye-popping and magical pieces of art and craft. Art forms ranging from sketches to paintings, origami, kirigami and other craftwork, Kalakriti is home to all. The artist in you is sure to be motivated and inspired by the spectacular creativity packaged into this exhibition! <br><b>Date: </b>  1st - 3rd March"
       },
       {
         "name": "Expose",
-        "image": "",
+        "image": "expose.jpg",
         "hash": "expose",
         "desc": "A picture is Prizes Worth a thousand words, said a great, wise man. Be wired to experience breathtaking images, thought-provoking scenarios and some magnificent editing wonders. Treat your eyes to some iconic photography at Incident 2019’s very own Expose, the world through the lens. <br><b>Date: </b> 1st-3rd March"
       },
@@ -255,7 +248,7 @@
       },
       {
         "name": "Newspaper Costume Design",
-        "image": "",
+        "image": "newspaper-costume-design.jpg",
         "hash": "newspaper",
         "desc": "Do you think you have the knack of fashion designing? Then take this challenge of styling your partner by remodeling newspaper into iconic party wear and watch the newspaper clad  mannequins walk the ram. <br><b>Date: </b> 2nd March. <br><b>Prizes: </b> Worth 3k",
         "register": "/register/events/",
@@ -303,22 +296,22 @@
     },
     {
       "name": "Quiz Events",
-      "image": "",
+      "image": "quiz.jpg",
       "hash": "quiz_events"
     },
     {
       "name": "Biz Events",
-      "image": "",
+      "image": "biz.jpg",
       "hash": "biz_events"
     },
     {
       "name": "Gaming Events",
-      "image": "",
+      "image": "gaming.jpg",
       "hash": "gaming_events"
     },
     {
       "name": "Miscellaneous Events",
-      "image": "",
+      "image": "misc.jpg",
       "hash": "misc"
     },
     {

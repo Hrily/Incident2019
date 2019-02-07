@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './header/header.component';
 import { LandingComponent } from './landing/landing.component';
-import { TestimonialsComponent } from './testimonials/testimonials.component';
+// import { TestimonialsComponent } from './testimonials/testimonials.component';
 import { EventsComponent } from './events/events.component';
 import { AboutComponent } from './about/about.component';
 import { IcareComponent } from './icare/icare.component';
@@ -95,7 +95,7 @@ const appRoutes: Routes = [
     HomeComponent,
     HeaderComponent,
     LandingComponent,
-    TestimonialsComponent,
+    // TestimonialsComponent,
     EventsComponent,
     AboutComponent,
     IcareComponent,

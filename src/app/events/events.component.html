@@ -28,10 +28,10 @@
           <div *ngIf="getCategoryFromHash(key).page_desc" class="events-page-desc monserrat" [innerHTML]="getCategoryFromHash(key).page_desc">
           </div>
           <div class="row" *ngFor="let item of events[key]">
-            <div class="col s12 m4">
+            <div *ngIf="item.image" class="col s12 m4">
               <img src="/assets/images/events/{{ item.image }}"/>
             </div>
-            <div class="col s12 m8 monserrat">
+            <div class="col s12 monserrat" [class.m8]="item.image">
               <div class="title azuki">{{ item.name }}</div>
               <div class="ltr" [innerHTML]="item.desc"></div>
               <div class="ltr" *ngIf="item.contact" [innerHTML]="'<b>Contact: </b>' + item.contact"></div>

@@ -28,7 +28,6 @@ function getCategoryNameFromHash(hash) {
 
 function handleHashChange() {
   const hash = location.hash.replace('#', '');
-  console.log(window.scrollY);
   $('.events-listing').css('opacity', '0');
   $('html, body').animate({ scrollTop: 0 }, 300);
   setTimeout(() => {
@@ -77,7 +76,6 @@ export class EventsComponent implements OnInit {
   }
 
   setModalTitleText(event) {
-    console.log(event.target);
     this.modalTitle = $(event.target).attr('data-title');
     this.modalText = $(event.target).attr('data-text');
   }
