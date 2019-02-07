@@ -3,7 +3,7 @@ import { Title } from '@angular/platform-browser';
 import { isDevMode } from '@angular/core';
 import * as $ from 'jquery';
 import * as materialize from 'materialize-css';
-import { whiteHeader } from '../header/header.component';
+import { blackHeader } from '../header/header.component';
 import { isMobile } from '../app.component';
 declare const require;
 
@@ -81,7 +81,7 @@ export class EventsComponent implements OnInit {
   }
 
   ngOnInit() {
-    whiteHeader();
+    blackHeader();
     instance = this;
     instance.list = undefined;
     handleHashChange();

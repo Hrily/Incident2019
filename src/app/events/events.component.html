@@ -1,16 +1,16 @@
 <div>
 
-  <div class="incident page-container iorange white-text">
+  <div class="incident page-container iorange black-text">
 
     <div class="nav-top">
-      <a routerLink="/statistics"><i class="material-icons white-text">keyboard_arrow_up</i></a>
+      <a routerLink="/statistics"><i class="material-icons black-text">keyboard_arrow_up</i></a>
     </div>
     
     <div class="page-content">
 
       <div class="page-title">EVENTS</div>
       <br />
-      <a class="mbtn mbtn-white back-link monserrat" unselectable="on">
+      <a class="mbtn back-link monserrat" unselectable="on">
         &lt; Back to Events
       </a>
 
@@ -36,9 +36,9 @@
               <div class="ltr" [innerHTML]="item.desc"></div>
               <div class="ltr" *ngIf="item.contact" [innerHTML]="'<b>Contact: </b>' + item.contact"></div>
               <br />
-              <a class="mbtn mbtn-white" *ngIf="item.rules" href="{{ item.rules }}">Rules</a>
+              <a class="mbtn" *ngIf="item.rules" href="{{ item.rules }}">Rules</a>
               &nbsp;&nbsp;
-              <a class="mbtn mbtn-white" *ngIf="item.register" href="{{ item.register }}">Register</a>
+              <a class="mbtn" *ngIf="item.register" href="{{ item.register }}">Register</a>
             </div>
           </div>
         </div>
@@ -62,7 +62,7 @@
     <app-footer *ngIf="isMobile()"></app-footer>
 
     <div class="nav-down">
-      <a routerLink="/icare"><i class="material-icons white-text">keyboard_arrow_down</i></a>
+      <a routerLink="/icare"><i class="material-icons black-text">keyboard_arrow_down</i></a>
     </div>
 
   </div>
