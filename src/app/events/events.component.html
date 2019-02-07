@@ -36,7 +36,7 @@
               <div class="ltr" [innerHTML]="item.desc"></div>
               <div class="ltr" *ngIf="item.contact" [innerHTML]="'<b>Contact: </b>' + item.contact"></div>
               <br />
-              <a class="mbtn" *ngIf="item.rules" href="{{ item.rules }}">Rules</a>
+              <a class="mbtn" *ngIf="item.rules" href="{{ item.rules }}" target="_blank">Rules</a>
               &nbsp;&nbsp;
               <a class="mbtn" *ngIf="item.register" href="{{ item.register }}">Register</a>
             </div>
