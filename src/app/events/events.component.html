@@ -34,10 +34,10 @@
             <div class="col s12 m8 monserrat">
               <div class="title azuki">{{ item.name }}</div>
               <div class="ltr" [innerHTML]="item.desc"></div>
-              <br />
-              <div class="ltr" *ngIf="item.contact" [innerHTML]="item.contact"></div>
+              <div class="ltr" *ngIf="item.contact" [innerHTML]="'<b>Contact: </b>' + item.contact"></div>
               <br />
               <a class="mbtn mbtn-white" *ngIf="item.rules" href="{{ item.rules }}">Rules</a>
+              &nbsp;&nbsp;
               <a class="mbtn mbtn-white" *ngIf="item.register" href="{{ item.register }}">Register</a>
             </div>
           </div>
