@@ -18,6 +18,7 @@ import { IncidentComponent } from './incident/incident.component';
 import { StatisticsComponent } from './statistics/statistics.component';
 import { BackgroundComponent } from './background/background.component';
 import { FourohfourComponent } from './fourohfour/fourohfour.component';
+import { FivehundredComponent } from './fivehundred/fivehundred.component';
 
 const appRoutes: Routes = [
   {
@@ -75,12 +76,28 @@ const appRoutes: Routes = [
       title: 'Incident 2019 - Sponsors',
       animation: 'SponsorsPage'
     }
-  }, {
+  },
+  {
     path: 'contact-us',
     component: ContactusComponent,
     data: {
       title: 'Incident 2019 - Contact Us',
       animation: 'ContactUsPage'
+    }
+  },
+  {
+    path: '404',
+    component: FourohfourComponent,
+    data: {
+      title: 'Incident 2019 - Error 404',
+      animation: ''
+    }
+  }, {
+    path: '500',
+    component: FivehundredComponent,
+    data: {
+      title: 'Incident 2019 - Error 500',
+      animation: ''
     }
   },
   { path: '**', component: FourohfourComponent },
@@ -106,6 +123,7 @@ const appRoutes: Routes = [
     StatisticsComponent,
     BackgroundComponent,
     FourohfourComponent,
+    FivehundredComponent,
   ],
   imports: [
     BrowserModule,
