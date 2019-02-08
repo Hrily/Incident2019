@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 import * as $ from 'jquery';
-import { whiteHeader } from '../header/header.component';
+import { whiteHeader, bigLogo } from '../header/header.component';
 
 @Component({
   selector: 'app-home',
@@ -16,6 +16,7 @@ export class HomeComponent implements OnInit {
 
   ngOnInit() {
     whiteHeader();
+    bigLogo();
   }
 
 }

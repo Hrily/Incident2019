@@ -21,6 +21,30 @@ function toggleMenu() {
   }, 0);
 }
 
+export function bigLogo () {
+  const logo = document.getElementById('home-logo');
+  $('.header .header-logo .text').hide('fast');
+  $('.header').css({ position: 'absolute' });
+  // This is a hack. Initially the logo has a negative
+  // top, we wait for it to become positive. Just like I'm
+  // waiting for my life to become positive.
+  $(logo).ready(function () {
+    const logoInterval = setInterval(() => {
+      if (logo.offsetTop < 0) {
+        return;
+      }
+      $('.header .header-logo .logo').css({
+        height: $(logo).height(),
+        top: logo.offsetTop,
+        left: '50%',
+        transform: 'translateX(-50%)',
+        padding: 0
+      });
+      clearInterval(logoInterval);
+    }, 6);
+  });
+}
+
 export function blackHeader() {
   setTimeout(() => {
     $('.header').addClass('invert');
@@ -46,24 +70,7 @@ export class HeaderComponent implements OnInit {
     router.events.subscribe((val) => {
       if (val instanceof NavigationEnd) {
         if (val.url === '/') {
-          const logo = $('.home .landing .logo');
-          $('.header .header-logo .text').hide('fast');
-          $('.header').css({ position: 'absolute' });
-          // This is a hack. Initially the logo has a nagative
-          // top, we wait for it to become positive. Just like I'm
-          // waiting for my life to become positive.
-          let logoIntervel = setInterval( () => {
-            if (logo.offset().top < 0)
-              return;
-            $('.header .header-logo .logo').css({
-              height: logo.height(),
-              top: logo.offset().top,
-              left: '50%',
-              transform: 'translateX(-50%)',
-              padding: 0
-            });
-            clearInterval(logoIntervel);
-          }, 4);
+          console.log();
         } else {
           $('.header').attr('style', '');
           $('.header .header-logo .text').show('fast');
@@ -83,6 +90,7 @@ export class HeaderComponent implements OnInit {
   isHome = isHome;
   social = SOCIAL;
   getPath = getPath;
+  bigLogo = bigLogo;
 
   ngOnInit() {
     $('.header i').click(toggleMenu);
