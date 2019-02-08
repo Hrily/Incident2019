@@ -22,20 +22,24 @@ function toggleMenu() {
 }
 
 export function bigLogo () {
-  const logo = document.getElementById('home-logo');
   $('.header .header-logo .text').hide('fast');
   $('.header').css({ position: 'absolute' });
   // This is a hack. Initially the logo has a negative
   // top, we wait for it to become positive. Just like I'm
   // waiting for my life to become positive.
-  $(logo).ready(function () {
+  $(document).ready(function () {
     const logoInterval = setInterval(() => {
-      if (logo.offsetTop < 0) {
+      
+      const logo = document.getElementById('home-logo');
+      const home = document.getElementById('home');
+      const landing = document.getElementById('landing');
+      console.log($(landing).offset().top , $(home).innerHeight());
+      if ($('.landing').offset().top < 0 || $('.landing').offset().top == $('.landing .title').offset().top) {
         return;
       }
       $('.header .header-logo .logo').css({
         height: $(logo).height(),
-        top: logo.offsetTop,
+        top: $(landing).offset().top - $(home).offset().top + $(landing).css('padding-top'),
         left: '50%',
         transform: 'translateX(-50%)',
         padding: 0
