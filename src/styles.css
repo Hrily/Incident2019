@@ -105,6 +105,7 @@ body {
 }
 
 .mbtn {
+    display: block;
     background: transparent;
     border: 1px solid black;
     padding: 16px 32px 16px 32px;
