@@ -7,32 +7,32 @@
       xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
   <url>
-    <loc>http://incident.co.in</loc>
+    <loc>http://incident.nitk.ac.in</loc>
     <lastmod>2019-01-10T03:38:46+00:00</lastmod>
     <priority>1.00</priority>
   </url>
   <url>
-    <loc>http://incident.co.in/events</loc>
+    <loc>http://incident.nitk.ac.in/events</loc>
     <lastmod>2019-01-10T03:38:46+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>http://incident.co.in/sponsors</loc>
+    <loc>http://incident.nitk.ac.in/sponsors</loc>
     <lastmod>2019-01-10T03:38:46+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>http://incident.co.in/icare</loc>
+    <loc>http://incident.nitk.ac.in/icare</loc>
     <lastmod>2019-01-10T03:38:46+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>http://incident.co.in/about</loc>
+    <loc>http://incident.nitk.ac.in/about</loc>
     <lastmod>2019-01-10T03:38:46+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>http://incident.co.in/contact-us</loc>
+    <loc>http://incident.nitk.ac.in/contact-us</loc>
     <lastmod>2019-01-10T03:38:46+00:00</lastmod>
     <priority>0.80</priority>
   </url>

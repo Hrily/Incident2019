@@ -1,7 +1,7 @@
-https://incident.co.in
-https://incident.co.in/events
-https://incident.co.in/sponsors
-https://incident.co.in/icare
-https://incident.co.in/about
-https://incident.co.in/contact-us
+https://incident.nitk.ac.in
+https://incident.nitk.ac.in/events
+https://incident.nitk.ac.in/sponsors
+https://incident.nitk.ac.in/icare
+https://incident.nitk.ac.in/about
+https://incident.nitk.ac.in/contact-us
 
