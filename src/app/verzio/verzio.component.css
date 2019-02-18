@@ -1,0 +1,137 @@
+.back-link {
+    opacity: 0;
+    cursor: pointer;
+    font-size: 1.5em;
+    transition: opacity 300ms ease-out;
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
+
+.events-listing {
+    width: 100%;
+    padding: 9vw;
+    display: none;
+    transition: opacity 300ms ease-out;
+}
+
+.events-listing.active {
+    display: block;
+}
+
+.events-listing .col {
+    padding: 10px !important;
+}
+
+.events-listing .events-listing-item {
+    display: flex;
+    margin-top: 20px !important;
+    border-radius: 16px;
+    flex-direction: column;
+    cursor: pointer;
+    overflow: hidden;
+    background: white;
+}
+
+.events-listing .events-listing-item .image {
+    width: 100%;
+    height: 320px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.events-listing .events-listing-item .icon *, .events-listing .events-listing-item .icon img {
+    position: absolute;
+    top: 50%;
+    left: 16px;
+    transform: translateY(-50%);
+}
+
+.events-listing .events-listing-item .icon i {
+    font-size: 6em;
+}
+
+.events-listing .events-listing-item .title {
+    font-size: 2.4em;
+    padding: 6px 16px 6px 16px;
+    color: #063862;
+}
+
+.events-listing .events-listing-item:hover {
+    background-color: rgb(255, 255, 255, 0.5)
+}
+
+.events-listing .row .title {
+    font-size: 3em;
+}
+
+.events-listing .row .col {
+    text-align: left;
+    font-size: 1.6em;
+}
+
+.events-listing .row {
+    display: flex;
+    margin-top: 48px !important;
+}
+
+.events-listing .row:nth-child(2n+1) {
+    direction: rtl;
+}
+
+.events-listing .row .col img {
+    width: 100%;
+    border-radius: 16px;
+}
+
+.events-listing .events-page-desc {
+    padding-top: 32px;
+    font-size: 1.8em;
+}
+
+.events-listing .ltr {
+    direction: ltr;
+}
+
+@media only screen and (max-width: 1400px) {
+
+.back-link {
+    font-size: 1.2em;
+}
+
+.events-listing .events-listing-item .image {
+    height: 240px;
+}
+
+.events-listing .events-page-desc {
+    font-size: 1.4em;
+}
+
+.events-listing .row .col {
+    font-size: 1.2em;
+}
+
+}
+
+@media only screen and (max-width: 800px) {
+
+.events-listing {
+    width: 100%;
+}
+
+.events-listing .col {
+    width: 100%;
+    padding: 0 !important;
+}
+
+.events-listing .row {
+    display: block;
+}
+
+.events-stay-tuned div {
+    height: 600px;
+}
+
+}

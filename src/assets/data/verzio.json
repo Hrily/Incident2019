@@ -1,0 +1,28 @@
+{
+  "categories": [
+    {
+      "name": "CSE",
+      "icon": "<i class=material-icons iblack-text>group</i>",
+      "hash": "cse",
+      "img": "cs.jpg"
+    },
+    {
+      "name": "CIVIL",
+      "icon": "<i class=material-icons iblack-text>music_note</i>",
+      "hash": "civil",
+      "img": "cv.jpg"
+    },
+    {
+      "name": "MECH",
+      "icon": "<i class=material-icons iblack-text>music_note</i>",
+      "hash": "mech",
+      "img": "mc.jpg"
+    },
+    {
+      "name": "MANAGEMENT",
+      "icon": "<i class=material-icons iblack-text>music_note</i>",
+      "hash": "management",
+      "img": "mg.jpg"
+    }
+  ]
+}

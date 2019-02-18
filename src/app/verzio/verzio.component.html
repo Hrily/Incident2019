@@ -1,0 +1,14 @@
+
+  <div class="mcontainer">
+
+    <div class="page-title">VERZIO</div>
+
+
+  <div class="category-list events-listing row active azuki">
+    <div class="col s12 m4" *ngFor="let item of categories">
+      <a class="events-listing-item" href="{{ item.hash }}">
+        <div class="image" [style.backgroundImage]="'url(assets/images/departments/' + item.img + ')'"></div>
+      </a>
+    </div>
+
+  </div>
