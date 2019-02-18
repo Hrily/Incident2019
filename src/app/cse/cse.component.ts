@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { whiteHeader } from '../header/header.component';
 
 @Component({
   selector: 'app-cse',
@@ -10,6 +11,7 @@ export class CseComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    whiteHeader();
   }
 
 }

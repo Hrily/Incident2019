@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { whiteHeader } from '../header/header.component';
 
 @Component({
   selector: 'app-civil',
@@ -10,6 +11,7 @@ export class CivilComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    whiteHeader();
   }
 
 }

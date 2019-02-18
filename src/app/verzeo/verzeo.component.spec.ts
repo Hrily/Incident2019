@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { VerzioComponent } from './verzio.component';
+import { VerzeoComponent } from './verzeo.component';
 
-describe('VerzioComponent', () => {
-  let component: VerzioComponent;
-  let fixture: ComponentFixture<VerzioComponent>;
+describe('VerzeoComponent', () => {
+  let component: VerzeoComponent;
+  let fixture: ComponentFixture<VerzeoComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ VerzioComponent ]
+      declarations: [ VerzeoComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(VerzioComponent);
+    fixture = TestBed.createComponent(VerzeoComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

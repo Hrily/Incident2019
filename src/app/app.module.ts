@@ -19,7 +19,7 @@ import { StatisticsComponent } from './statistics/statistics.component';
 import { BackgroundComponent } from './background/background.component';
 import { FourohfourComponent } from './fourohfour/fourohfour.component';
 import { FivehundredComponent } from './fivehundred/fivehundred.component';
-import { VerzioComponent } from './verzio/verzio.component';
+import { VerzeoComponent } from './verzeo/verzeo.component';
 import { CseComponent } from './cse/cse.component';
 import { CivilComponent } from './civil/civil.component';
 import { MechComponent } from './mech/mech.component';
@@ -91,15 +91,15 @@ const appRoutes: Routes = [
     }
   },
   {
-    path: 'verzio',
-    component: VerzioComponent,
+    path: 'verzeo',
+    component: VerzeoComponent,
     data: {
-      title: 'Incident 2019 - verzio',
+      title: 'Incident 2019 - verzeo',
       animation: 'ContactUsPage'
     }
-  }, 
+  },
   {
-    path: 'cse',
+    path: 'verzeo/cse',
     component: CseComponent,
     data: {
       title: 'Incident 2019 - cse',
@@ -107,7 +107,7 @@ const appRoutes: Routes = [
     }
   },
   {
-    path: 'mech',
+    path: 'verzeo/mech',
     component: MechComponent,
     data: {
       title: 'Incident 2019 - cse',
@@ -115,7 +115,7 @@ const appRoutes: Routes = [
     }
   },
   {
-    path: 'civil',
+    path: 'verzeo/civil',
     component: CivilComponent,
     data: {
       title: 'Incident 2019 - cse',
@@ -123,7 +123,7 @@ const appRoutes: Routes = [
     }
   },
   {
-    path: 'management',
+    path: 'verzeo/management',
     component: ManagementComponent,
     data: {
       title: 'Incident 2019 - cse',
@@ -169,7 +169,7 @@ const appRoutes: Routes = [
     BackgroundComponent,
     FourohfourComponent,
     FivehundredComponent,
-    VerzioComponent,
+    VerzeoComponent,
     CseComponent,
     CivilComponent,
     MechComponent,
