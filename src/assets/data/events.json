@@ -211,12 +211,6 @@
         "contact": "Sandeep: +917204855840"
       },
       {
-        "name": "Kalakriti",
-        "image": "kalakriti.jpg",
-        "hash": "kala",
-        "desc": "Lose yourself to jaw-dropping, eye-popping and magical pieces of art and craft. Art forms ranging from sketches to paintings, origami, kirigami and other craftwork, Kalakriti is home to all. The artist in you is sure to be motivated and inspired by the spectacular creativity packaged into this exhibition! <br><b>Date: </b>  1st - 3rd March"
-      },
-      {
         "name": "Expose",
         "image": "expose.jpg",
         "hash": "expose",
@@ -228,22 +222,6 @@
         "hash": "hogathon",
         "contact": "Shashibhushan: +91 9538806063",
         "desc": "As the name suggests, it is a challenge which is its own reward. The rules to this mouth-watering event are simple, eat fast, eat a lot. Feast on a variety of foodstuffs, each better than the previous one. Only the gastronomically gifted can make it to the end, may the food be with you. <br><b>Date: </b> 3rd March"
-      },
-      {
-        "name": "Body Painting",
-        "image": "face-painting-workshops.jpg",
-        "hash": "body",
-        "desc": "Get ready to turn your partners into canvas and showcase your expertise by painting them into realistic illustrations based on a spot theme! <br><b>Date: </b> 1st March. <br><b>Prizes: </b> Worth 3k",
-        "register": "/register/events/",
-         "contact": "Trisha: +91 8050007655"
-      },
-      {
-        "name": "Newspaper Costume Design",
-        "image": "newspaper-costume-design.jpg",
-        "hash": "newspaper",
-        "desc": "Do you think you have a knack for fashion designing? Then take this challenge of styling your partner by remodeling everyday newspaper into iconic party wear and watch the newspaper clad  mannequins walk the ram. <br><b>Date: </b> 2nd March. <br><b>Prizes: </b> Worth 3k",
-        "register": "/register/events/",
-        "contact": "Trisha: +91 8050007655"
       },
       {
         "name": "Speaking triathlon",
@@ -258,6 +236,30 @@
 
     ],
     "inci_talks": [
+    ],
+    "fineart": [
+      {
+        "name": "Kalakriti",
+        "image": "kalakriti.jpg",
+        "hash": "kala",
+        "desc": "Lose yourself to jaw-dropping, eye-popping and magical pieces of art and craft. Art forms ranging from sketches to paintings, origami, kirigami and other craftwork, Kalakriti is home to all. The artist in you is sure to be motivated and inspired by the spectacular creativity packaged into this exhibition! <br><b>Date: </b>  1st - 3rd March"
+      },
+      {
+        "name": "Newspaper Costume Design",
+        "image": "newspaper-costume-design.jpg",
+        "hash": "newspaper",
+        "desc": "Do you think you have a knack for fashion designing? Then take this challenge of styling your partner by remodeling everyday newspaper into iconic party wear and watch the newspaper clad  mannequins walk the ram. <br><b>Date: </b> 2nd March. <br><b>Prizes: </b> Worth 3k",
+        "register": "/register/events/",
+        "contact": "Trisha: +91 8050007655"
+      },
+      {
+        "name": "Body Painting",
+        "image": "face-painting-workshops.jpg",
+        "hash": "body",
+        "desc": "Get ready to turn your partners into canvas and showcase your expertise by painting them into realistic illustrations based on a spot theme! <br><b>Date: </b> 1st March. <br><b>Prizes: </b> Worth 3k",
+        "register": "/register/events/",
+         "contact": "Trisha: +91 8050007655"
+      }
     ]
   },
   "categories": [
@@ -317,6 +319,11 @@
       "image": "talks.jpg",
       "hash": "inci_talks",
       "page_desc": "We believe passionately in the power of ideas to change attitudes, lives of the student community. The goal of this event is to bring together the greatest achievers and eminent personalities such as yourself to plant the seed of an idea in the minds of this generation to create a positive change in the society. <h3 class=\"azuki\"> Previous Speakers</h3>Jayaprakash Narayan (Loksatta Party Founder), Balaji Viswanathan (Highest followed person on Quora), Ricky Kej (Grammy award winning music composer), Dr Ullas Karanth (Renowned Environmentalist and Tiger expert), Ramaswami Balasubramaniam (Chairman of Grassroots Research And Advocacy Movement (GRAAM)) have adorned the stage of Inci-Talks in the previous editions."
+    },
+    {
+      "name": "Fine Arts",
+      "image": "fineart.jpg",
+      "hash": "fineart"
     }
   ]
 }
