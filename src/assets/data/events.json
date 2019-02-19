@@ -119,6 +119,12 @@
         "desc": "Do you know everything from the fun facts about Infinity War to the intricacies of global economics? Are you generally shunned among your peers from being a know it all? (OR does information unintentionally come out blurting whenever you open your mouth?) Well here you can actually win prizes for that! So come and embrace the chance to show the ignoramuses that information is the real wealth! <br><b>Date: </b> 1st March. <br><b>Prizes: </b> Worth 4.5K",
         "register": "/register/events/",
         "contact": "Dhruv: +919880547421"
+      },
+      {
+        "name": "Biz Quiz",
+        "hash": "Biz_Quiz",
+        "desc": "Do people often claim that you are such a know-all? Well then, prove them right. Inci Biz Quiz tries to bring out your  knowledge treasure trove. Compete with the sharpest and fastest minds with a passion for the business world. Do you have the mettle to battle it out at the quiz-essential zone of Incident '19? <br><b>Date: </b> 3rd March. br><b> Prizes: </b> Worth 3.5K",
+        "register": "/register/events/"
       }
     ],
     "biz_events": [
@@ -126,12 +132,6 @@
         "name": "Mock Stock",
         "hash": "mock_stock",
         "desc": "Want to experience the excitement of making money on the stock market? Have never known what a share is and have only wondered how everybody buys shares and makes riches? Join the Mock Stock event of Incident ’19. You can play against the smartest of investors and make millions. So this Inci, trade your stocks the right way and become a millionaire! <br><b>Date: </b> 28th February - 3rd March. <br><b>Prizes: </b> Worth 5K",
-        "register": "/register/events/"
-      },
-      {
-        "name": "Biz Quiz",
-        "hash": "Biz_Quiz",
-        "desc": "Do people often claim that you are such a know-all? Well then, prove them right. Inci Biz Quiz tries to bring out your  knowledge treasure trove. Compete with the sharpest and fastest minds with a passion for the business world. Do you have the mettle to battle it out at the quiz-essential zone of Incident '19? <br><b>Date: </b> 3rd March. br><b> Prizes: </b> Worth 3.5K",
         "register": "/register/events/"
       },
       {
