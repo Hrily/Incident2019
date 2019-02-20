@@ -91,7 +91,7 @@ const appRoutes: Routes = [
     }
   },
   {
-    path: 'verzeo',
+    path: 'internships',
     component: VerzeoComponent,
     data: {
       title: 'Incident 2019 - verzeo',
@@ -99,7 +99,7 @@ const appRoutes: Routes = [
     }
   },
   {
-    path: 'verzeo/cse',
+    path: 'internships/cse',
     component: CseComponent,
     data: {
       title: 'Incident 2019 - cse',
@@ -107,7 +107,7 @@ const appRoutes: Routes = [
     }
   },
   {
-    path: 'verzeo/mech',
+    path: 'internships/mech',
     component: MechComponent,
     data: {
       title: 'Incident 2019 - cse',
@@ -115,7 +115,7 @@ const appRoutes: Routes = [
     }
   },
   {
-    path: 'verzeo/civil',
+    path: 'internships/civil',
     component: CivilComponent,
     data: {
       title: 'Incident 2019 - cse',
@@ -123,7 +123,7 @@ const appRoutes: Routes = [
     }
   },
   {
-    path: 'verzeo/management',
+    path: 'internships/management',
     component: ManagementComponent,
     data: {
       title: 'Incident 2019 - cse',
