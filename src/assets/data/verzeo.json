@@ -23,6 +23,12 @@
       "icon": "<i class=material-icons iblack-text>music_note</i>",
       "hash": "management",
       "img": "mg.jpg"
+    },
+    {
+      "name": "ECE",
+      "icon": "<i class=material-icons iblack-text>music_note</i>",
+      "hash": "ece",
+      "img": "ec.jpg"
     }
   ]
 }

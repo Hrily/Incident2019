@@ -134,4 +134,8 @@
     height: 600px;
 }
 
+.events-listing .events-listing-item .image {
+    height: 360px;
+}
+
 }
