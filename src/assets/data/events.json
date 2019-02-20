@@ -11,8 +11,7 @@
         "name": "Beach Informalz",
         "image": "beach-informalz.jpg",
         "hash": "informalz",
-        "desc": "Not finding any events to your taste? Bored out of your mind? No worries! All you gotta do is take a stroll to 'The Beach'. The Informalz is awaiting you! From mind-blowing games  to silly competitions between your buddies, the Beach Informalz offers a dose of fun and frolic that you cannot refuse! <br><b>Date: </b>  1st - 3rd March",
-        "register": "/register/events/"
+        "desc": "Not finding any events to your taste? Bored out of your mind? No worries! All you gotta do is take a stroll to 'The Beach'. The Informalz is awaiting you! From mind-blowing games  to silly competitions between your buddies, the Beach Informalz offers a dose of fun and frolic that you cannot refuse! <br><b>Date: </b>  1st - 3rd March"
       }
     ],
     "music": [
@@ -68,7 +67,7 @@
         "name": "Promenade",
         "image": "Promenade.JPG",
         "hash": "Promenade",
-        "desc": "(Semi-professional Western Group Dance Competition) A leisurely stroll would seem so relieving, but what if you get to see your favourite dance moves creating it’s magic outside the dance floor? Presenting to you, the group Street dance competition, Promenade. So does your group have it to turn eyes around and make it an amazing dance Promenade? Join in and find out yourself. <br><b>Date: </b> 2nd March. <br><b>Prizes: </b> Worth 45k",
+        "desc": "(Western Group Dance Competition) A leisurely stroll would seem so relieving, but what if you get to see your favourite dance moves creating it’s magic outside the dance floor? Presenting to you, the group Street dance competition, Promenade. So does your group have it to turn eyes around and make it an amazing dance Promenade? Join in and find out yourself. <br><b>Date: </b> 2nd March. <br><b>Prizes: </b> Worth 45k",
         "register": "/register/events/",
         "rules": "https://docs.google.com/document/d/1OUjeVzBtgDpGu3-0f5ZodI9BVWYQtEZQnN4E4fCwMeA/edit",
         "contact": "Vaibhav Rai: 8073368756"
@@ -96,30 +95,36 @@
       {
         "name": "General Quiz",
         "hash": "General_Quiz",
-        "desc": "A crowd roaring with applause, wondering how you know so much. The quizmaster, wondering if his next question will break your amazing streak of right questions. You, on the other hand confident, that you will sail past this last question and be the champion. As the environment get tense, and the he says, “Team 4, your last question is…”. You know the answer, you know the answer! But you’ve gotta be there to answer. So come and prove your Mettle. Show that your team is the best, be it any topic under the sun! This is the General quiz. <br><b>Teams of three.</b><br><b>Date: </b> 1st - 3rd March. <br><b>Prizes: </b> Worth 6.5K",
+        "desc": "A crowd roaring with applause, wondering how you know so much. The quizmaster, wondering if his next question will break your amazing streak of right questions. You, on the other hand confident, that you will sail past this last question and be the champion. As the environment get tense, and the he says, “Team 4, your last question is…”. You know the answer, you know the answer! But you’ve gotta be there to answer. So come and prove your Mettle. Show that your team is the best, be it any topic under the sun! This is the General quiz. <br><b>Quizmaster:</b> Lokesh Kaza <br><b>Teams of three.</b><br><b>Date: </b> 2nd March. <br><b>Prizes: </b> Worth 6.5K",
         "register": "/register/events/",
         "contact": "Dhruv: +919880547421"
       },
       {
         "name": "Asia Quiz - Inci Themed Quiz",
         "hash": "India_Quiz",
-        "desc": "If you are confident with your trivia about Asia, this is your chance.If competition comes naturally to you, if your brain is dying for some activity and if you see thrill in do-or-die situations, we invite you to take part in the ultimate brain storming session. Watch while teams battle it out on the stage as answers fly back and forth with equal aplomb. <br><b>Teams of three.</b><br><b>Date: </b> 1st - 3rd March. <br><b>Prizes: </b> Worth 6.5K",
+        "desc": "If you are confident with your trivia about Asia, this is your chance.If competition comes naturally to you, if your brain is dying for some activity and if you see thrill in do-or-die situations, we invite you to take part in the ultimate brain storming session. Watch while teams battle it out on the stage as answers fly back and forth with equal aplomb. <br><b>Teams of three.</b><br><b>Date: </b> 1st March. <br><b>Prizes: </b> Worth 6.5K",
         "register": "/register/events/",
         "contact": "Dhruv: +919880547421"
       },
       {
         "name": "MELAS Quiz",
         "hash": "Melas_Quiz",
-        "desc": " <br><b>Date: </b> 1st - 3rd March. <br><b>Prizes: </b> Worth 6.5K",
+        "desc": "Do you revel in your knowledge of obscure facts from the classic literary works to modern cinema? Is music and art something you hold dear? The MELAS Quiz is the perfect platform to bring forth your provice in cinema, literature, art, music, sports and everything that connects them. <br><b>Quizmaster:</b> Lokesh Kaza <br><b>Date: </b> 2nd March. <br><b>Prizes: </b> Worth 6.5K",
         "register": "/register/events/",
         "contact": "Dhruv: +919880547421"
       },
       {
         "name": "Lone Wolf",
         "hash": "Lone_Wolf",
-        "desc": "Do you know everything from the fun facts about Infinity War to the intricacies of global economics? Are you generally shunned among your peers from being a know it all? (OR does information unintentionally come out blurting whenever you open your mouth?) Well here you can actually win prizes for that! So come and embrace the chance to show the ignoramuses that information is the real wealth! <br><b>Date: </b> 1st - 3rd March. <br><b>Prizes: </b> Worth 4.5K",
+        "desc": "Do you know everything from the fun facts about Infinity War to the intricacies of global economics? Are you generally shunned among your peers from being a know it all? (OR does information unintentionally come out blurting whenever you open your mouth?) Well here you can actually win prizes for that! So come and embrace the chance to show the ignoramuses that information is the real wealth! <br><b>Date: </b> 1st March. <br><b>Prizes: </b> Worth 4.5K",
         "register": "/register/events/",
         "contact": "Dhruv: +919880547421"
+      },
+      {
+        "name": "Biz Quiz",
+        "hash": "Biz_Quiz",
+        "desc": "Do people often claim that you are such a know-all? Well then, prove them right. Inci Biz Quiz tries to bring out your  knowledge treasure trove. Compete with the sharpest and fastest minds with a passion for the business world. Do you have the mettle to battle it out at the quiz-essential zone of Incident '19? <br><b>Date: </b> 3rd March. <br><b> Prizes: </b> Worth 3.5K",
+        "register": "/register/events/"
       }
     ],
     "biz_events": [
@@ -127,12 +132,6 @@
         "name": "Mock Stock",
         "hash": "mock_stock",
         "desc": "Want to experience the excitement of making money on the stock market? Have never known what a share is and have only wondered how everybody buys shares and makes riches? Join the Mock Stock event of Incident ’19. You can play against the smartest of investors and make millions. So this Inci, trade your stocks the right way and become a millionaire! <br><b>Date: </b> 28th February - 3rd March. <br><b>Prizes: </b> Worth 5K",
-        "register": "/register/events/"
-      },
-      {
-        "name": "Biz Quiz",
-        "hash": "Biz_Quiz",
-        "desc": "Do people often claim that you are such a know-all? Well then, prove them right. Inci Biz Quiz tries to bring out your  knowledge treasure trove. Compete with the sharpest and fastest minds with a passion for the business world. Do you have the mettle to battle it out at the quiz-essential zone of Incident '19? <br><b>Date: </b> 2nd - 3rd March. br><b> Prizes: </b> Worth 3.5K",
         "register": "/register/events/"
       },
       {
@@ -156,13 +155,6 @@
         "hash": "pubg",
         "contact": "Harshith Kumar: +91 7760575030",
         "desc": "Are you a PUBG wala? Then gather around and look out for the enemies ahead as you show off your shooting skills at Incident ‘19. Doesn't matter if you get an insane amount of kills, the last man standing will get the chicken dinner. <br><b>Date: </b> 1st - 3rd March"
-      },
-      {
-        "name": "FIFA",
-        "image": "fifa.jpg",
-        "hash": "fifa",
-        "contact": "Harshith Kumar: +91 7760575030",
-        "desc": "Dribble, scissor, a quick pull and push, as you send the defenders sprawling across the grass, causing the goalkeeper to break out in panicky sweat, with the frenzied fans bordering on the state of hysterical joy. Welcome to the world of FIFA, you gotta your best foot forward here to be the champion. <br><b>Date: </b> 1st - 3rd March. <br><b>Prizes: </b> Worth 6.5K"
       },
       {
         "name": "Counter Strike Global Offensive",
@@ -215,15 +207,8 @@
         "image": "frames.jpg",
         "hash": "frames",
         "desc": "The biggest annual cultural festival of NIT Karnataka, Surathkal INCIDENT '19, is back again and FRAMES in association with Photography Club NITK, invites all those passionate photographers to participate in its online photography contest.It's a great opportunity to have your photographs exhibited during Expose, the photo exhibition which is a part of Incident' 19. Through this you can also compete with the other college photographers and show the people how creative you are to this world. <br><b>Date: </b> . <br><b>Prizes: </b> Worth 5k",
-        "register": "/register/events/",
         "rules": "https://drive.google.com/file/d/1WxMI673dHIcSzQHeqYI_fAJVJmsoIqHN/view",
         "contact": "Sandeep: +917204855840"
-      },
-      {
-        "name": "Kalakriti",
-        "image": "kalakriti.jpg",
-        "hash": "kala",
-        "desc": "Lose yourself to jaw-dropping, eye-popping and magical pieces of art and craft. Art forms ranging from sketches to paintings, origami, kirigami and other craftwork, Kalakriti is home to all. The artist in you is sure to be motivated and inspired by the spectacular creativity packaged into this exhibition! <br><b>Date: </b>  1st - 3rd March"
       },
       {
         "name": "Expose",
@@ -239,22 +224,6 @@
         "desc": "As the name suggests, it is a challenge which is its own reward. The rules to this mouth-watering event are simple, eat fast, eat a lot. Feast on a variety of foodstuffs, each better than the previous one. Only the gastronomically gifted can make it to the end, may the food be with you. <br><b>Date: </b> 3rd March"
       },
       {
-        "name": "Body Painting",
-        "image": "face-painting-workshops.jpg",
-        "hash": "body",
-        "desc": "Get ready to turn your partners into canvas and showcase your expertise by painting them into realistic illustrations based on a spot theme! <br><b>Date: </b> 1st March. <br><b>Prizes: </b> Worth 3k",
-        "register": "/register/events/",
-         "contact": "Trisha: +91 8050007655"
-      },
-      {
-        "name": "Newspaper Costume Design",
-        "image": "newspaper-costume-design.jpg",
-        "hash": "newspaper",
-        "desc": "Do you think you have a knack for fashion designing? Then take this challenge of styling your partner by remodeling everyday newspaper into iconic party wear and watch the newspaper clad  mannequins walk the ram. <br><b>Date: </b> 2nd March. <br><b>Prizes: </b> Worth 3k",
-        "register": "/register/events/",
-        "contact": "Trisha: +91 8050007655"
-      },
-      {
         "name": "Speaking triathlon",
         "image": "",
         "hash": "speak",
@@ -267,6 +236,30 @@
 
     ],
     "inci_talks": [
+    ],
+    "fineart": [
+      {
+        "name": "Kalakriti",
+        "image": "kalakriti.jpg",
+        "hash": "kala",
+        "desc": "Lose yourself to jaw-dropping, eye-popping and magical pieces of art and craft. Art forms ranging from sketches to paintings, origami, kirigami and other craftwork, Kalakriti is home to all. The artist in you is sure to be motivated and inspired by the spectacular creativity packaged into this exhibition! <br><b>Date: </b>  1st - 3rd March"
+      },
+      {
+        "name": "Newspaper Costume Design",
+        "image": "newspaper-costume-design.jpg",
+        "hash": "newspaper",
+        "desc": "Do you think you have a knack for fashion designing? Then take this challenge of styling your partner by remodeling everyday newspaper into iconic party wear and watch the newspaper clad  mannequins walk the ram. <br><b>Date: </b> 2nd March. <br><b>Prizes: </b> Worth 3k",
+        "register": "/register/events/",
+        "contact": "Trisha: +91 8050007655"
+      },
+      {
+        "name": "Body Painting",
+        "image": "face-painting-workshops.jpg",
+        "hash": "body",
+        "desc": "Get ready to turn your partners into canvas and showcase your expertise by painting them into realistic illustrations based on a spot theme! <br><b>Date: </b> 1st March. <br><b>Prizes: </b> Worth 3k",
+        "register": "/register/events/",
+         "contact": "Trisha: +91 8050007655"
+      }
     ]
   },
   "categories": [
@@ -311,7 +304,7 @@
       "hash": "gaming_events"
     },
     {
-      "name": "Miscellaneous Events",
+      "name": "Potpourri",
       "image": "misc.jpg",
       "hash": "misc"
     },
@@ -326,6 +319,11 @@
       "image": "talks.jpg",
       "hash": "inci_talks",
       "page_desc": "We believe passionately in the power of ideas to change attitudes, lives of the student community. The goal of this event is to bring together the greatest achievers and eminent personalities such as yourself to plant the seed of an idea in the minds of this generation to create a positive change in the society. <h3 class=\"azuki\"> Previous Speakers</h3>Jayaprakash Narayan (Loksatta Party Founder), Balaji Viswanathan (Highest followed person on Quora), Ricky Kej (Grammy award winning music composer), Dr Ullas Karanth (Renowned Environmentalist and Tiger expert), Ramaswami Balasubramaniam (Chairman of Grassroots Research And Advocacy Movement (GRAAM)) have adorned the stage of Inci-Talks in the previous editions."
+    },
+    {
+      "name": "Fine Arts",
+      "image": "fineart.jpg",
+      "hash": "fineart"
     }
   ]
 }
