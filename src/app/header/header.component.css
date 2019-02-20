@@ -100,10 +100,13 @@
     color: black;
 }
 
+.has-divider {
+    border-top: 1px solid white;
+}
+
 .header .register-label {
     color: white;
     opacity: 0.8;
-    border-top: 1px solid white;
 }
 
 /* Mac Pro 13in */
