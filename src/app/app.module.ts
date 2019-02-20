@@ -24,6 +24,7 @@ import { CseComponent } from './cse/cse.component';
 import { CivilComponent } from './civil/civil.component';
 import { MechComponent } from './mech/mech.component';
 import { ManagementComponent } from './management/management.component';
+import { EceComponent } from './ece/ece.component';
 
 const appRoutes: Routes = [
   {
@@ -110,7 +111,7 @@ const appRoutes: Routes = [
     path: 'internships/mech',
     component: MechComponent,
     data: {
-      title: 'Incident 2019 - cse',
+      title: 'Incident 2019 - mech',
       animation: 'ContactUsPage'
     }
   },
@@ -118,7 +119,7 @@ const appRoutes: Routes = [
     path: 'internships/civil',
     component: CivilComponent,
     data: {
-      title: 'Incident 2019 - cse',
+      title: 'Incident 2019 - civil',
       animation: 'ContactUsPage'
     }
   },
@@ -126,7 +127,15 @@ const appRoutes: Routes = [
     path: 'internships/management',
     component: ManagementComponent,
     data: {
-      title: 'Incident 2019 - cse',
+      title: 'Incident 2019 - management',
+      animation: 'ContactUsPage'
+    }
+  },
+  {
+    path: 'internships/ece',
+    component: EceComponent,
+    data: {
+      title: 'Incident 2019 - ece',
       animation: 'ContactUsPage'
     }
   },
@@ -174,6 +183,7 @@ const appRoutes: Routes = [
     CivilComponent,
     MechComponent,
     ManagementComponent,
+    EceComponent,
   ],
   imports: [
     BrowserModule,
