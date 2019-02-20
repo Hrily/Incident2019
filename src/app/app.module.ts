@@ -19,6 +19,11 @@ import { StatisticsComponent } from './statistics/statistics.component';
 import { BackgroundComponent } from './background/background.component';
 import { FourohfourComponent } from './fourohfour/fourohfour.component';
 import { FivehundredComponent } from './fivehundred/fivehundred.component';
+import { VerzeoComponent } from './verzeo/verzeo.component';
+import { CseComponent } from './cse/cse.component';
+import { CivilComponent } from './civil/civil.component';
+import { MechComponent } from './mech/mech.component';
+import { ManagementComponent } from './management/management.component';
 
 const appRoutes: Routes = [
   {
@@ -86,6 +91,46 @@ const appRoutes: Routes = [
     }
   },
   {
+    path: 'verzeo',
+    component: VerzeoComponent,
+    data: {
+      title: 'Incident 2019 - verzeo',
+      animation: 'ContactUsPage'
+    }
+  },
+  {
+    path: 'verzeo/cse',
+    component: CseComponent,
+    data: {
+      title: 'Incident 2019 - cse',
+      animation: 'ContactUsPage'
+    }
+  },
+  {
+    path: 'verzeo/mech',
+    component: MechComponent,
+    data: {
+      title: 'Incident 2019 - cse',
+      animation: 'ContactUsPage'
+    }
+  },
+  {
+    path: 'verzeo/civil',
+    component: CivilComponent,
+    data: {
+      title: 'Incident 2019 - cse',
+      animation: 'ContactUsPage'
+    }
+  },
+  {
+    path: 'verzeo/management',
+    component: ManagementComponent,
+    data: {
+      title: 'Incident 2019 - cse',
+      animation: 'ContactUsPage'
+    }
+  },
+  {
     path: '404',
     component: FourohfourComponent,
     data: {
@@ -124,6 +169,11 @@ const appRoutes: Routes = [
     BackgroundComponent,
     FourohfourComponent,
     FivehundredComponent,
+    VerzeoComponent,
+    CseComponent,
+    CivilComponent,
+    MechComponent,
+    ManagementComponent,
   ],
   imports: [
     BrowserModule,

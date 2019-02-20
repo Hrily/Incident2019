@@ -1,0 +1,26 @@
+
+<div class="page-container blue-yonder white-text">
+
+  <br/>
+  <br/>
+  <br/>
+
+  <div class="page-title">VERZEO</div>
+
+  <h5>
+    Last date to register for internships : 28th February.
+  </h5>
+
+  <div class="category-list events-listing row active azuki">
+    <div class="col s12 m4" *ngFor="let item of categories">
+      <a class="events-listing-item" routerLink="/verzeo/{{ item.hash }}">
+        <div class="image" [style.backgroundImage]="'url(assets/images/departments/' + item.img + ')'"></div>
+      </a>
+    </div>
+  </div>
+
+  <br />
+  <br />
+  <br />
+
+</div>

@@ -1,0 +1,24 @@
+.col.m8 li {
+    list-style-type: disc !important;
+    padding-right: 24px !important;
+}
+
+div.col, li, h6 {
+    font-size: 1.1em;
+}
+
+@media only screen and (max-width: 1400px) {
+
+div.col, li, h6 {
+    font-size: 1.0em;
+}
+
+}
+
+@media only screen and (max-width: 800px) {
+
+.col.m8 li {
+    padding-right: 0;
+}
+
+}
