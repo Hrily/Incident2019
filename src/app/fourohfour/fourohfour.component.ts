@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { blackHeader } from '../header/header.component';
 import { Title } from '@angular/platform-browser';
 import { isMobile } from '../app.component';
+import * as $ from 'jquery';
 
 @Component({
   selector: 'app-fourohfour',
@@ -18,6 +19,11 @@ export class FourohfourComponent implements OnInit {
 
   ngOnInit() {
     blackHeader();
+    if (location.search.length > 0) {
+      $.getScript('/assets/launch-zork.js', function () {});
+    } else {
+      console.log('You didn\'t GET me anything :(');
+    }
   }
 
 }
