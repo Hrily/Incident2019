@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+declare const require;
 
 const EVENT = require('../../assets/data/verzio.json');
 
