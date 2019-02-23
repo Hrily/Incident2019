@@ -33,11 +33,11 @@
             </div>
             <div class="col s12 monserrat" [class.m8]="item.image">
               
-            <div *ngIf="item.amaal"> 
+            <div *ngIf="item.youtube"> 
                     <div class="col s12 m4 inci-vid monserrat"  >
                         <iframe class="" src="https://www.youtube.com/embed/-J_IhEg1jQo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                           allowfullscreen></iframe>
-            </div>
+                    </div>
              
               <div class="title azuki">{{ item.name }}</div>
               <div class="ltr" [innerHTML]="item.desc"></div>
