@@ -29,7 +29,7 @@
         "name": "Pulse",
         "image": "pulse.jpg",
         "hash": "Pulse",
-        "desc": "(Semi-Professional Western Rock Band Competition) <br>Have you ever dreamt of selling out Madison Square Garden? Ever wondered how it would feel to witness a full-house crowd chant your name? Team Incident provides just the experience and invites you to rule the stage at Pulse, the Western battle of bands. We promise you a crowd unlike anything you have ever seen and will ever see! What are you waiting for? Register today! <br><b>Date: </b> 2nd March. <br><b>Prizes: </b> Worth 40K",
+        "desc": "(Semi-Professional Western Rock Band Competition) <br>Have you ever dreamt of selling out Madison Square Garden? Ever wondered how it would feel to witness a full-house crowd chant your name? Team Incident provides just the experience and invites you to rule the stage at Pulse, the Western battle of bands. We promise you a crowd unlike anything you have ever seen and will ever see! What are you waiting for? Register today! <br><b>Date: </b> 2nd March. <br><b>Time: </b> 9 AM. <br><b>Prizes: </b> Worth 40K",
         "register": "/register/events/",
         "contact": "Sofia: 8095908965",
         "rules": "https://drive.google.com/open?id=11-C8CSt7c2QMhph5K_J0nXpyhMvG9e-gCY5f2BRxSRE"
@@ -47,7 +47,7 @@
         "name": "Bandish",
         "image": "bandish.JPG",
         "hash": "Bandish",
-        "desc": "(Semi-Professional Hindustani and Carnatic Rock Band Competition)<br> Thermal and Quarter. Raghu Dixit Project. Thaikkudam Bridge. Let it be remembered in the pages of history that nobody does rock better than our desi boyz! Adorn your heart with the tricolour at Bandish, the Eastern rock phenomenon. Because who says only the Westerners should have all the fun? <br><b>Date: </b> 3rd March. <br><b>Prizes: </b> Worth 40K",
+        "desc": "(Semi-Professional Hindustani and Carnatic Rock Band Competition)<br> Thermal and Quarter. Raghu Dixit Project. Thaikkudam Bridge. Let it be remembered in the pages of history that nobody does rock better than our desi boyz! Adorn your heart with the tricolour at Bandish, the Eastern rock phenomenon. Because who says only the Westerners should have all the fun? <br><b>Date: </b> 3rd March.<br><b>Time: </b> 9 AM. <br><b>Prizes: </b> Worth 40K",
         "register": "/register/events/",
         "contact": "Navnika: 9880581172",
         "rules": "https://drive.google.com/open?id=1_AxOkfL941k1g0q_uPU_foKN8Sc2Y_howJ-Ya8seufw"
@@ -260,6 +260,14 @@
         "hash": "speak",
         "desc": "A good orator is not only one who can stand in front of the crowd and say a few words, but one who can understand the impact his every utterance has. Come join the Speech Triathlon this Incident to put yourself through the three tests of time, Commentary, Declamation and Policy, to decide once and for all who will be the master of the stage in the Western Coast.  <br><b>Date: </b> 2nd March. <br><b>Prizes: </b> Worth 4k",
         "contact": "Agnes: +91 96113 44476, Tirth: +91 99208 04880",
+        "register": "/register/events/"
+      },
+      {
+        "name": "Caricature making workshop",
+        "image": "",
+        "hash": "arting",
+        "desc": "By Varnodhar <br> A master in the art of caricature, he is a role model to those who wish to continue on their path of passion and succeed <br><b>Date: </b> 2nd March. <br><b>Time: </b> 2 PM - 5 PM",
+        "contact": "Shubham Vernekar: +91 88676 28183",
         "register": "/register/events/"
       }
     ],
