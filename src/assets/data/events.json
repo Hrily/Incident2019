@@ -267,12 +267,22 @@
       {
         "name": "Popular Night - Amaal Mallik ",
         "image": "",
-        "hash": "speak",
+        "hash": "pro1",
         "desc": "Born into a musically gifted family, Amaal Mallik is the genius behind chart topping songs such as Sooraj Dooba Hain, Soch Na Sakhe and  Kar Gaye Chull. Having started his career at the age of 15, he is among the best talents Bollywood has to offer.<br><br> Amaal Mallik has been awarded the Filmfare Award For Best Music Director 2016 for his phenomenal music compositions in the film Roy.<br><br> This Incident '19, expect the Encore Night to be nothing short of phenomenal as Amaal Mallik takes the stage at NITK.<br><br><b>Date:</b> 3rd March<br><br> <b>Tickets can be bought at inci Office</b>       ",
         "contact": "",
         "register": "/register/events/",
-        "youtube":"a"
+        "youtube":"https://www.youtube.com/embed/-J_IhEg1jQo"
+      },
+      {
+        "name": "Popular Night - Vineet Vincent : India's Biggest Beatboxer",
+        "image": "",
+        "hash": "pro2",
+        "desc": "Considered as India's biggest beatboxer with over 1250 shows in his credit since 2008, Vineet Vincent is also the MC of the biggest youth fest in India - Under 25.<br><br> He has performed with the Austrian beat boxing group Bauchklang in 2009 and the Boxettes in 2010 among many other artists and bands.<br><br>Vineeth represented India on the Judge's panel for the first ever ‘India Beatboxing championship.<br><br>Get ready to witness his electrifying presence!<br><br><b>Date:</b>3rd March<br>        ",
+        "contact": "",
+        "register": "/register/events/",
+        "youtube":"https://youtu.be/s1ftUw9JHVg"
       }
+
     ],
     "inci_talks": [
     ],
@@ -297,7 +307,7 @@
         "name": "Mixed Martial Art (MMA) Workshop ",
         "image": "",
         "hash": "workshop2",
-        "desc": "Mixed Martial Art is a full combat sport that allows striking and grappling, both standing and on the ground , using techniques from various combat sports and Martial arts.<br><br><br> Incident presents MMA workshop by Nithesh Kumar, a national Muay Thai champion who is the founder and head coach at Monkey Mayhem Fight Club, Mangalore, Karnataka. His gym specialises  in muay Thai (also known as Thai boxing), Brazilian Jiu Jitsu, kickboxing and functional fitness. He has a fight record of 10 wins - 0 losses and has trained other fighters who have moved on to winning gold medals at the national level.<br><b>Date: </b> 1st March. <br><b>Time: </b> 10 AM - 12 PM     ",
+        "desc": "Mixed Martial art is a full contact combat sport comprising of striking and grappling techniques which allows both standing and ground fight, using techniques from various Martial arts around the globe.<br><br>Incident presents <b>Mayhem MMA Workshop</b> by Coach Nithesh Kumar, a National Muay Thai Champion & MMA Fighter who is the Founder-Head Coach at <b>Monkey Mayhem Fight Club</b>, Mangalore, Karnataka. Monkey Mayhem specialises in MMA, Muay Thai (a.k.a.Thai boxing), Brazilian Jiu Jitsu, Western Boxing, Kickboxing and Functional Fitness. Nithesh has a fight record of zero loss and has trained more than 200 students.<br><br>  Team Monkey Mayhem athletes are the only ones in and around Mangalore city to have marked their places in International platform. Don't miss this golden opportunity to train with National & International Fighters of Team Monkey Mayhem.<br><b>Date:</b> 1 March<br><b>Time:</b> 10 AM to 12 PM       ",
         "contact": "Preethan: +91 87624 91282",
         "register": "/register/events/"
       }
