@@ -264,7 +264,15 @@
       }
     ],
     "pro_shows": [
-
+      {
+        "name": "Popular Night - Amaal Mallik ",
+        "image": "",
+        "hash": "speak",
+        "desc": "Born into a musically gifted family, Amaal Mallik is the genius behind chart topping songs such as Sooraj Dooba Hain, Soch Na Sakhe and  Kar Gaye Chull. Having started his career at the age of 15, he is among the best talents Bollywood has to offer.<br><br> Amaal Mallik has been awarded the Filmfare Award For Best Music Director 2016 for his phenomenal music compositions in the film Roy.<br><br> This Incident '19, expect the Encore Night to be nothing short of phenomenal as Amaal Mallik takes the stage at NITK.<br><br><b>Date:</b> 3rd March<br><br> <b>Tickets can be bought at inci Office</b>       ",
+        "contact": "",
+        "register": "/register/events/",
+        "amaal":"a"
+      }
     ],
     "inci_talks": [
     ],
@@ -283,6 +291,14 @@
         "hash": "workshop2",
         "desc": "<br><b>Date: </b> 3rd March.<br><b>Time: </b> 10 AM - 12 AM",
         "contact": "Karthik +91 99026 08277",
+        "register": "/register/events/"
+      },
+      {
+        "name": "Mixed Martial Art (MMA) Workshop ",
+        "image": "",
+        "hash": "workshop2",
+        "desc": "Mixed Martial Art is a full combat sport that allows striking and grappling, both standing and on the ground , using techniques from various combat sports and Martial arts.<br><br><br> Incident presents MMA workshop by Nithesh Kumar, a national Muay Thai champion who is the founder and head coach at Monkey Mayhem Fight Club, Mangalore, Karnataka. His gym specialises  in muay Thai (also known as Thai boxing), Brazilian Jiu Jitsu, kickboxing and functional fitness. He has a fight record of 10 wins - 0 losses and has trained other fighters who have moved on to winning gold medals at the national level.<br><b>Date: </b> 1st March. <br><b>Time: </b> 10 AM - 12 PM     ",
+        "contact": "Preethan: +91 87624 91282",
         "register": "/register/events/"
       }
     ]
@@ -336,8 +352,7 @@
     {
       "name": "Pro Shows",
       "image": "pro-shows.jpg",
-      "hash": "pro_shows",
-      "page_desc": "<h3 class=\"azuki\">Coming Soon...</h3>"
+      "hash": "pro_shows"
     },
     {
       "name": "Inci Talks",

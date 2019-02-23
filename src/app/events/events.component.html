@@ -32,6 +32,13 @@
               <img src="/assets/images/events/{{ item.image }}"/>
             </div>
             <div class="col s12 monserrat" [class.m8]="item.image">
+              
+            <div *ngIf="item.amaal"> 
+                    <div class="col s12 m4 inci-vid monserrat"  >
+                        <iframe class="" src="https://www.youtube.com/embed/-J_IhEg1jQo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen></iframe>
+            </div>
+             
               <div class="title azuki">{{ item.name }}</div>
               <div class="ltr" [innerHTML]="item.desc"></div>
               <div class="ltr" *ngIf="item.contact" [innerHTML]="'<b>Contact: </b>' + item.contact"></div>
@@ -39,6 +46,7 @@
               <a class="mbtn" *ngIf="item.rules" href="{{ item.rules }}" target="_blank">Rules</a>
               &nbsp;&nbsp;
               <a class="mbtn" *ngIf="item.register" href="{{ item.register }}">Register</a>
+                </div>
             </div>
           </div>
         </div>
