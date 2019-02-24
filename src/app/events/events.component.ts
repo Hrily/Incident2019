@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Title } from '@angular/platform-browser';
+import { Title, DomSanitizer } from '@angular/platform-browser';
 import { isDevMode } from '@angular/core';
 import * as $ from 'jquery';
 import * as materialize from 'materialize-css';
@@ -57,7 +57,7 @@ window.onhashchange = handleHashChange;
 })
 export class EventsComponent implements OnInit {
 
-  constructor(private titleService: Title) {
+  constructor(private titleService: Title, private sanitizer: DomSanitizer) {
     this.titleService.setTitle('Incident 2019 - Events');
   }
 
@@ -78,6 +78,10 @@ export class EventsComponent implements OnInit {
   setModalTitleText(event) {
     this.modalTitle = $(event.target).attr('data-title');
     this.modalText = $(event.target).attr('data-text');
+  }
+
+  getSafeUrl(url) {
+    return this.sanitizer.bypassSecurityTrustResourceUrl(url);
   }
 
   ngOnInit() {

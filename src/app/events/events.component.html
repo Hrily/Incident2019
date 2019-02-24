@@ -31,13 +31,11 @@
             <div *ngIf="item.image" class="col s12 m4">
               <img src="/assets/images/events/{{ item.image }}"/>
             </div>
-            <div *ngIf="item.youtube"> 
-              <div class="col s12 m4 inci-vid monserrat"  >
-                  <iframe class="" [src]="item.youtube" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-              </div>
-          </div> 
-            <div class="col s12 monserrat" [class.m8]="item.image">
+            <div *ngIf="item.youtube" class="col s12 m4 inci-vid monserrat"  >
+              <iframe class="" [src]="getSafeUrl(item.youtube)" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+            </div>
+            <div class="col s12 monserrat" [class.m8]="item.image || item.youtube">
               <div class="title azuki">{{ item.name }}</div>
               <div class="ltr" [innerHTML]="item.desc"></div>
               <div class="ltr" *ngIf="item.contact" [innerHTML]="'<b>Contact: </b>' + item.contact"></div>
