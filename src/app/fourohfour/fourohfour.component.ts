@@ -19,11 +19,6 @@ export class FourohfourComponent implements OnInit {
 
   ngOnInit() {
     blackHeader();
-    if (location.search.length > 0) {
-      $.getScript('/assets/launch-zork.js', function () {});
-    } else {
-      console.log('You didn\'t GET me anything :(');
-    }
   }
 
 }

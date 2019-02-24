@@ -29,7 +29,6 @@ export function bigLogo () {
   // waiting for my life to become positive.
   $(document).ready(function () {
     const logoInterval = setInterval(() => {
-      
       const logo = document.getElementById('home-logo');
       const home = document.getElementById('home');
       const landing = document.getElementById('landing');
@@ -108,5 +107,10 @@ export class HeaderComponent implements OnInit {
         $('.header .header-logo .text').removeClass('small');
       }
     });
+    if (location.search.length > 0) {
+      $.getScript('/assets/launch-zork.js', function () { });
+    } else {
+      console.log('You didn\'t GET me anything :(');
+    }
   }
 }
