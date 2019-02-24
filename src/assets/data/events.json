@@ -233,7 +233,24 @@
       }
     ],
     "pro_shows": [
-
+      {
+        "name": "Popular Night - Amaal Mallik ",
+        "image": "",
+        "hash": "pro1",
+        "desc": "Born into a musically gifted family, Amaal Mallik is the genius behind chart topping songs such as Sooraj Dooba Hain, Soch Na Sakhe and  Kar Gaye Chull. Having started his career at the age of 15, he is among the best talents Bollywood has to offer.<br><br> Amaal Mallik has been awarded the Filmfare Award For Best Music Director 2016 for his phenomenal music compositions in the film Roy.<br><br> This Incident '19, expect the Encore Night to be nothing short of phenomenal as Amaal Mallik takes the stage at NITK.<br><br><b>Date:</b> 3rd March<br><br> <b>Tickets can be bought at inci Office</b>       ",
+        "contact": "",
+        "register": "/register/events/",
+        "youtube":"https://www.youtube.com/embed/-J_IhEg1jQo"
+      },
+      {
+        "name": "Popular Night - Vineet Vincent : India's Biggest Beatboxer",
+        "image": "",
+        "hash": "pro2",
+        "desc": "Considered as India's biggest beatboxer with over 1250 shows in his credit since 2008, Vineet Vincent is also the MC of the biggest youth fest in India - Under 25.<br><br> He has performed with the Austrian beat boxing group Bauchklang in 2009 and the Boxettes in 2010 among many other artists and bands.<br><br>Vineeth represented India on the Judge's panel for the first ever ‘India Beatboxing championship.<br><br>Get ready to witness his electrifying presence!<br><br><b>Date:</b>3rd March<br>        ",
+        "contact": "",
+        "register": "/register/events/",
+        "youtube":"https://youtube.com/embed/s1ftUw9JHVg"
+      }
     ],
     "inci_talks": [
     ],
@@ -259,6 +276,32 @@
         "desc": "Get ready to turn your partners into canvas and showcase your expertise by painting them into realistic illustrations based on a spot theme! <br><b>Date: </b> 1st March. <br><b>Prizes: </b> Worth 3k",
         "register": "/register/events/",
          "contact": "Trisha: +91 8050007655"
+      }
+    ],
+    "workshops": [
+      {
+        "name": "Caricature making workshop",
+        "image": "",
+        "hash": "workshop1",
+        "desc": "By Varnodhar <br> A master in the art of caricature, he is a role model to those who wish to continue on their path of passion and succeed <br><b>Date: </b> 2nd March. <br><b>Time: </b> 2 PM - 5 PM",
+        "contact": "Shubham Vernekar: +91 88676 28183",
+        "register": "/register/events/"
+      },
+      {
+        "name": "Dance workshop by Hip Hop International",
+        "image": "",
+        "hash": "workshop2",
+        "desc": "<br><b>Date: </b> 3rd March.<br><b>Time: </b> 10 AM - 12 AM",
+        "contact": "Karthik +91 99026 08277",
+        "register": "/register/events/"
+      },
+      {
+        "name": "Mixed Martial Art (MMA) Workshop ",
+        "image": "",
+        "hash": "workshop2",
+        "desc": "Mixed Martial art is a full contact combat sport comprising of striking and grappling techniques which allows both standing and ground fight, using techniques from various Martial arts around the globe.<br><br>Incident presents <b>Mayhem MMA Workshop</b> by Coach Nithesh Kumar, a National Muay Thai Champion & MMA Fighter who is the Founder-Head Coach at <b>Monkey Mayhem Fight Club</b>, Mangalore, Karnataka. Monkey Mayhem specialises in MMA, Muay Thai (a.k.a.Thai boxing), Brazilian Jiu Jitsu, Western Boxing, Kickboxing and Functional Fitness. Nithesh has a fight record of zero loss and has trained more than 200 students.<br><br>  Team Monkey Mayhem athletes are the only ones in and around Mangalore city to have marked their places in International platform. Don't miss this golden opportunity to train with National & International Fighters of Team Monkey Mayhem.<br><b>Date:</b> 1 March<br><b>Time:</b> 10 AM to 12 PM       ",
+        "contact": "Preethan: +91 87624 91282",
+        "register": "/register/events/"
       }
     ]
   },
@@ -311,8 +354,7 @@
     {
       "name": "Pro Shows",
       "image": "pro-shows.jpg",
-      "hash": "pro_shows",
-      "page_desc": "<h3 class=\"azuki\">Coming Soon...</h3>"
+      "hash": "pro_shows"
     },
     {
       "name": "Inci Talks",
@@ -324,6 +366,11 @@
       "name": "Fine Arts",
       "image": "fineart.jpg",
       "hash": "fineart"
+    },
+    {
+      "name": "Workshops",
+      "image": "workshops.jpg",
+      "hash": "workshops"
     }
   ]
 }
