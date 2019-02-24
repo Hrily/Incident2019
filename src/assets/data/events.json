@@ -11,8 +11,7 @@
         "name": "Beach Informalz",
         "image": "beach-informalz.jpg",
         "hash": "informalz",
-        "desc": "Not finding any events to your taste? Bored out of your mind? No worries! All you gotta do is take a stroll to 'The Beach'. The Informalz is awaiting you! From mind-blowing games  to silly competitions between your buddies, the Beach Informalz offers a dose of fun and frolic that you cannot refuse! <br><b>Date: </b>  1st - 3rd March",
-        "register": "/register/events/"
+        "desc": "Not finding any events to your taste? Bored out of your mind? No worries! All you gotta do is take a stroll to 'The Beach'. The Informalz is awaiting you! From mind-blowing games  to silly competitions between your buddies, the Beach Informalz offers a dose of fun and frolic that you cannot refuse! <br><b>Date: </b>  1st - 3rd March"
       }
     ],
     "music": [
@@ -29,7 +28,7 @@
         "name": "Pulse",
         "image": "pulse.jpg",
         "hash": "Pulse",
-        "desc": "(Semi-Professional Western Rock Band Competition) <br>Have you ever dreamt of selling out Madison Square Garden? Ever wondered how it would feel to witness a full-house crowd chant your name? Team Incident provides just the experience and invites you to rule the stage at Pulse, the Western battle of bands. We promise you a crowd unlike anything you have ever seen and will ever see! What are you waiting for? Register today! <br><b>Date: </b> 2nd March. <br><b>Time: </b> 9 AM. <br><b>Prizes: </b> Worth 40K",
+        "desc": "(Semi-Professional Western Rock Band Competition) <br>Have you ever dreamt of selling out Madison Square Garden? Ever wondered how it would feel to witness a full-house crowd chant your name? Team Incident provides just the experience and invites you to rule the stage at Pulse, the Western battle of bands. We promise you a crowd unlike anything you have ever seen and will ever see! What are you waiting for? Register today! <br><b>Date: </b> 2nd March. <br><b>Prizes: </b> Worth 40K",
         "register": "/register/events/",
         "contact": "Sofia: 8095908965",
         "rules": "https://drive.google.com/open?id=11-C8CSt7c2QMhph5K_J0nXpyhMvG9e-gCY5f2BRxSRE"
@@ -47,7 +46,7 @@
         "name": "Bandish",
         "image": "bandish.JPG",
         "hash": "Bandish",
-        "desc": "(Semi-Professional Hindustani and Carnatic Rock Band Competition)<br> Thermal and Quarter. Raghu Dixit Project. Thaikkudam Bridge. Let it be remembered in the pages of history that nobody does rock better than our desi boyz! Adorn your heart with the tricolour at Bandish, the Eastern rock phenomenon. Because who says only the Westerners should have all the fun? <br><b>Date: </b> 3rd March.<br><b>Time: </b> 9 AM. <br><b>Prizes: </b> Worth 40K",
+        "desc": "(Semi-Professional Hindustani and Carnatic Rock Band Competition)<br> Thermal and Quarter. Raghu Dixit Project. Thaikkudam Bridge. Let it be remembered in the pages of history that nobody does rock better than our desi boyz! Adorn your heart with the tricolour at Bandish, the Eastern rock phenomenon. Because who says only the Westerners should have all the fun? <br><b>Date: </b> 3rd March. <br><b>Prizes: </b> Worth 40K",
         "register": "/register/events/",
         "contact": "Navnika: 9880581172",
         "rules": "https://drive.google.com/open?id=1_AxOkfL941k1g0q_uPU_foKN8Sc2Y_howJ-Ya8seufw"
@@ -68,7 +67,7 @@
         "name": "Promenade",
         "image": "Promenade.JPG",
         "hash": "Promenade",
-        "desc": "(Semi-professional Western Group Dance Competition) A leisurely stroll would seem so relieving, but what if you get to see your favourite dance moves creating it’s magic outside the dance floor? Presenting to you, the group Street dance competition, Promenade. So does your group have it to turn eyes around and make it an amazing dance Promenade? Join in and find out yourself. <br><b>Date: </b> 2nd March. <br><b>Prizes: </b> Worth 45k",
+        "desc": "(Western Group Dance Competition) A leisurely stroll would seem so relieving, but what if you get to see your favourite dance moves creating it’s magic outside the dance floor? Presenting to you, the group Street dance competition, Promenade. So does your group have it to turn eyes around and make it an amazing dance Promenade? Join in and find out yourself. <br><b>Date: </b> 2nd March. <br><b>Prizes: </b> Worth 45k",
         "register": "/register/events/",
         "rules": "https://docs.google.com/document/d/1OUjeVzBtgDpGu3-0f5ZodI9BVWYQtEZQnN4E4fCwMeA/edit",
         "contact": "Vaibhav Rai: 8073368756"
@@ -96,30 +95,36 @@
       {
         "name": "General Quiz",
         "hash": "General_Quiz",
-        "desc": "A crowd roaring with applause, wondering how you know so much. The quizmaster, wondering if his next question will break your amazing streak of right questions. You, on the other hand confident, that you will sail past this last question and be the champion. As the environment get tense, and the he says, “Team 4, your last question is…”. You know the answer, you know the answer! But you’ve gotta be there to answer. So come and prove your Mettle. Show that your team is the best, be it any topic under the sun! This is the General quiz. <br><b>Teams of three.</b><br><b>Date: </b> 1st - 3rd March. <br><b>Prizes: </b> Worth 6.5K",
+        "desc": "A crowd roaring with applause, wondering how you know so much. The quizmaster, wondering if his next question will break your amazing streak of right questions. You, on the other hand confident, that you will sail past this last question and be the champion. As the environment get tense, and the he says, “Team 4, your last question is…”. You know the answer, you know the answer! But you’ve gotta be there to answer. So come and prove your Mettle. Show that your team is the best, be it any topic under the sun! This is the General quiz. <br><b>Quizmaster:</b> Lokesh Kaza <br><b>Teams of three.</b><br><b>Date: </b> 2nd March. <br><b>Prizes: </b> Worth 9K",
         "register": "/register/events/",
         "contact": "Dhruv: +919880547421"
       },
       {
         "name": "Asia Quiz - Inci Themed Quiz",
         "hash": "India_Quiz",
-        "desc": "If you are confident with your trivia about Asia, this is your chance.If competition comes naturally to you, if your brain is dying for some activity and if you see thrill in do-or-die situations, we invite you to take part in the ultimate brain storming session. Watch while teams battle it out on the stage as answers fly back and forth with equal aplomb. <br><b>Teams of three.</b><br><b>Date: </b> 1st - 3rd March. <br><b>Prizes: </b> Worth 6.5K",
+        "desc": "If you are confident with your trivia about Asia, this is your chance.If competition comes naturally to you, if your brain is dying for some activity and if you see thrill in do-or-die situations, we invite you to take part in the ultimate brain storming session. Watch while teams battle it out on the stage as answers fly back and forth with equal aplomb. <br><b>Teams of three.</b><br><b>Date: </b> 1st March. <br><b>Prizes: </b> Worth 6.5K",
         "register": "/register/events/",
         "contact": "Dhruv: +919880547421"
       },
       {
         "name": "MELAS Quiz",
         "hash": "Melas_Quiz",
-        "desc": " <br><b>Date: </b> 1st - 3rd March. <br><b>Prizes: </b> Worth 6.5K",
+        "desc": "Do you revel in your knowledge of obscure facts from the classic literary works to modern cinema? Is music and art something you hold dear? The MELAS Quiz is the perfect platform to bring forth your provice in cinema, literature, art, music, sports and everything that connects them. <br><b>Quizmaster:</b> Lokesh Kaza <br><b>Teams of three.</b><br><b>Date: </b> 2nd March. <br><b>Prizes: </b> Worth 9K",
         "register": "/register/events/",
         "contact": "Dhruv: +919880547421"
       },
       {
         "name": "Lone Wolf",
         "hash": "Lone_Wolf",
-        "desc": "Do you know everything from the fun facts about Infinity War to the intricacies of global economics? Are you generally shunned among your peers from being a know it all? (OR does information unintentionally come out blurting whenever you open your mouth?) Well here you can actually win prizes for that! So come and embrace the chance to show the ignoramuses that information is the real wealth! <br><b>Date: </b> 1st - 3rd March. <br><b>Prizes: </b> Worth 4.5K",
+        "desc": "Do you know everything from the fun facts about Infinity War to the intricacies of global economics? Are you generally shunned among your peers from being a know it all? (OR does information unintentionally come out blurting whenever you open your mouth?) Well here you can actually win prizes for that! So come and embrace the chance to show the ignoramuses that information is the real wealth! <br><b>Date: </b> 1st March. <br><b>Prizes: </b> Worth 4.5K",
         "register": "/register/events/",
         "contact": "Dhruv: +919880547421"
+      },
+      {
+        "name": "Biz Quiz",
+        "hash": "Biz_Quiz",
+        "desc": "Do people often claim that you are such a know-all? Well then, prove them right. Inci Biz Quiz tries to bring out your  knowledge treasure trove. Compete with the sharpest and fastest minds with a passion for the business world. Do you have the mettle to battle it out at the quiz-essential zone of Incident '19? <br><b>Teams of three.</b><br><b>Date: </b> 3rd March. <br><b> Prizes: </b> Worth 6.5K",
+        "register": "/register/events/"
       }
     ],
     "biz_events": [
@@ -127,12 +132,6 @@
         "name": "Mock Stock",
         "hash": "mock_stock",
         "desc": "Want to experience the excitement of making money on the stock market? Have never known what a share is and have only wondered how everybody buys shares and makes riches? Join the Mock Stock event of Incident ’19. You can play against the smartest of investors and make millions. So this Inci, trade your stocks the right way and become a millionaire! <br><b>Date: </b> 27th February - 1st March. <br><b>Prizes: </b> Worth 5K",
-        "register": "/register/events/"
-      },
-      {
-        "name": "Biz Quiz",
-        "hash": "Biz_Quiz",
-        "desc": "Do people often claim that you are such a know-all? Well then, prove them right. Inci Biz Quiz tries to bring out your  knowledge treasure trove. Compete with the sharpest and fastest minds with a passion for the business world. Do you have the mettle to battle it out at the quiz-essential zone of Incident '19? <br><b>Date: </b> 2nd - 3rd March. br><b> Prizes: </b> Worth 3.5K",
         "register": "/register/events/"
       },
       {
@@ -156,13 +155,6 @@
         "hash": "pubg",
         "contact": "Harshith Kumar: +91 7760575030",
         "desc": "Are you a PUBG wala? Then gather around and look out for the enemies ahead as you show off your shooting skills at Incident ‘19. Doesn't matter if you get an insane amount of kills, the last man standing will get the chicken dinner. <br><b>Date: </b> 1st - 3rd March"
-      },
-      {
-        "name": "FIFA",
-        "image": "fifa.jpg",
-        "hash": "fifa",
-        "contact": "Harshith Kumar: +91 7760575030",
-        "desc": "Dribble, scissor, a quick pull and push, as you send the defenders sprawling across the grass, causing the goalkeeper to break out in panicky sweat, with the frenzied fans bordering on the state of hysterical joy. Welcome to the world of FIFA, you gotta your best foot forward here to be the champion. <br><b>Date: </b> 1st - 3rd March. <br><b>Prizes: </b> Worth 6.5K"
       },
       {
         "name": "Counter Strike Global Offensive",
@@ -215,15 +207,8 @@
         "image": "frames.jpg",
         "hash": "frames",
         "desc": "The biggest annual cultural festival of NIT Karnataka, Surathkal INCIDENT '19, is back again and FRAMES in association with Photography Club NITK, invites all those passionate photographers to participate in its online photography contest.It's a great opportunity to have your photographs exhibited during Expose, the photo exhibition which is a part of Incident' 19. Through this you can also compete with the other college photographers and show the people how creative you are to this world. <br><b>Date: </b> . <br><b>Prizes: </b> Worth 5k",
-        "register": "/register/events/",
         "rules": "https://drive.google.com/file/d/1WxMI673dHIcSzQHeqYI_fAJVJmsoIqHN/view",
         "contact": "Sandeep: +917204855840"
-      },
-      {
-        "name": "Kalakriti",
-        "image": "kalakriti.jpg",
-        "hash": "kala",
-        "desc": "Lose yourself to jaw-dropping, eye-popping and magical pieces of art and craft. Art forms ranging from sketches to paintings, origami, kirigami and other craftwork, Kalakriti is home to all. The artist in you is sure to be motivated and inspired by the spectacular creativity packaged into this exhibition! <br><b>Date: </b>  1st - 3rd March"
       },
       {
         "name": "Expose",
@@ -239,12 +224,25 @@
         "desc": "As the name suggests, it is a challenge which is its own reward. The rules to this mouth-watering event are simple, eat fast, eat a lot. Feast on a variety of foodstuffs, each better than the previous one. Only the gastronomically gifted can make it to the end, may the food be with you. <br><b>Date: </b> 3rd March"
       },
       {
-        "name": "Body Painting",
-        "image": "face-painting-workshops.jpg",
-        "hash": "body",
-        "desc": "Get ready to turn your partners into canvas and showcase your expertise by painting them into realistic illustrations based on a spot theme! <br><b>Date: </b> 1st March. <br><b>Prizes: </b> Worth 3k",
-        "register": "/register/events/",
-         "contact": "Trisha: +91 8050007655"
+        "name": "Speaking triathlon",
+        "image": "",
+        "hash": "speak",
+        "desc": "A good orator is not only one who can stand in front of the crowd and say a few words, but one who can understand the impact his every utterance has. Come join the Speech Triathlon this Incident to put yourself through the three tests of time, Commentary, Declamation and Policy, to decide once and for all who will be the master of the stage in the Western Coast.  <br><b>Date: </b> 2nd March. <br><b>Prizes: </b> Worth 4k",
+        "contact": "Agnes: +91 96113 44476, Tirth: +91 99208 04880",
+        "register": "/register/events/"
+      }
+    ],
+    "pro_shows": [
+
+    ],
+    "inci_talks": [
+    ],
+    "fineart": [
+      {
+        "name": "Kalakriti",
+        "image": "kalakriti.jpg",
+        "hash": "kala",
+        "desc": "Lose yourself to jaw-dropping, eye-popping and magical pieces of art and craft. Art forms ranging from sketches to paintings, origami, kirigami and other craftwork, Kalakriti is home to all. The artist in you is sure to be motivated and inspired by the spectacular creativity packaged into this exhibition! <br><b>Date: </b>  1st - 3rd March"
       },
       {
         "name": "Newspaper Costume Design",
@@ -255,61 +253,12 @@
         "contact": "Trisha: +91 8050007655"
       },
       {
-        "name": "Speaking triathlon",
-        "image": "",
-        "hash": "speak",
-        "desc": "A good orator is not only one who can stand in front of the crowd and say a few words, but one who can understand the impact his every utterance has. Come join the Speech Triathlon this Incident to put yourself through the three tests of time, Commentary, Declamation and Policy, to decide once and for all who will be the master of the stage in the Western Coast.  <br><b>Date: </b> 2nd March. <br><b>Prizes: </b> Worth 4k",
-        "contact": "Agnes: +91 96113 44476, Tirth: +91 99208 04880",
-        "register": "/register/events/"
-      }
-    ],
-    "pro_shows": [
-      {
-        "name": "Popular Night - Amaal Mallik ",
-        "image": "",
-        "hash": "pro1",
-        "desc": "Born into a musically gifted family, Amaal Mallik is the genius behind chart topping songs such as Sooraj Dooba Hain, Soch Na Sakhe and  Kar Gaye Chull. Having started his career at the age of 15, he is among the best talents Bollywood has to offer.<br><br> Amaal Mallik has been awarded the Filmfare Award For Best Music Director 2016 for his phenomenal music compositions in the film Roy.<br><br> This Incident '19, expect the Encore Night to be nothing short of phenomenal as Amaal Mallik takes the stage at NITK.<br><br><b>Date:</b> 3rd March<br><br> <b>Tickets can be bought at inci Office</b>       ",
-        "contact": "",
+        "name": "Body Painting",
+        "image": "face-painting-workshops.jpg",
+        "hash": "body",
+        "desc": "Get ready to turn your partners into canvas and showcase your expertise by painting them into realistic illustrations based on a spot theme! <br><b>Date: </b> 1st March. <br><b>Prizes: </b> Worth 3k",
         "register": "/register/events/",
-        "youtube":"https://www.youtube.com/embed/-J_IhEg1jQo"
-      },
-      {
-        "name": "Popular Night - Vineet Vincent : India's Biggest Beatboxer",
-        "image": "",
-        "hash": "pro2",
-        "desc": "Considered as India's biggest beatboxer with over 1250 shows in his credit since 2008, Vineet Vincent is also the MC of the biggest youth fest in India - Under 25.<br><br> He has performed with the Austrian beat boxing group Bauchklang in 2009 and the Boxettes in 2010 among many other artists and bands.<br><br>Vineeth represented India on the Judge's panel for the first ever ‘India Beatboxing championship.<br><br>Get ready to witness his electrifying presence!<br><br><b>Date:</b>3rd March<br>        ",
-        "contact": "",
-        "register": "/register/events/",
-        "youtube":"https://youtube.com/embed/s1ftUw9JHVg"
-      }
-
-    ],
-    "inci_talks": [
-    ],
-    "workshops": [
-      {
-        "name": "Caricature making workshop",
-        "image": "",
-        "hash": "workshop1",
-        "desc": "By Varnodhar <br> A master in the art of caricature, he is a role model to those who wish to continue on their path of passion and succeed <br><b>Date: </b> 2nd March. <br><b>Time: </b> 2 PM - 5 PM",
-        "contact": "Shubham Vernekar: +91 88676 28183",
-        "register": "/register/events/"
-      },
-      {
-        "name": "Dance workshop by Hip Hop International",
-        "image": "",
-        "hash": "workshop2",
-        "desc": "<br><b>Date: </b> 3rd March.<br><b>Time: </b> 10 AM - 12 AM",
-        "contact": "Karthik +91 99026 08277",
-        "register": "/register/events/"
-      },
-      {
-        "name": "Mixed Martial Art (MMA) Workshop ",
-        "image": "",
-        "hash": "workshop2",
-        "desc": "Mixed Martial art is a full contact combat sport comprising of striking and grappling techniques which allows both standing and ground fight, using techniques from various Martial arts around the globe.<br><br>Incident presents <b>Mayhem MMA Workshop</b> by Coach Nithesh Kumar, a National Muay Thai Champion & MMA Fighter who is the Founder-Head Coach at <b>Monkey Mayhem Fight Club</b>, Mangalore, Karnataka. Monkey Mayhem specialises in MMA, Muay Thai (a.k.a.Thai boxing), Brazilian Jiu Jitsu, Western Boxing, Kickboxing and Functional Fitness. Nithesh has a fight record of zero loss and has trained more than 200 students.<br><br>  Team Monkey Mayhem athletes are the only ones in and around Mangalore city to have marked their places in International platform. Don't miss this golden opportunity to train with National & International Fighters of Team Monkey Mayhem.<br><b>Date:</b> 1 March<br><b>Time:</b> 10 AM to 12 PM       ",
-        "contact": "Preethan: +91 87624 91282",
-        "register": "/register/events/"
+         "contact": "Trisha: +91 8050007655"
       }
     ]
   },
@@ -355,14 +304,15 @@
       "hash": "gaming_events"
     },
     {
-      "name": "Miscellaneous Events",
+      "name": "Potpourri",
       "image": "misc.jpg",
       "hash": "misc"
     },
     {
       "name": "Pro Shows",
       "image": "pro-shows.jpg",
-      "hash": "pro_shows"
+      "hash": "pro_shows",
+      "page_desc": "<h3 class=\"azuki\">Coming Soon...</h3>"
     },
     {
       "name": "Inci Talks",
@@ -371,9 +321,9 @@
       "page_desc": "We believe passionately in the power of ideas to change attitudes, lives of the student community. The goal of this event is to bring together the greatest achievers and eminent personalities such as yourself to plant the seed of an idea in the minds of this generation to create a positive change in the society. <h3 class=\"azuki\"> Previous Speakers</h3>Jayaprakash Narayan (Loksatta Party Founder), Balaji Viswanathan (Highest followed person on Quora), Ricky Kej (Grammy award winning music composer), Dr Ullas Karanth (Renowned Environmentalist and Tiger expert), Ramaswami Balasubramaniam (Chairman of Grassroots Research And Advocacy Movement (GRAAM)) have adorned the stage of Inci-Talks in the previous editions."
     },
     {
-      "name": "Workshops",
-      "image": "workshops.jpg",
-      "hash": "workshops"
+      "name": "Fine Arts",
+      "image": "fineart.jpg",
+      "hash": "fineart"
     }
   ]
 }
