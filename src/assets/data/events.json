@@ -235,19 +235,27 @@
     "pro_shows": [
       {
         "name": "Popular Night - Amaal Mallik ",
+        "image": "",
         "hash": "pro1",
         "desc": "Born into a musically gifted family, Amaal Mallik is the genius behind chart topping songs such as Sooraj Dooba Hain, Soch Na Sakhe and  Kar Gaye Chull. Having started his career at the age of 15, he is among the best talents Bollywood has to offer.<br><br> Amaal Mallik has been awarded the Filmfare Award For Best Music Director 2016 for his phenomenal music compositions in the film Roy.<br><br> This Incident '19, expect the Encore Night to be nothing short of phenomenal as Amaal Mallik takes the stage at NITK.<br><br><b>Date:</b> 3rd March<br><br> <b>Tickets can be bought at inci Office</b>       ",
         "contact": "",
-        "register": "/register/events/",
         "youtube":"https://www.youtube.com/embed/-J_IhEg1jQo"
       },
       {
         "name": "Popular Night - Vineet Vincent : India's Biggest Beatboxer",
+        "image": "",
         "hash": "pro2",
         "desc": "Considered as India's biggest beatboxer with over 1250 shows in his credit since 2008, Vineet Vincent is also the MC of the biggest youth fest in India - Under 25.<br><br> He has performed with the Austrian beat boxing group Bauchklang in 2009 and the Boxettes in 2010 among many other artists and bands.<br><br>Vineeth represented India on the Judge's panel for the first ever ‘India Beatboxing championship.<br><br>Get ready to witness his electrifying presence!<br><br><b>Date:</b>3rd March<br>        ",
         "contact": "",
-        "register": "/register/events/",
         "youtube":"https://youtube.com/embed/s1ftUw9JHVg"
+      },
+      {
+        "name": "BDM Night",
+        "image": "",
+        "hash": "pro3",
+        "desc": "Come March 2nd, NITK is set to open its gates to a DJ, blogger, model and fashion enthusiast!<br><br>This all-round entertainer has experimented against a wide range of EDM genres. She is a trailblazer who stirs up a party wherever she goes!<br><br>Incident’19 welcomes you to feel the soulful rhythm, to surrender yourself and dance like never before to the beats of <b>DJ Shanaya</b>!  <br><br><b>Date:</b>2nd March<br>        ",
+        "contact": "",
+        "youtube":"https://youtube.com/embed/dWtuxPGsmUY"
       }
     ],
     "inci_talks": [
