@@ -133,12 +133,6 @@
         "hash": "mock_stock",
         "desc": "Want to experience the excitement of making money on the stock market? Have never known what a share is and have only wondered how everybody buys shares and makes riches? Join the Mock Stock event of Incident ’19. You can play against the smartest of investors and make millions. So this Inci, trade your stocks the right way and become a millionaire! <br><b>Date: </b> 27th February - 1st March. <br><b>Prizes: </b> Worth 5K",
         "register": "/register/events/"
-      },
-      {
-        "name": "B-Plan",
-        "hash": "B-Plan",
-        "desc": "Do you have an urge to develop business models to meet people's need? The first step to run a great business is to have an idea that has a great business plan in place. Inci B-Plan gives you a platform to exhibit your entrepreneurial skills. Gear up to compete with the best minds. <br><b>Date: </b> 28th February - 3rd March. <br><b>Prizes: </b> Worth 5K",
-        "register": "/register/events/"
       }
     ],
     "gaming_events": [
@@ -224,10 +218,10 @@
         "desc": "As the name suggests, it is a challenge which is its own reward. The rules to this mouth-watering event are simple, eat fast, eat a lot. Feast on a variety of foodstuffs, each better than the previous one. Only the gastronomically gifted can make it to the end, may the food be with you. <br><b>Date: </b> 3rd March"
       },
       {
-        "name": "Speaking triathlon",
+        "name": "Speech Triathlon",
         "image": "",
         "hash": "speak",
-        "desc": "A good orator is not only one who can stand in front of the crowd and say a few words, but one who can understand the impact his every utterance has. Come join the Speech Triathlon this Incident to put yourself through the three tests of time, Commentary, Declamation and Policy, to decide once and for all who will be the master of the stage in the Western Coast.  <br><b>Date: </b> 2nd March. <br><b>Prizes: </b> Worth 4k",
+        "desc": "A good orator is not only one who can stand in front of the crowd and say a few words, but one who can understand the impact his every utterance has. Come join the Speech Triathlon this Incident to put yourself through the three tests of time, Declamation, Commentary and Policy, to decide once and for all who will be the master of the stage in the Western Coast.<br><br><b>Rules:</b><br>Contestants are required to deliver a speech that has been delivered by a renowned .....<a href=https://docs.google.com/document/d/1B_QsIFFZmgTcaTSeINyPpXjawvRgawvJ5tNE-_gfspk/edit>Read more </a> <br><b>Date: </b> 2nd March. <br><b>Prizes: </b> Worth 4k",
         "contact": "Agnes: +91 96113 44476, Tirth: +91 99208 04880",
         "register": "/register/events/"
       }
