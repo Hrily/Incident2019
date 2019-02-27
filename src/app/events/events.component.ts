@@ -81,10 +81,19 @@ export class EventsComponent implements OnInit {
   }
 
   getSafeUrl(url) {
+    console.log(url);
     return this.sanitizer.bypassSecurityTrustResourceUrl(url);
   }
 
   ngOnInit() {
+    // Sanitize youtube urls
+    for (const key of this.eventKeys) {
+      for (const item of this.events[key]) {
+        if (item.youtube) {
+          item.youtube = this.getSafeUrl(item.youtube);
+        }
+      }
+    }
     blackHeader();
     instance = this;
     instance.list = undefined;
