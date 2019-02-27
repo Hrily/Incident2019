@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { blackHeader } from '../header/header.component';
 import * as $ from 'jquery';
 import { isMobile } from '../app.component';
+import { Title } from '@angular/platform-browser';
 
 const NO_EVENTS_STRING = 'Looks like the flurry of events has stopped momentarily - go grab a snack or chill out at the beach!';
 
@@ -13,7 +14,7 @@ export let HAPPENING_NOW = [
 export let COMING_UP = HAPPENING_NOW;
 
 export function getData(instance: any, cb: any) {
-  $.getJSON('http://incident.nitk.ac.in/register/happening_now',
+  $.getJSON('/register/happening_now',
     function (data: any) {
       cb(instance, data);
     }
@@ -41,7 +42,9 @@ export class LivenowComponent implements OnInit {
     instance.comingUpStatus = '';
   }
 
-  constructor() { }
+  constructor(private titleService: Title) {
+    this.titleService.setTitle('Incident 2019 - Live Now');
+  }
 
   ngOnInit() {
     blackHeader();

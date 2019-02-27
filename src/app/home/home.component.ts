@@ -29,7 +29,7 @@ export class HomeComponent implements OnInit {
         <b>${happeningEvent.event_name}</b>
         is happening at
         <i>${happeningEvent.event_location}</i>.
-        <a href="/livenow" class="azuki">VIEW&nbsp;ALL</a>
+        <a href="/livenow" class="azuki">SEE&nbsp;WHAT'S&nbspHAPPENING&nbspNOW</a>
       `;
     });
     // const happeningEvent = HAPPENING_NOW[0];

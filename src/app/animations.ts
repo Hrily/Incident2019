@@ -4,12 +4,13 @@ export const routerTransition = trigger('routerTransition', [
     transition(`IncidentPage => HomePage,
                 StatisticsPage => IncidentPage,
                 EventsPage => StatisticsPage,
-                iCarePage => EventsPage,
+                LiveNowPage => EventsPage,
+                ProShowsPage => LiveNowPage,
+                iCarePage => ProShowsPage,
                 SponsorsPage => iCarePage,
                 AboutPage => SponsorsPage,
                 ContactUsPage => AboutPage,
-                ContactUsPage => HomePage,
-                LiveNowPage => *`, [
+                ContactUsPage => HomePage`, [
     /* order */
     /* 1 */ query(':enter, :leave',
                 style({ position: 'fixed', width: '100%' }),
@@ -28,12 +29,13 @@ export const routerTransition = trigger('routerTransition', [
     transition(`HomePage => IncidentPage,
                 IncidentPage => StatisticsPage,
                 StatisticsPage => EventsPage,
-                EventsPage => iCarePage,
+                EventsPage => LiveNowPage,
+                LiveNowPage => ProShowsPage,
+                ProShowsPage => iCarePage,
                 iCarePage => SponsorsPage,
                 SponsorsPage => AboutPage,
                 SponsorsPage => ContactUsPage,
-                AboutPage => ContactUsPage,
-                * => LiveNowPage`, [
+                AboutPage => ContactUsPage`, [
         /* order */
         /* 1 */ query(':enter, :leave',
                     style({ position: 'fixed', width: '100%' }),
