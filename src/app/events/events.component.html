@@ -3,7 +3,7 @@
   <div class="incident page-container iorange black-text">
 
     <div class="nav-top">
-      <a routerLink="/statistics"><i class="material-icons black-text">keyboard_arrow_up</i></a>
+      <a (click)="goUp()"><i class="material-icons black-text">keyboard_arrow_up</i></a>
     </div>
     
     <div class="page-content">
@@ -32,7 +32,7 @@
               <img src="/assets/images/events/{{ item.image }}"/>
             </div>
             <div *ngIf="item.youtube" class="col s12 m4 inci-vid monserrat"  >
-              <iframe class="" [src]="getSafeUrl(item.youtube)" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              <iframe class="" [src]="item.youtube" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                   allowfullscreen></iframe>
             </div>
             <div class="col s12 monserrat" [class.m8]="item.image || item.youtube">
@@ -74,7 +74,7 @@
     <app-footer *ngIf="isMobile()"></app-footer>
 
     <div class="nav-down">
-      <a routerLink="/icare"><i class="material-icons black-text">keyboard_arrow_down</i></a>
+      <a (click)="goDown()"><i class="material-icons black-text">keyboard_arrow_down</i></a>
     </div>
 
   </div>

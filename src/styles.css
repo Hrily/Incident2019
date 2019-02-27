@@ -153,6 +153,7 @@ body {
 .nav-top, .nav-down {
     width: 100%;
     text-align: center;
+    cursor: pointer;
 }
 
 .nav-top i, .nav-down i {

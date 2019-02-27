@@ -5,6 +5,7 @@ import * as $ from 'jquery';
 import * as materialize from 'materialize-css';
 import { blackHeader } from '../header/header.component';
 import { isMobile } from '../app.component';
+import { Router } from '@angular/router';
 declare const require;
 
 const EVENT = require('../../assets/data/events.json');
@@ -26,7 +27,7 @@ function getCategoryNameFromHash(hash) {
   return getCategoryFromHash(hash).name;
 }
 
-function handleHashChange() {
+export function handleHashChange() {
   const hash = location.hash.replace('#', '');
   $('.events-listing').css('opacity', '0');
   $('html, body').animate({ scrollTop: 0 }, 300);
@@ -57,7 +58,7 @@ window.onhashchange = handleHashChange;
 })
 export class EventsComponent implements OnInit {
 
-  constructor(private titleService: Title, private sanitizer: DomSanitizer) {
+  constructor(public router: Router, private titleService: Title, private sanitizer: DomSanitizer) {
     this.titleService.setTitle('Incident 2019 - Events');
   }
 
@@ -84,7 +85,27 @@ export class EventsComponent implements OnInit {
     return this.sanitizer.bypassSecurityTrustResourceUrl(url);
   }
 
+  goUp() {
+    this.router.navigate(['/',
+      (location.hash === '#pro_shows') ? 'livenow' : 'statistics'
+    ]);
+  }
+
+  goDown() {
+    this.router.navigate(['/',
+      (location.hash === '#pro_shows') ? 'icare' : 'livenow'
+    ]);
+  }
+
   ngOnInit() {
+    // Sanitize youtube urls
+    for (const key of this.eventKeys) {
+      for (const item of this.events[key]) {
+        if (item.youtube && typeof item.youtube === 'string') {
+          item.youtube = this.getSafeUrl(item.youtube);
+        }
+      }
+    }
     blackHeader();
     instance = this;
     instance.list = undefined;

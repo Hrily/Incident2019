@@ -4,6 +4,7 @@ import { ActivatedRoute, Router, NavigationEnd } from '@angular/router';
 import { aboutInit, sliderNext, sliderCurrent, sliderEvent } from '../about/about.component';
 import * as $ from 'jquery';
 import { blackFooter, whiteFooter } from '../footer/footer.component';
+import { handleHashChange } from '../events/events.component';
 declare const require;
 
 const SOCIAL = require('../../assets/data/social.json');
@@ -69,7 +70,7 @@ export function whiteHeader() {
 })
 export class HeaderComponent implements OnInit {
 
-  constructor(private router: Router) {
+  constructor(public router: Router) {
     router.events.subscribe((val) => {
       if (val instanceof NavigationEnd) {
         if (val.url === '/') {
@@ -94,10 +95,16 @@ export class HeaderComponent implements OnInit {
   social = SOCIAL;
   getPath = getPath;
   bigLogo = bigLogo;
+  location = location;
 
   ngOnInit() {
     $('.header i').click(toggleMenu);
-    $('.header .nav-links a').click(toggleMenu);
+    $('.header .nav-links a').click( () => {
+      toggleMenu();
+      if (location.pathname === '/events') {
+        handleHashChange();
+      }
+    });
     $('.header .about').click(aboutInit);
     const aTop = $('.header .header-logo .text').height();
     $(window).scroll(function () {

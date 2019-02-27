@@ -8,8 +8,9 @@
     <li><a routerLink="/" routerLinkActive="active" class="home" [routerLinkActiveOptions]="{ exact: true }">HOME</a></li>
     <li><a routerLink="/incident" routerLinkActive="active" class="incident">INCIDENT</a></li>
     <li><a routerLink="/statistics" routerLinkActive="active" class="statistics">STATISTICS</a></li>
-    <li><a routerLink="/events" routerLinkActive="active" class="events">EVENTS</a></li>
-    <li><a routerLink="/livenow" routerLinkActive="active" class="events">LIVE NOW</a></li>
+    <li><a routerLink="/events" [class.active]="location.pathname==='/events' && location.hash!=='#pro_shows'" class="events">EVENTS</a></li>
+    <li><a routerLink="/livenow" routerLinkActive="active" class="live-now">LIVE NOW</a></li>
+    <li><a routerLink="/events" fragment="pro_shows" [class.active]="location.pathname==='/events' && location.hash==='#pro_shows'" class="events-pro-shows">PRO SHOWS</a></li>
     <li><a routerLink="/icare" routerLinkActive="active" class="icare">i-CARE</a></li>
     <li><a routerLink="/sponsors" routerLinkActive="active" class="sponsors">SPONSORS</a></li>
     <li><a routerLink="/about" routerLinkActive="active" class="about">ABOUT</a></li>

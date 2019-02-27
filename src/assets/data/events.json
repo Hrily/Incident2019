@@ -221,35 +221,92 @@
         "name": "Speech Triathlon",
         "image": "",
         "hash": "speak",
-        "desc": "A good orator is not only one who can stand in front of the crowd and say a few words, but one who can understand the impact his every utterance has. Come join the Speech Triathlon this Incident to put yourself through the three tests of time, Declamation, Commentary and Policy, to decide once and for all who will be the master of the stage in the Western Coast.<br><br><b>Rules:</b><br>Contestants are required to deliver a speech that has been delivered by a renowned .....<a href=https://docs.google.com/document/d/1B_QsIFFZmgTcaTSeINyPpXjawvRgawvJ5tNE-_gfspk/edit>Read more </a> <br><b>Date: </b> 2nd March. <br><b>Prizes: </b> Worth 4k",
+        "desc": "A good orator is not only one who can stand in front of the crowd and say a few words, but one who can understand the impact his every utterance has. Come join the Speech Triathlon this Incident to put yourself through the three tests of time, Declamation, Commentary and Policy, to decide once and for all who will be the master of the stage in the Western Coast. <br><b>Date: </b> 3rd March. <br><b>Prizes: </b> Worth 4k",
+        "rules": "https://docs.google.com/document/d/1B_QsIFFZmgTcaTSeINyPpXjawvRgawvJ5tNE-_gfspk/edit",
         "contact": "Agnes: +91 96113 44476, Tirth: +91 99208 04880",
         "register": "/register/events/"
+      },
+      {
+        "name": "Escape Room",
+        "image": "escape_room.jpg",
+        "hash": "escape",
+        "desc": "One team, One goal, One way out. Experience the adrenaline rush like never before. Exciting 25 min that will challenge all your senses. Catch in the live-action adventures where you’ll race to solve clues and puzzles and escape before time runs out! Travel back in time but make sure you get back in time!!! So put on your Sherlock pants and get on board the royal oriental express. Or call it the Escapress!!<br>Teams of 4 - 6 people.  <br><b>Date:</b> 1st March - 3rd March. <br><b>Venue:</b> LHC-A  <br> <a href=https://doodle.com/poll/cbdfgpaxfrwg6cgz target=_blank>Register Here</a>",
+        "contact": "Shivani S: 8147315186"
       }
     ],
     "pro_shows": [
       {
-        "name": "Popular Night - Amaal Mallik ",
+        "name": "Encore Night - Amaal Mallik ",
         "hash": "pro1",
-        "desc": "Born into a musically gifted family, Amaal Mallik is the genius behind chart topping songs such as Sooraj Dooba Hain, Soch Na Sakhe and  Kar Gaye Chull. Having started his career at the age of 15, he is among the best talents Bollywood has to offer.<br><br> Amaal Mallik has been awarded the Filmfare Award For Best Music Director 2016 for his phenomenal music compositions in the film Roy.<br><br> This Incident '19, expect the Encore Night to be nothing short of phenomenal as Amaal Mallik takes the stage at NITK.<br><br><b>Date:</b> 3rd March<br><br> <b>Tickets can be bought at inci Office</b>       ",
+        "desc": "Born into a musically gifted family, Amaal Mallik is the genius behind chart topping songs such as Sooraj Dooba Hain, Soch Na Sakhe and  Kar Gaye Chull. Having started his career at the age of 15, he is among the best talents Bollywood has to offer.<br> Amaal Mallik has been awarded the Filmfare Award For Best Music Director 2016 for his phenomenal music compositions in the film Roy.<br> This Incident '19, expect the Encore Night to be nothing short of phenomenal as Amaal Mallik takes the stage at NITK.<br><br><b>Date:</b> 3rd March<br><br> <b>Tickets can be bought at inci Office</b>       ",
         "contact": "",
         "youtube":"https://www.youtube.com/embed/-J_IhEg1jQo"
       },
       {
         "name": "Popular Night - Vineet Vincent : India's Biggest Beatboxer",
         "hash": "pro2",
-        "desc": "Considered as India's biggest beatboxer with over 1250 shows in his credit since 2008, Vineet Vincent is also the MC of the biggest youth fest in India - Under 25.<br><br> He has performed with the Austrian beat boxing group Bauchklang in 2009 and the Boxettes in 2010 among many other artists and bands.<br><br>Vineeth represented India on the Judge's panel for the first ever ‘India Beatboxing championship.<br><br>Get ready to witness his electrifying presence!<br><br><b>Date:</b>3rd March<br>        ",
+        "desc": "Considered as India's biggest beatboxer with over 1250 shows in his credit since 2008, Vineet Vincent is also the MC of the biggest youth fest in India - Under 25.<br> He has performed with the Austrian beat boxing group Bauchklang in 2009 and the Boxettes in 2010 among many other artists and bands.<br> Vineeth represented India on the Judge's panel for the first ever ‘India Beatboxing championship.<br> Get ready to witness his electrifying presence!<br><br><b>Date:</b> 3rd March<br>        ",
         "contact": "",
         "youtube":"https://youtube.com/embed/s1ftUw9JHVg"
       },
       {
         "name": "BDM Night",
         "hash": "pro3",
-        "desc": "Come March 2nd, NITK is set to open its gates to a DJ, blogger, model and fashion enthusiast!<br><br>This all-round entertainer has experimented against a wide range of EDM genres. She is a trailblazer who stirs up a party wherever she goes!<br><br>Incident’19 welcomes you to feel the soulful rhythm, to surrender yourself and dance like never before to the beats of <b>DJ Shanaya</b>!  <br><br><b>Date:</b>2nd March<br>        ",
+        "desc": "Come March 2nd, NITK is set to open its gates to a DJ, blogger, model and fashion enthusiast!<br> This all-round entertainer has experimented against a wide range of EDM genres. She is a trailblazer who stirs up a party wherever she goes!<br> Incident’19 welcomes you to feel the soulful rhythm, to surrender yourself and dance like never before to the beats of <b>DJ Shanaya</b>!  <br><br><b>Date:</b> 2nd March<br>        ",
         "contact": "",
         "youtube":"https://youtube.com/embed/dWtuxPGsmUY"
+      },
+      {
+      "name": "EDM Night",
+      "hash": "pro4",
+      "desc": "Among the best Trance DJs in India, Sunny Sharma and Karan Bhalla - known popularly as <b>Progressive Brothers</b> have  played at festivals like <b>Sunburn, VH1 Supersonic and Enchanted Valley Carnival.</b> Having shared the stage with international stalwarts like David Guetta,Tiesto and Kshmr, they are set to get the NITK crowd grooving on the dance floor! <br>Brace yourselves as the Delhi based dynamic duo bring you a night to remember!<br>We are excited to host <b>Progressive Brothers</b> for their performance at Incident'19! Are you? <br><br><b>Date:</b> 2nd March<br>        ",
+      "contact": "",
+      "youtube":"https://www.youtube.com/embed/JvA5XdsMqdY"
       }
     ],
     "inci_talks": [
+      {
+        "name": "Subedar Major Yogendra Singh Yadav Param Veer Chakra",
+        "image": "major_yogendra.jpg",
+        "hash": "major_yogendra",
+        "desc": "\"Even when death is certain while facing enemy, personal safety is the last on a soldier's mind and security of the nation and its citizens remains paramount.\"<br> The Youngest Param Vir Chakra awardee, Subedar Major Yogendra Singh Yadav PVC at the age of 19 won India the Tiger Hill, which was the last bastion of the Kargil War of 1999. His teammates had collapsed, his commander was dead,with a dislocated arm and 14 bullets in his shoulder and groin, he single handedly climbed a hundred foot cliff-face of solid ice, destroyed multiple Pakistani bunkers with RPGs, rifles and machine guns blazing at him. <br><b>Date:</b> 1st March<br><b>Venue:</b> Verzeo SJA"
+      },
+      {
+        "name": "Commander Kailash Girwalkat",
+        "image": "commander_kailash.jpg",
+        "hash": "commander_kailash",
+        "desc": "An alumnus of NITK Batch of 1969, Commander Kailash Girwalkar put his life on the line in the Indo-Pakistani War of 1971.He is a recipient of the Nao Sena Medal,a gallantry award for the men in Indian Navy. He has also served as the chief engineer aboard INS VIKRANT. Post retirement, he is involved in various philanthropic ventures principally for women and disabled persons.<br><b>Date:</b> 1st March<br><b>Venue:</b> Verzeo SJA"
+      },
+      {
+        "name": "Aparajita Amar",
+        "image": "aparajita.jpg",
+        "hash": "aparajita_amar",
+        "desc": "\"Its not nothing ,if it is unwanted,it is harassment.\"<br>A certified sexual harassment and workplace diversity advisor,Aparajita Amar is the Co-founder of SHLC (Sexual Harassment Law Compliance Advisory),an organisation which works on drafting anti-sexual harassment policies. She has deposed before the Parliamentary Standing Committee on Surrogacy laws and researched extensively on women empowerment laws to help create a safe and healthy workplace environment.<br><b>Date:</b> 1st March<br><b>Venue:</b> Verzeo SJA"
+      },
+      {
+        "name": "Vungarala V. Subrahmanyam",
+        "image": "vungarala.jpg",
+        "hash": "vungarala",
+        "desc": "Vungarala V. Subrahmanyam, the founder of Verzeo dropped out from Manipal Institute of Technology in his 3rd year as his passion was beyond just engineering. He began his entrepreneurial journey by launching his first startup, a telecom company named Transtele (Trans India Tele Connect), in 2016 to provide faster and cheaper Internet access in rural areas. Later, in 2017, he sold off the company to Gokul Reddy to begin a new venture through a new company. Founded in 2017, Verzeo aims to help bridge the gap a student faces between the classroom environment and the workplace atmosphere by training them through various courses and industry programmes.<br><b>Date:</b> 1st March<br><b>Venue:</b> Verzeo SJA"
+      },
+      {
+        "name": "Harish Hande",
+        "image": "harish_hande.jpg",
+        "hash": "harish_hande",
+        "desc": "An alumnus of IIT Kharagpur,Harish Hande is a social venturer and a pioneer in the field of sustainable energy services with the prestigious Ramon Magsaysay and  Ashden(Green Oscar) awards to his name.He is also the co-founder of Selco,a social venture to eradicate poverty by promoting sustainable technologies in rural India.With more than 350,000 houses installed with solar light systems till date,Selco has also provided them with low smoke cooking stoves. <br><b>Date:</b> 2nd March<br><b>Venue:</b> LHC C Seminar Hall"
+      },
+      {
+        "name": "Malathi Krishnamurthy Holla",
+        "image": "malathi_holla.jpg",
+        "hash": "malathi_holla",
+        "desc": "Malathi Krishnamurthy Holla is an International para athlete from India.When she was only a year old,she was struck by polio fever which left her paralysed from neck down.She then underwent electric shock treatment for two years which was followed by multiple surgeries to help regain her upper body strength.<br> Despite being struck by the ravages of such a  heinous disease,she managed to bag a whopping 389 gold medals in her career. She was later conferred with the pretigious Arjuna and Padma Shri awards.<br> She has also co-founded the Mathru Foundation,which focuses on providing education to polio victims from rural areas. <br><b>Date:</b> 2nd March<br><b>Venue:</b> LHC C Seminar Hall"
+      },
+      {
+        "name": "Yogesh Ghaturle",
+        "image": "yogesh_ghaturle.jpg",
+        "hash": "yogesh_ghaturle",
+        "desc": "Yogesh Ghaturle, alumnus of NITK batch of 2017, CSE is the co-founder and director of operations at Perpule.He has also been featured in the prestigious Forbes 30 under 30 list.Yogesh Ghaturle,alumni of NITK(batch of 2017,CSE) is the co-founder and director of operations at Perpule.He has been featured in the Forbes 30 under 30 list.With the Perpule 1Pay app, users can scan items in their grocery cart using their smartphones and directly pay for the purchase, circumventing the billing counter.Today Perpule is making rapid progress and is in use across chains like SPAR hypermarket and MAX hypermarket.<br><b>Date:</b> 2nd March<br><b>Venue:</b> LHC C Seminar Hall"
+      }
     ],
     "fineart": [
       {
@@ -357,7 +414,7 @@
       "name": "Inci Talks",
       "image": "talks.jpg",
       "hash": "inci_talks",
-      "page_desc": "We believe passionately in the power of ideas to change attitudes, lives of the student community. The goal of this event is to bring together the greatest achievers and eminent personalities such as yourself to plant the seed of an idea in the minds of this generation to create a positive change in the society. <h3 class=\"azuki\"> Previous Speakers</h3>Jayaprakash Narayan (Loksatta Party Founder), Balaji Viswanathan (Highest followed person on Quora), Ricky Kej (Grammy award winning music composer), Dr Ullas Karanth (Renowned Environmentalist and Tiger expert), Ramaswami Balasubramaniam (Chairman of Grassroots Research And Advocacy Movement (GRAAM)) have adorned the stage of Inci-Talks in the previous editions."
+      "page_desc": "A forum for exchange of knowledge and new ideas,InciTalks is one of the most refreshing events of Incident.InciTalks helps students gain new perspectives on diverse fields through interactions with eminent delegates from across the country."
     },
     {
       "name": "Fine Arts",
