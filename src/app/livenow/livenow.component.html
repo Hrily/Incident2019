@@ -10,8 +10,11 @@
       {{ happeningNowStatus }}
     </div>
     <div *ngFor="let event of happeningNow" class="event-item row">
-      <div class="col s12 m9 push-m3 azuki name">
-        {{ event.event_name }}
+      <div class="col s12 m9 push-m3">
+        <div class="name azuki">{{ event.event_name }}</div>
+        <div *ngIf="event.event_description" class="desc">
+          {{ event.event_description }}
+        </div>
       </div>
       <div class="col s12 m3 pull-m9 info">
         {{ event.event_time }} <br />
