@@ -172,7 +172,7 @@ body {
     font-size: 6em;
 }
 
-.home .happening-now a {
+.home .happening-now div a {
     text-decoration: underline;
     color: white;
 }

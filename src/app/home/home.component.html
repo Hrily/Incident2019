@@ -5,8 +5,12 @@
         <div class="theme-title">ECHOES OF THE ORIENT</div>
         <div class="duration">Feb 28th to March 3rd</div>
         <div class="tap">
-            <a class="mbtn mbtn-white" routerLink="incident">TAP HERE TO EXPLORE</a>
+            <a class="mbtn mbtn-white" routerLink="incident">TAP HERE TO EXPLORE</a><br />
         </div>
     </div>
-    <div class="happening-now" [innerHTML]="happeningNow"></div>
+    <div class="happening-now">
+        <div [innerHTML]="happeningNow"></div>
+        <br />
+        <a class="schedule mbtn mbtn-white" href="/schedule.pdf" target="_blank">FULL SCHEDULE</a>
+    </div>
 </div>
