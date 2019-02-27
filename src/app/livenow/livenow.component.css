@@ -1,0 +1,55 @@
+.page-content {
+    min-height: 100vh;
+}
+
+.status {
+    font-size: 1.3em;
+}
+
+.event-item {
+    background: white;
+    border-radius: 16px;
+    /* color: #5689cc; */
+    color: black;
+    padding: 16px 24px 16px 24px !important;
+    margin-top: 16px !important;
+    margin-bottom: 16px !important;
+}
+
+.event-item .info, .event-item .desc {
+    font-size: 1.7em;
+}
+
+.event-item .name {
+    height: 100%;
+    vertical-align: bottom;
+    font-size: 2.4em;
+}
+
+@media only screen and (max-width: 1400px) {
+
+.event-item {
+    padding: 12px 16px 12px 16px !important;
+}
+
+.event-item .info, .event-item .desc {
+    font-size: 1.4em;
+}
+
+.event-item .name {
+    font-size: 2.3em;
+}
+
+}
+
+@media only screen and (max-width: 800px) {
+
+.event-item .name {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.event-item .desc, .event-item .info {
+    padding-top: 4px !important;
+}
+
+}

@@ -8,7 +8,8 @@ export const routerTransition = trigger('routerTransition', [
                 SponsorsPage => iCarePage,
                 AboutPage => SponsorsPage,
                 ContactUsPage => AboutPage,
-                ContactUsPage => HomePage`, [
+                ContactUsPage => HomePage,
+                LiveNowPage => *`, [
     /* order */
     /* 1 */ query(':enter, :leave',
                 style({ position: 'fixed', width: '100%' }),
@@ -31,7 +32,8 @@ export const routerTransition = trigger('routerTransition', [
                 iCarePage => SponsorsPage,
                 SponsorsPage => AboutPage,
                 SponsorsPage => ContactUsPage,
-                AboutPage => ContactUsPage`, [
+                AboutPage => ContactUsPage,
+                * => LiveNowPage`, [
         /* order */
         /* 1 */ query(':enter, :leave',
                     style({ position: 'fixed', width: '100%' }),
