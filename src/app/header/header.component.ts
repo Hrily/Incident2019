@@ -17,9 +17,6 @@ function toggleMenu() {
   const iHTML = isClosed ? 'close' : 'menu';
   i.html(iHTML);
   i.attr('style', isClosed ? 'color: white;' : '');
-  if (location.pathname === '/events' && !isClosed) {
-    handleHashChange();
-  }
   setTimeout(() => {
     navLinks.css('transform', 'translateX(' + translate + '%)');
   }, 0);
@@ -98,10 +95,16 @@ export class HeaderComponent implements OnInit {
   social = SOCIAL;
   getPath = getPath;
   bigLogo = bigLogo;
+  location = location;
 
   ngOnInit() {
     $('.header i').click(toggleMenu);
-    $('.header .nav-links a').click(toggleMenu);
+    $('.header .nav-links a').click( () => {
+      toggleMenu();
+      if (location.pathname === '/events') {
+        handleHashChange();
+      }
+    });
     $('.header .about').click(aboutInit);
     const aTop = $('.header .header-logo .text').height();
     $(window).scroll(function () {

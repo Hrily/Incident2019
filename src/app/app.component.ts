@@ -30,6 +30,10 @@ export class AppComponent {
   isMobile = isMobile;
 
   prepareRoute(outlet: RouterOutlet) {
-    return outlet && outlet.activatedRouteData && outlet.activatedRouteData['animation'];
+    let ret = outlet && outlet.activatedRouteData && outlet.activatedRouteData['animation'];
+    if (ret === 'EventsPage' && location.hash === '#pro_shows') {
+      ret = 'ProShowsPage';
+    }
+    return ret;
   }
 }

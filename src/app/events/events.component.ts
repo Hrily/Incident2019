@@ -5,6 +5,7 @@ import * as $ from 'jquery';
 import * as materialize from 'materialize-css';
 import { blackHeader } from '../header/header.component';
 import { isMobile } from '../app.component';
+import { Router } from '@angular/router';
 declare const require;
 
 const EVENT = require('../../assets/data/events.json');
@@ -57,7 +58,7 @@ window.onhashchange = handleHashChange;
 })
 export class EventsComponent implements OnInit {
 
-  constructor(private titleService: Title, private sanitizer: DomSanitizer) {
+  constructor(public router: Router, private titleService: Title, private sanitizer: DomSanitizer) {
     this.titleService.setTitle('Incident 2019 - Events');
   }
 
@@ -81,15 +82,26 @@ export class EventsComponent implements OnInit {
   }
 
   getSafeUrl(url) {
-    console.log(url);
     return this.sanitizer.bypassSecurityTrustResourceUrl(url);
+  }
+
+  goUp() {
+    this.router.navigate(['/',
+      (location.hash === '#pro_shows') ? 'livenow' : 'statistics'
+    ]);
+  }
+
+  goDown() {
+    this.router.navigate(['/',
+      (location.hash === '#pro_shows') ? 'icare' : 'livenow'
+    ]);
   }
 
   ngOnInit() {
     // Sanitize youtube urls
     for (const key of this.eventKeys) {
       for (const item of this.events[key]) {
-        if (item.youtube) {
+        if (item.youtube && typeof item.youtube === 'string') {
           item.youtube = this.getSafeUrl(item.youtube);
         }
       }

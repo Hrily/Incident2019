@@ -25,6 +25,7 @@ import { CivilComponent } from './civil/civil.component';
 import { MechComponent } from './mech/mech.component';
 import { ManagementComponent } from './management/management.component';
 import { EceComponent } from './ece/ece.component';
+import { LivenowComponent } from './livenow/livenow.component';
 
 const appRoutes: Routes = [
   {
@@ -97,6 +98,14 @@ const appRoutes: Routes = [
     data: {
       title: 'Incident 2019 - Contact Us',
       animation: 'ContactUsPage'
+    }
+  },
+  {
+    path: 'livenow',
+    component: LivenowComponent,
+    data: {
+      title: 'Incident 2019 - Happening Now',
+      animation: 'LiveNowPage'
     }
   },
   {
@@ -192,6 +201,7 @@ const appRoutes: Routes = [
     MechComponent,
     ManagementComponent,
     EceComponent,
+    LivenowComponent,
   ],
   imports: [
     BrowserModule,

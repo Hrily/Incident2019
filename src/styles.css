@@ -153,6 +153,7 @@ body {
 .nav-top, .nav-down {
     width: 100%;
     text-align: center;
+    cursor: pointer;
 }
 
 .nav-top i, .nav-down i {
@@ -171,6 +172,10 @@ body {
     font-size: 6em;
 }
 
+.home .happening-now div a {
+    text-decoration: underline;
+    color: white;
+}
 
 /* ****** */
 /* FOOTER */

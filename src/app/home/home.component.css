@@ -10,10 +10,10 @@
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
+    padding-bottom: 8vh;
 }
 
 .home .landing .tap {
-    padding-bottom: 8vh;
     font-size: 2em;
 }
 
@@ -40,10 +40,17 @@
     opacity: 0;
 }
 
+.home .happening-now {
+    position: absolute;
+    right: 9vw;
+    bottom: 8vh;
+    max-width: 200px;
+    text-align: right;
+}
+
 @media only screen and (max-width: 1400px) {
 
 .home .landing .tap {
-    padding-bottom: 8vh;
     font-size: 1.2em;
 }
 
@@ -90,6 +97,17 @@
 
 .home .landing .title {
     padding-top: 4vh;
+}
+
+.home .landing {
+    padding-bottom: 16px;
+}
+
+.home .happening-now {
+    position: static;
+    text-align: center;
+    max-width: 100%;
+    padding-bottom: 9vw;
 }
 
 }
