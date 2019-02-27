@@ -26,7 +26,7 @@ function getCategoryNameFromHash(hash) {
   return getCategoryFromHash(hash).name;
 }
 
-function handleHashChange() {
+export function handleHashChange() {
   const hash = location.hash.replace('#', '');
   $('.events-listing').css('opacity', '0');
   $('html, body').animate({ scrollTop: 0 }, 300);

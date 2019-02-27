@@ -60,6 +60,14 @@ const appRoutes: Routes = [
     }
   },
   {
+    path: 'events',
+    component: EventsComponent,
+    data: {
+      title: 'Incident 2019 - Events',
+      animation: 'EventsPage'
+    }
+  },
+  {
     path: 'about',
     component: AboutComponent,
     data: {

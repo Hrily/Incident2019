@@ -4,6 +4,7 @@ import { ActivatedRoute, Router, NavigationEnd } from '@angular/router';
 import { aboutInit, sliderNext, sliderCurrent, sliderEvent } from '../about/about.component';
 import * as $ from 'jquery';
 import { blackFooter, whiteFooter } from '../footer/footer.component';
+import { handleHashChange } from '../events/events.component';
 declare const require;
 
 const SOCIAL = require('../../assets/data/social.json');
@@ -16,6 +17,9 @@ function toggleMenu() {
   const iHTML = isClosed ? 'close' : 'menu';
   i.html(iHTML);
   i.attr('style', isClosed ? 'color: white;' : '');
+  if (location.pathname === '/events' && !isClosed) {
+    handleHashChange();
+  }
   setTimeout(() => {
     navLinks.css('transform', 'translateX(' + translate + '%)');
   }, 0);
