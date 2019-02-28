@@ -10,13 +10,13 @@
       {{ happeningNowStatus }}
     </div>
     <div *ngFor="let event of happeningNow" class="event-item row">
-      <div class="col s12 m9 push-m3">
+      <div class="col s12 m8 push-m4">
         <div class="name azuki">{{ event.event_name }}</div>
         <div *ngIf="event.event_description" class="desc">
           {{ event.event_description }}
         </div>
       </div>
-      <div class="col s12 m3 pull-m9 info">
+      <div class="col s12 m4 pull-m8 info">
         {{ event.event_time }} <br />
         at <b>{{ event.event_location }}</b>
       </div>
@@ -28,13 +28,13 @@
       {{ comingUpStatus }}
     </div>
     <div *ngFor="let event of comingUp" class="event-item row">
-      <div class="col s12 m9 push-m3">
+      <div class="col s12 m8 push-m4">
         <div class="name azuki">{{ event.event_name }}</div>
         <div *ngIf="event.event_description" class="desc">
           {{ event.event_description }}
         </div>
       </div>
-      <div class="col s12 m3 pull-m9 info">
+      <div class="col s12 m4 pull-m8 info">
         {{ event.event_time }} <br />
         at <b>{{ event.event_location }}</b>
       </div>
