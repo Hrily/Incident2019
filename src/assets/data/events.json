@@ -137,32 +137,11 @@
     ],
     "gaming_events": [
       {
-        "name": "Need For Speed",
-        "image": "nfs.jpg",
-        "hash": "need_for_speed",
-        "contact": "Harshith Kumar: +91 7760575030",
-        "desc": "If you can leave two black stripes from the exit of one corner to the braking zone of the next, you have enough horsepower. Speed has never killed anyone, suddenly becoming stationary is what gets you. So keep pressing the pedal, as NFS will make your adrenaline rush this Incident ‘19. <br><b>Date: </b>  1st - 3rd March"
-      },
-      {
         "name": "PUBG",
         "image": "pubg.jpg",
         "hash": "pubg",
         "contact": "Harshith Kumar: +91 7760575030",
         "desc": "Are you a PUBG wala? Then gather around and look out for the enemies ahead as you show off your shooting skills at Incident ‘19. Doesn't matter if you get an insane amount of kills, the last man standing will get the chicken dinner. <br><b>Date: </b> 1st - 3rd March"
-      },
-      {
-        "name": "Counter Strike Global Offensive",
-        "image": "csgo.jpg",
-        "hash": "counter_strike_global_offensive",
-        "contact": "Harshith Kumar: +91 7760575030",
-        "desc": "Guns blazing, corpses lying around, ammo running low and it's 3 AM in the morning. Sounds too familiar? Incident '19 presents Counter-Strike, one of the most popular games in colleges! <br><b>Date: </b> 1st - 3rd March"
-      },
-      {
-        "name": "Dota2",
-        "image": "dota.jpg",
-        "hash": "Dota2",
-        "contact": "Harshith Kumar: +91 7760575030",
-        "desc": "Incident '19 presents the action-packed multiplayer game, Defence of the Ancients. Get your buddies along with you to NITK and cherish the game that brought you all together! <br><b>Date: </b> 1st - 3rd March"
       }
     ],
     "haute_couture": [
